@@ -4,3 +4,7 @@ project/project
 
 # ensime
 *.*~
+
+# allow
+!/my-talk/target/scala-2.12/mytalk-fastopt.js
+!/my-talk/target/scala-2.12/mytalk-jsdeps.js
