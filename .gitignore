@@ -1,0 +1,6 @@
+# sbt
+target
+project/project
+
+# ensime
+*.*~

@@ -1,0 +1,44 @@
+.no-box {
+    background: none;
+    border:     none;
+    box-shadow: none;
+}
+
+.slide-header {
+    position: fixed;
+    top: -3%;
+    left: -16%;
+    width: 140%;
+}
+
+.slide-header {
+    background-color: #3e3e3b;
+}
+
+.slide-header > p {
+    position: relative;
+    float: left;
+    margin: 0;
+    padding-top: 15px;
+    padding-bottom: 11px;
+    padding-left: 50px;
+    font-size: 70%;
+}
+
+.slide-header > p {
+    color: #ffffff;
+}
+
+/* ########## Queries */
+@media only screen and (min-width: 600px) {
+    .slide-header > p {
+        padding-left: 85px;
+    }
+}
+
+@media only screen and (min-width: 1500px) {
+    .slide-header > p {
+        padding-left: 95px;
+    }
+}
+
