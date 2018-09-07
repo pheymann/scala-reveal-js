@@ -9,4 +9,4 @@ This is a basic project setup to create beautiful [reveal.js](https://github.com
 ### Make it available to anybody
 Best thing is, you can commit your compiled presentation and build a [Github page](https://help.github.com/articles/configuring-a-publishing-source-for-github-pages/#enabling-github-pages-to-publish-your-site-from-master-or-gh-pages) from it. Now you can share knowledge easily.
 
-See the [presentation]() build with this repository.
+See the at [https://pheymann.github.io/scala-reveal-js/my-talk](https://pheymann.github.io/scala-reveal-js/my-talk) which build with this repository.
