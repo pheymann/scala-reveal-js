@@ -6,5 +6,5 @@ project/project
 *.*~
 
 # allow
-!/my-talk/target/scala-2.12/mytalk-fastopt.js
-!/my-talk/target/scala-2.12/mytalk-jsdeps.js
+!/my-talk/target/scala-2.13/mytalk-fastopt.js
+!/my-talk/target/scala-2.13/mytalk-jsdeps.js

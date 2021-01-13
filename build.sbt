@@ -1,11 +1,12 @@
+ThisBuild / scalaVersion := "2.13.4"
 
 val reactV = "16.2.0"
 
 lazy val common = Seq(
   version      := "-",
   libraryDependencies ++= Seq(
-    "com.github.japgolly.scalajs-react" %%% "core" % "1.2.3",
-    "org.scala-js" %%% "scalajs-dom" % "0.9.2"
+    "com.github.japgolly.scalajs-react" %%% "core" % "1.5.0",
+    "org.scala-js" %%% "scalajs-dom" % "1.1.0"
   ),
   jsDependencies ++= Seq(
     "org.webjars.bower" % "react" % "15.2.1" / "react-with-addons.js" minified "react-with-addons.min.js" commonJSName "React",
