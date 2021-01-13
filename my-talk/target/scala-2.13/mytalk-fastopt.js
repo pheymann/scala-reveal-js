@@ -1119,8 +1119,20 @@ function $asArrayOf_F2(obj, depth) {
 function $f_Ljapgolly_scalajs_react_component_builder_Lifecycle$Base__mountedImpure__Ljapgolly_scalajs_react_component_Scala$MountedWithRoot($thiz) {
   return $as_Ljapgolly_scalajs_react_component_Scala$MountedWithRoot($thiz.raw__Ljapgolly_scalajs_react_raw_React$Component().mountedImpure)
 }
-function $f_Ljapgolly_scalajs_react_internal_JsRepr__unsafeFromJs__sjs_js_Any__O($thiz, u) {
+function $f_Ljapgolly_scalajs_react_internal_JsRepr__unsafeFromJs__O__O($thiz, u) {
   return $thiz.fromJs$1.apply__O__O(u)
+}
+function $is_Ljapgolly_scalajs_react_internal_Trampoline(obj) {
+  return (!(!((obj && obj.$classData) && obj.$classData.ancestors.Ljapgolly_scalajs_react_internal_Trampoline)))
+}
+function $as_Ljapgolly_scalajs_react_internal_Trampoline(obj) {
+  return (($is_Ljapgolly_scalajs_react_internal_Trampoline(obj) || (obj === null)) ? obj : $throwClassCastException(obj, "japgolly.scalajs.react.internal.Trampoline"))
+}
+function $isArrayOf_Ljapgolly_scalajs_react_internal_Trampoline(obj, depth) {
+  return (!(!(((obj && obj.$classData) && (obj.$classData.arrayDepth === depth)) && obj.$classData.arrayBase.ancestors.Ljapgolly_scalajs_react_internal_Trampoline)))
+}
+function $asArrayOf_Ljapgolly_scalajs_react_internal_Trampoline(obj, depth) {
+  return (($isArrayOf_Ljapgolly_scalajs_react_internal_Trampoline(obj, depth) || (obj === null)) ? obj : $throwArrayCastException(obj, "Ljapgolly.scalajs.react.internal.Trampoline;", depth))
 }
 function $is_Ljapgolly_scalajs_react_vdom_Builder(obj) {
   return (!(!((obj && obj.$classData) && obj.$classData.ancestors.Ljapgolly_scalajs_react_vdom_Builder)))
@@ -1367,6 +1379,143 @@ function $asArrayOf_sc_IterableOnceOps(obj, depth) {
   return (($isArrayOf_sc_IterableOnceOps(obj, depth) || (obj === null)) ? obj : $throwArrayCastException(obj, "Lscala.collection.IterableOnceOps;", depth))
 }
 /** @constructor */
+function $c_LMyTalk$() {
+  $c_O.call(this);
+  this.chapter1$1 = null;
+  this.chapter2$1 = null;
+  this.Talk$1 = null
+}
+$c_LMyTalk$.prototype = new $h_O();
+$c_LMyTalk$.prototype.constructor = $c_LMyTalk$;
+/** @constructor */
+function $h_LMyTalk$() {
+  /*<skip>*/
+}
+$h_LMyTalk$.prototype = $c_LMyTalk$.prototype;
+$c_LMyTalk$.prototype.init___ = (function() {
+  $n_LMyTalk$ = this;
+  var jsx$25 = $m_Lshared_PresentationUtil$();
+  var jsx$24 = $m_Lshared_PresentationUtil$();
+  var jsx$23 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
+  $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
+  $m_Ljapgolly_scalajs_react_vdom_Exports$();
+  var array = [($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_VdomNode$(), new $c_Ljapgolly_scalajs_react_vdom_VdomNode$$anon$1().init___sjs_js_$bar("Build your presentations with ScalaJS + reveal.js"))];
+  var jsx$22 = jsx$23.apply$extension__T__sci_Seq__Ljapgolly_scalajs_react_vdom_TagOf("h2", new $c_sjsr_WrappedVarArgs().init___sjs_js_Array(array));
+  var this$8 = $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().$$less$3;
+  var t = $f_Ljapgolly_scalajs_react_vdom_HtmlTags__br__T(this$8);
+  var jsx$21 = new $c_Ljapgolly_scalajs_react_vdom_TagOf().init___T__sci_List__T(t, $m_sci_Nil$(), $m_Ljapgolly_scalajs_react_vdom_Namespace$().Html$1);
+  var jsx$20 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
+  $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
+  $m_Ljapgolly_scalajs_react_vdom_Exports$();
+  var array$1 = [($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_VdomNode$(), new $c_Ljapgolly_scalajs_react_vdom_VdomNode$$anon$1().init___sjs_js_$bar("move down (down-arrow)"))];
+  var array$2 = [jsx$22, jsx$21, jsx$20.apply$extension__T__sci_Seq__Ljapgolly_scalajs_react_vdom_TagOf("h4", new $c_sjsr_WrappedVarArgs().init___sjs_js_Array(array$1))];
+  var jsx$19 = jsx$24.chapterSlide__sci_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjsr_WrappedVarArgs().init___sjs_js_Array(array$2));
+  var jsx$18 = $m_Lshared_PresentationUtil$();
+  var jsx$17 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
+  $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
+  $m_Ljapgolly_scalajs_react_vdom_Exports$();
+  var array$3 = [($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_VdomNode$(), new $c_Ljapgolly_scalajs_react_vdom_VdomNode$$anon$1().init___sjs_js_$bar("Press 'f' to go full-screen and ESC to see an overview of your slides."))];
+  var jsx$16 = jsx$17.apply$extension__T__sci_Seq__Ljapgolly_scalajs_react_vdom_TagOf("p", new $c_sjsr_WrappedVarArgs().init___sjs_js_Array(array$3));
+  var this$27 = $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().$$less$3;
+  var t$1 = $f_Ljapgolly_scalajs_react_vdom_HtmlTags__br__T(this$27);
+  var jsx$15 = new $c_Ljapgolly_scalajs_react_vdom_TagOf().init___T__sci_List__T(t$1, $m_sci_Nil$(), $m_Ljapgolly_scalajs_react_vdom_Namespace$().Html$1);
+  var jsx$14 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
+  $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
+  $m_Ljapgolly_scalajs_react_vdom_Exports$();
+  var array$4 = [($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_VdomNode$(), new $c_Ljapgolly_scalajs_react_vdom_VdomNode$$anon$1().init___sjs_js_$bar("You can navigate to the right and down."))];
+  var array$5 = [jsx$16, jsx$15, jsx$14.apply$extension__T__sci_Seq__Ljapgolly_scalajs_react_vdom_TagOf("p", new $c_sjsr_WrappedVarArgs().init___sjs_js_Array(array$4))];
+  var jsx$13 = jsx$18.headerSlide__T__sci_Seq__Ljapgolly_scalajs_react_vdom_TagOf("reveal.js commands", new $c_sjsr_WrappedVarArgs().init___sjs_js_Array(array$5));
+  var jsx$12 = $m_Lshared_PresentationUtil$();
+  var jsx$11 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
+  $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
+  $m_Ljapgolly_scalajs_react_vdom_Exports$();
+  var array$6 = [($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_VdomNode$(), new $c_Ljapgolly_scalajs_react_vdom_VdomNode$$anon$1().init___sjs_js_$bar("Headers everywhere"))];
+  var array$7 = [jsx$11.apply$extension__T__sci_Seq__Ljapgolly_scalajs_react_vdom_TagOf("h3", new $c_sjsr_WrappedVarArgs().init___sjs_js_Array(array$6))];
+  var jsx$10 = jsx$12.headerSlide__T__sci_Seq__Ljapgolly_scalajs_react_vdom_TagOf("My Header", new $c_sjsr_WrappedVarArgs().init___sjs_js_Array(array$7));
+  var jsx$9 = $m_Lshared_PresentationUtil$();
+  var jsx$8 = $m_Lshared_PresentationUtil$Enumeration$();
+  var jsx$7 = $m_Lshared_PresentationUtil$Enumeration$Item$().stable__T__Ljapgolly_scalajs_react_vdom_TagOf("always show this item");
+  var array$8 = [$m_Lshared_PresentationUtil$Enumeration$Item$().fadeIn__T__Ljapgolly_scalajs_react_vdom_TagOf("I fade in"), $m_Lshared_PresentationUtil$Enumeration$Item$().stable__T__Ljapgolly_scalajs_react_vdom_TagOf("I am also always here")];
+  var array$9 = [jsx$8.apply__Ljapgolly_scalajs_react_vdom_TagOf__sci_Seq__Ljapgolly_scalajs_react_vdom_TagOf(jsx$7, new $c_sjsr_WrappedVarArgs().init___sjs_js_Array(array$8))];
+  var jsx$6 = jsx$9.headerSlide__T__sci_Seq__Ljapgolly_scalajs_react_vdom_TagOf("Enumeration", new $c_sjsr_WrappedVarArgs().init___sjs_js_Array(array$9));
+  var jsx$5 = $m_Lshared_PresentationUtil$();
+  var jsx$4 = $m_Lshared_PresentationUtil$().scalaC__T__Ljapgolly_scalajs_react_vdom_TagOf("\n        def main(args: Array[String]): Unit = {\n          println(\"hello, world\")\n        }\n      ");
+  var this$55 = $m_Lshared_PresentationUtil$();
+  var array$10 = [jsx$4, this$55.rawCodeFragment__p1__T__T__Ljapgolly_scalajs_react_vdom_TagOf("Scala", "\n        def moreSideEffects(): Unit = {\n          println(\"pop in\")\n        }\n      ")];
+  var jsx$3 = jsx$5.headerSlide__T__sci_Seq__Ljapgolly_scalajs_react_vdom_TagOf("Code, so much code", new $c_sjsr_WrappedVarArgs().init___sjs_js_Array(array$10));
+  var jsx$2 = $m_Lshared_PresentationUtil$();
+  var jsx$1 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
+  $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
+  $m_Ljapgolly_scalajs_react_vdom_Exports$();
+  var array$11 = [($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_VdomNode$(), new $c_Ljapgolly_scalajs_react_vdom_VdomNode$$anon$1().init___sjs_js_$bar("Or have a blank slide"))];
+  var array$12 = [jsx$1.apply$extension__T__sci_Seq__Ljapgolly_scalajs_react_vdom_TagOf("h3", new $c_sjsr_WrappedVarArgs().init___sjs_js_Array(array$11))];
+  var array$13 = [jsx$19, jsx$13, jsx$10, jsx$6, jsx$3, jsx$2.noHeaderSlide__sci_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjsr_WrappedVarArgs().init___sjs_js_Array(array$12))];
+  this.chapter1$1 = jsx$25.chapter__sci_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjsr_WrappedVarArgs().init___sjs_js_Array(array$13));
+  var jsx$34 = $m_Lshared_PresentationUtil$();
+  var jsx$33 = $m_Lshared_PresentationUtil$();
+  var jsx$32 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
+  $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
+  $m_Ljapgolly_scalajs_react_vdom_Exports$();
+  var array$14 = [($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_VdomNode$(), new $c_Ljapgolly_scalajs_react_vdom_VdomNode$$anon$1().init___sjs_js_$bar("Where can I find more information?"))];
+  var array$15 = [jsx$32.apply$extension__T__sci_Seq__Ljapgolly_scalajs_react_vdom_TagOf("h2", new $c_sjsr_WrappedVarArgs().init___sjs_js_Array(array$14))];
+  var jsx$31 = jsx$33.chapterSlide__sci_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjsr_WrappedVarArgs().init___sjs_js_Array(array$15));
+  var jsx$30 = $m_Lshared_PresentationUtil$();
+  var jsx$29 = $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().$$less$3.a__Ljapgolly_scalajs_react_vdom_HtmlTags$a$();
+  $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
+  $m_Ljapgolly_scalajs_react_vdom_PackageBase$();
+  var this$84 = new $c_Ljapgolly_scalajs_react_vdom_Attr$Generic().init___T("href");
+  var t$2 = $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2;
+  var array$16 = [$m_Ljapgolly_scalajs_react_vdom_Attr$ValueType$().apply$extension__F2__T__O__Ljapgolly_scalajs_react_vdom_TagMod(t$2, this$84.attrName$1, "https://github.com/hakimel/reveal.js/"), ($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_VdomNode$(), new $c_Ljapgolly_scalajs_react_vdom_VdomNode$$anon$1().init___sjs_js_$bar("reveal.js"))];
+  var array$17 = [jsx$29.apply__sci_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjsr_WrappedVarArgs().init___sjs_js_Array(array$16))];
+  var jsx$28 = jsx$30.headerSlide__T__sci_Seq__Ljapgolly_scalajs_react_vdom_TagOf("about reveal.js", new $c_sjsr_WrappedVarArgs().init___sjs_js_Array(array$17));
+  var jsx$27 = $m_Lshared_PresentationUtil$();
+  var jsx$26 = $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().$$less$3.a__Ljapgolly_scalajs_react_vdom_HtmlTags$a$();
+  $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
+  $m_Ljapgolly_scalajs_react_vdom_PackageBase$();
+  var this$95 = new $c_Ljapgolly_scalajs_react_vdom_Attr$Generic().init___T("href");
+  var t$3 = $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2;
+  var array$18 = [$m_Ljapgolly_scalajs_react_vdom_Attr$ValueType$().apply$extension__F2__T__O__Ljapgolly_scalajs_react_vdom_TagMod(t$3, this$95.attrName$1, "https://www.scala-js.org"), ($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_VdomNode$(), new $c_Ljapgolly_scalajs_react_vdom_VdomNode$$anon$1().init___sjs_js_$bar("ScalaJS"))];
+  var array$19 = [jsx$26.apply__sci_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjsr_WrappedVarArgs().init___sjs_js_Array(array$18))];
+  var array$20 = [jsx$31, jsx$28, jsx$27.headerSlide__T__sci_Seq__Ljapgolly_scalajs_react_vdom_TagOf("about ScalaJS", new $c_sjsr_WrappedVarArgs().init___sjs_js_Array(array$19))];
+  this.chapter2$1 = jsx$34.chapter__sci_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjsr_WrappedVarArgs().init___sjs_js_Array(array$20));
+  $m_Ljapgolly_scalajs_react_package$();
+  var b = new $c_Ljapgolly_scalajs_react_component_builder_Builder$Step1().init___T($as_T($m_Ljapgolly_scalajs_react_ScalaJsReactConfig$().componentNameModifier$1.apply__O__O("Presentation")));
+  var jsx$38 = b.stateless__Ljapgolly_scalajs_react_component_builder_Builder$Step2().noBackend__Ljapgolly_scalajs_react_component_builder_Builder$Step3();
+  var jsx$37 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
+  $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
+  $m_Ljapgolly_scalajs_react_vdom_Exports$();
+  var jsx$36 = ($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("reveal", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2);
+  var jsx$35 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
+  $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
+  $m_Ljapgolly_scalajs_react_vdom_Exports$();
+  var array$21 = [($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("slides", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2), this.chapter1$1, this.chapter2$1];
+  var array$22 = [jsx$36, jsx$35.apply$extension__T__sci_Seq__Ljapgolly_scalajs_react_vdom_TagOf("div", new $c_sjsr_WrappedVarArgs().init___sjs_js_Array(array$21))];
+  var stabilizer$1 = jsx$38.renderStatic__Ljapgolly_scalajs_react_vdom_VdomNode__Ljapgolly_scalajs_react_component_builder_Builder$Step4(jsx$37.apply$extension__T__sci_Seq__Ljapgolly_scalajs_react_vdom_TagOf("div", new $c_sjsr_WrappedVarArgs().init___sjs_js_Array(array$22)));
+  this.Talk$1 = stabilizer$1.build__Ljapgolly_scalajs_react_CtorType$Summoner__Ljapgolly_scalajs_react_internal_JsRepr__Ljapgolly_scalajs_react_component_JsBaseComponentTemplate$ComponentWithRoot($m_Ljapgolly_scalajs_react_CtorType$Summoner$().summonN__Ljapgolly_scalajs_react_internal_Singleton__Ljapgolly_scalajs_react_CtorType$Summoner($m_Ljapgolly_scalajs_react_internal_Singleton$().BoxUnit$1), $m_Ljapgolly_scalajs_react_internal_JsRepr$().unit$1);
+  return this
+});
+$c_LMyTalk$.prototype.main__AT__V = (function(args) {
+  var c = this.Talk$1;
+  var qual$1 = $as_Ljapgolly_scalajs_react_component_Js$UnmountedWithRoot($as_Ljapgolly_scalajs_react_CtorType$Nullary(c.ctor__Ljapgolly_scalajs_react_CtorType()).apply__O());
+  var a = $m_Lorg_scalajs_dom_package$().document__Lorg_scalajs_dom_raw_HTMLDocument().body;
+  var x$2 = $m_Ljapgolly_scalajs_react_Callback$().empty$1;
+  $f_Ljapgolly_scalajs_react_component_Generic$UnmountedSimple__renderIntoDOM__sjs_js_$bar__Ljapgolly_scalajs_react_internal_Trampoline__O(qual$1, a, x$2)
+});
+var $d_LMyTalk$ = new $TypeData().initClass({
+  LMyTalk$: 0
+}, false, "MyTalk$", {
+  LMyTalk$: 1,
+  O: 1
+});
+$c_LMyTalk$.prototype.$classData = $d_LMyTalk$;
+var $n_LMyTalk$ = (void 0);
+function $m_LMyTalk$() {
+  if ((!$n_LMyTalk$)) {
+    $n_LMyTalk$ = new $c_LMyTalk$().init___()
+  };
+  return $n_LMyTalk$
+}
+/** @constructor */
 function $c_Ljapgolly_scalajs_react_Callback$() {
   $c_O.call(this);
   this.empty$1 = null
@@ -1380,7 +1529,7 @@ function $h_Ljapgolly_scalajs_react_Callback$() {
 $h_Ljapgolly_scalajs_react_Callback$.prototype = $c_Ljapgolly_scalajs_react_Callback$.prototype;
 $c_Ljapgolly_scalajs_react_Callback$.prototype.init___ = (function() {
   $n_Ljapgolly_scalajs_react_Callback$ = this;
-  this.empty$1 = $m_Ljapgolly_scalajs_react_CallbackTo$().pure__O__F0((void 0));
+  this.empty$1 = $m_Ljapgolly_scalajs_react_internal_Trampoline$().unit$1;
   return this
 });
 var $d_Ljapgolly_scalajs_react_Callback$ = new $TypeData().initClass({
@@ -1400,7 +1549,7 @@ function $m_Ljapgolly_scalajs_react_Callback$() {
 /** @constructor */
 function $c_Ljapgolly_scalajs_react_CallbackTo() {
   $c_O.call(this);
-  this.japgolly$scalajs$react$CallbackTo$$f$1 = null
+  this.japgolly$scalajs$react$CallbackTo$$trampoline$1 = null
 }
 $c_Ljapgolly_scalajs_react_CallbackTo.prototype = new $h_O();
 $c_Ljapgolly_scalajs_react_CallbackTo.prototype.constructor = $c_Ljapgolly_scalajs_react_CallbackTo;
@@ -1409,16 +1558,16 @@ function $h_Ljapgolly_scalajs_react_CallbackTo() {
   /*<skip>*/
 }
 $h_Ljapgolly_scalajs_react_CallbackTo.prototype = $c_Ljapgolly_scalajs_react_CallbackTo.prototype;
-$c_Ljapgolly_scalajs_react_CallbackTo.prototype.init___F0 = (function(f) {
-  this.japgolly$scalajs$react$CallbackTo$$f$1 = f;
-  return this
-});
 $c_Ljapgolly_scalajs_react_CallbackTo.prototype.equals__O__Z = (function(x$1) {
-  return $m_Ljapgolly_scalajs_react_CallbackTo$().equals$extension__F0__O__Z(this.japgolly$scalajs$react$CallbackTo$$f$1, x$1)
+  return $m_Ljapgolly_scalajs_react_CallbackTo$().equals$extension__Ljapgolly_scalajs_react_internal_Trampoline__O__Z(this.japgolly$scalajs$react$CallbackTo$$trampoline$1, x$1)
 });
 $c_Ljapgolly_scalajs_react_CallbackTo.prototype.hashCode__I = (function() {
-  var $$this = this.japgolly$scalajs$react$CallbackTo$$f$1;
+  var $$this = this.japgolly$scalajs$react$CallbackTo$$trampoline$1;
   return $systemIdentityHashCode($$this)
+});
+$c_Ljapgolly_scalajs_react_CallbackTo.prototype.init___Ljapgolly_scalajs_react_internal_Trampoline = (function(trampoline) {
+  this.japgolly$scalajs$react$CallbackTo$$trampoline$1 = trampoline;
+  return this
 });
 function $as_Ljapgolly_scalajs_react_CallbackTo(obj) {
   return (((obj instanceof $c_Ljapgolly_scalajs_react_CallbackTo) || (obj === null)) ? obj : $throwClassCastException(obj, "japgolly.scalajs.react.CallbackTo"))
@@ -1438,7 +1587,11 @@ var $d_Ljapgolly_scalajs_react_CallbackTo = new $TypeData().initClass({
 $c_Ljapgolly_scalajs_react_CallbackTo.prototype.$classData = $d_Ljapgolly_scalajs_react_CallbackTo;
 /** @constructor */
 function $c_Ljapgolly_scalajs_react_CallbackTo$() {
-  $c_O.call(this)
+  $c_O.call(this);
+  this.now$1 = null;
+  this.currentTimeMillis$1 = null;
+  this.nanoTime$1 = null;
+  this.bitmap$0$1 = 0
 }
 $c_Ljapgolly_scalajs_react_CallbackTo$.prototype = new $h_O();
 $c_Ljapgolly_scalajs_react_CallbackTo$.prototype.constructor = $c_Ljapgolly_scalajs_react_CallbackTo$;
@@ -1450,27 +1603,43 @@ $h_Ljapgolly_scalajs_react_CallbackTo$.prototype = $c_Ljapgolly_scalajs_react_Ca
 $c_Ljapgolly_scalajs_react_CallbackTo$.prototype.init___ = (function() {
   return this
 });
-$c_Ljapgolly_scalajs_react_CallbackTo$.prototype.equals$extension__F0__O__Z = (function($$this, x$1) {
-  if ((x$1 instanceof $c_Ljapgolly_scalajs_react_CallbackTo)) {
-    var CallbackTo$1 = ((x$1 === null) ? null : $as_Ljapgolly_scalajs_react_CallbackTo(x$1).japgolly$scalajs$react$CallbackTo$$f$1);
-    return ($$this === CallbackTo$1)
-  } else {
-    return false
-  }
+$c_Ljapgolly_scalajs_react_CallbackTo$.prototype.isEmpty$und$qmark$extension__Ljapgolly_scalajs_react_internal_Trampoline__Z = (function($$this) {
+  return ($$this === $m_Ljapgolly_scalajs_react_Callback$().empty$1)
 });
-$c_Ljapgolly_scalajs_react_CallbackTo$.prototype.toJsFn$extension__F0__sjs_js_Function0 = (function($$this) {
+$c_Ljapgolly_scalajs_react_CallbackTo$.prototype.flatMap$extension__Ljapgolly_scalajs_react_internal_Trampoline__F1__Ljapgolly_scalajs_react_internal_Trampoline = (function($$this, f) {
+  var f$2 = new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function($this, f$1) {
+    return (function(x$10$2) {
+      return $as_Ljapgolly_scalajs_react_CallbackTo(f$1.apply__O__O(x$10$2)).japgolly$scalajs$react$CallbackTo$$trampoline$1
+    })
+  })(this, f));
+  return new $c_Ljapgolly_scalajs_react_internal_Trampoline$FlatMap().init___Ljapgolly_scalajs_react_internal_Trampoline__F1($$this, f$2)
+});
+$c_Ljapgolly_scalajs_react_CallbackTo$.prototype.$$greater$greater$extension__Ljapgolly_scalajs_react_internal_Trampoline__Ljapgolly_scalajs_react_internal_Trampoline__Ljapgolly_scalajs_react_internal_Trampoline = (function($$this, runNext) {
+  return ($m_Ljapgolly_scalajs_react_CallbackTo$().isEmpty$und$qmark$extension__Ljapgolly_scalajs_react_internal_Trampoline__Z($$this) ? runNext : $m_Ljapgolly_scalajs_react_CallbackTo$().flatMap$extension__Ljapgolly_scalajs_react_internal_Trampoline__F1__Ljapgolly_scalajs_react_internal_Trampoline($$this, new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function($this, runNext$1) {
+    return (function(x$12$2) {
+      return new $c_Ljapgolly_scalajs_react_CallbackTo().init___Ljapgolly_scalajs_react_internal_Trampoline(runNext$1)
+    })
+  })(this, runNext))))
+});
+$c_Ljapgolly_scalajs_react_CallbackTo$.prototype.toJsFn$extension__Ljapgolly_scalajs_react_internal_Trampoline__sjs_js_Function0 = (function($$this) {
+  var this$1 = $m_Ljapgolly_scalajs_react_CallbackTo$();
   return (function(f) {
     return (function() {
       return f.apply__O()
     })
-  })($$this)
-});
-$c_Ljapgolly_scalajs_react_CallbackTo$.prototype.pure__O__F0 = (function(a) {
-  return new $c_sjsr_AnonFunction0().init___sjs_js_Function0((function($this, a$1) {
+  })(new $c_sjsr_AnonFunction0().init___sjs_js_Function0((function($this, $$this$1) {
     return (function() {
-      return a$1
+      return $m_Ljapgolly_scalajs_react_internal_Trampoline$().run__Ljapgolly_scalajs_react_internal_Trampoline__O($$this$1)
     })
-  })(this, a))
+  })(this$1, $$this)))
+});
+$c_Ljapgolly_scalajs_react_CallbackTo$.prototype.equals$extension__Ljapgolly_scalajs_react_internal_Trampoline__O__Z = (function($$this, x$1) {
+  if ((x$1 instanceof $c_Ljapgolly_scalajs_react_CallbackTo)) {
+    var CallbackTo$1 = ((x$1 === null) ? null : $as_Ljapgolly_scalajs_react_CallbackTo(x$1).japgolly$scalajs$react$CallbackTo$$trampoline$1);
+    return ($$this === CallbackTo$1)
+  } else {
+    return false
+  }
 });
 var $d_Ljapgolly_scalajs_react_CallbackTo$ = new $TypeData().initClass({
   Ljapgolly_scalajs_react_CallbackTo$: 0
@@ -1549,6 +1718,104 @@ function $m_Ljapgolly_scalajs_react_CtorType$Summoner$() {
   return $n_Ljapgolly_scalajs_react_CtorType$Summoner$
 }
 /** @constructor */
+function $c_Ljapgolly_scalajs_react_ReactExt$undReactEvent$() {
+  $c_O.call(this)
+}
+$c_Ljapgolly_scalajs_react_ReactExt$undReactEvent$.prototype = new $h_O();
+$c_Ljapgolly_scalajs_react_ReactExt$undReactEvent$.prototype.constructor = $c_Ljapgolly_scalajs_react_ReactExt$undReactEvent$;
+/** @constructor */
+function $h_Ljapgolly_scalajs_react_ReactExt$undReactEvent$() {
+  /*<skip>*/
+}
+$h_Ljapgolly_scalajs_react_ReactExt$undReactEvent$.prototype = $c_Ljapgolly_scalajs_react_ReactExt$undReactEvent$.prototype;
+$c_Ljapgolly_scalajs_react_ReactExt$undReactEvent$.prototype.init___ = (function() {
+  return this
+});
+$c_Ljapgolly_scalajs_react_ReactExt$undReactEvent$.prototype.stopPropagationCB$extension__Ljapgolly_scalajs_react_raw_SyntheticEvent__Ljapgolly_scalajs_react_internal_Trampoline = (function($$this) {
+  var this$1 = $m_Ljapgolly_scalajs_react_Callback$();
+  var f = new $c_sjsr_AnonFunction0().init___sjs_js_Function0((function($this, $$this$1) {
+    return (function() {
+      $$this$1.stopPropagation()
+    })
+  })(this, $$this));
+  var f$2 = new $c_sjsr_AnonFunction0().init___sjs_js_Function0((function($this$1, f$1) {
+    return (function() {
+      f$1.apply__O()
+    })
+  })(this$1, f));
+  $m_Ljapgolly_scalajs_react_internal_Trampoline$();
+  return new $c_Ljapgolly_scalajs_react_internal_Trampoline$Delay().init___F0(f$2)
+});
+$c_Ljapgolly_scalajs_react_ReactExt$undReactEvent$.prototype.preventDefaultCB$extension__Ljapgolly_scalajs_react_raw_SyntheticEvent__Ljapgolly_scalajs_react_internal_Trampoline = (function($$this) {
+  var this$1 = $m_Ljapgolly_scalajs_react_Callback$();
+  var f = new $c_sjsr_AnonFunction0().init___sjs_js_Function0((function($this, $$this$1) {
+    return (function() {
+      $$this$1.preventDefault()
+    })
+  })(this, $$this));
+  var f$2 = new $c_sjsr_AnonFunction0().init___sjs_js_Function0((function($this$1, f$1) {
+    return (function() {
+      f$1.apply__O()
+    })
+  })(this$1, f));
+  $m_Ljapgolly_scalajs_react_internal_Trampoline$();
+  return new $c_Ljapgolly_scalajs_react_internal_Trampoline$Delay().init___F0(f$2)
+});
+var $d_Ljapgolly_scalajs_react_ReactExt$undReactEvent$ = new $TypeData().initClass({
+  Ljapgolly_scalajs_react_ReactExt$undReactEvent$: 0
+}, false, "japgolly.scalajs.react.ReactExt_ReactEvent$", {
+  Ljapgolly_scalajs_react_ReactExt$undReactEvent$: 1,
+  O: 1
+});
+$c_Ljapgolly_scalajs_react_ReactExt$undReactEvent$.prototype.$classData = $d_Ljapgolly_scalajs_react_ReactExt$undReactEvent$;
+var $n_Ljapgolly_scalajs_react_ReactExt$undReactEvent$ = (void 0);
+function $m_Ljapgolly_scalajs_react_ReactExt$undReactEvent$() {
+  if ((!$n_Ljapgolly_scalajs_react_ReactExt$undReactEvent$)) {
+    $n_Ljapgolly_scalajs_react_ReactExt$undReactEvent$ = new $c_Ljapgolly_scalajs_react_ReactExt$undReactEvent$().init___()
+  };
+  return $n_Ljapgolly_scalajs_react_ReactExt$undReactEvent$
+}
+/** @constructor */
+function $c_Ljapgolly_scalajs_react_ScalaJsReactConfig$() {
+  $c_O.call(this);
+  this.componentNameModifier$1 = null
+}
+$c_Ljapgolly_scalajs_react_ScalaJsReactConfig$.prototype = new $h_O();
+$c_Ljapgolly_scalajs_react_ScalaJsReactConfig$.prototype.constructor = $c_Ljapgolly_scalajs_react_ScalaJsReactConfig$;
+/** @constructor */
+function $h_Ljapgolly_scalajs_react_ScalaJsReactConfig$() {
+  /*<skip>*/
+}
+$h_Ljapgolly_scalajs_react_ScalaJsReactConfig$.prototype = $c_Ljapgolly_scalajs_react_ScalaJsReactConfig$.prototype;
+$c_Ljapgolly_scalajs_react_ScalaJsReactConfig$.prototype.init___ = (function() {
+  $n_Ljapgolly_scalajs_react_ScalaJsReactConfig$ = this;
+  this.componentNameModifier$1 = this.initialValue$1__p1__F1();
+  return this
+});
+$c_Ljapgolly_scalajs_react_ScalaJsReactConfig$.prototype.initialValue$1__p1__F1 = (function() {
+  var regex = $m_ju_regex_Pattern$().compile__T__I__ju_regex_Pattern("\\.?comp(?:onent)?$", 2);
+  return new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function($this, regex$1) {
+    return (function(x$1$2) {
+      var x$1 = $as_T(x$1$2);
+      return new $c_ju_regex_Matcher().init___ju_regex_Pattern__jl_CharSequence__I__I(regex$1, x$1, 0, $uI(x$1.length)).replaceFirst__T__T("")
+    })
+  })(this, regex))
+});
+var $d_Ljapgolly_scalajs_react_ScalaJsReactConfig$ = new $TypeData().initClass({
+  Ljapgolly_scalajs_react_ScalaJsReactConfig$: 0
+}, false, "japgolly.scalajs.react.ScalaJsReactConfig$", {
+  Ljapgolly_scalajs_react_ScalaJsReactConfig$: 1,
+  O: 1
+});
+$c_Ljapgolly_scalajs_react_ScalaJsReactConfig$.prototype.$classData = $d_Ljapgolly_scalajs_react_ScalaJsReactConfig$;
+var $n_Ljapgolly_scalajs_react_ScalaJsReactConfig$ = (void 0);
+function $m_Ljapgolly_scalajs_react_ScalaJsReactConfig$() {
+  if ((!$n_Ljapgolly_scalajs_react_ScalaJsReactConfig$)) {
+    $n_Ljapgolly_scalajs_react_ScalaJsReactConfig$ = new $c_Ljapgolly_scalajs_react_ScalaJsReactConfig$().init___()
+  };
+  return $n_Ljapgolly_scalajs_react_ScalaJsReactConfig$
+}
+/** @constructor */
 function $c_Ljapgolly_scalajs_react_component_Generic$() {
   $c_O.call(this)
 }
@@ -1576,8 +1843,12 @@ function $m_Ljapgolly_scalajs_react_component_Generic$() {
   };
   return $n_Ljapgolly_scalajs_react_component_Generic$
 }
-function $f_Ljapgolly_scalajs_react_component_Generic$UnmountedSimple__renderIntoDOM__sjs_js_$bar__F0__O($thiz, container, callback) {
-  return $thiz.mountRaw__F1().apply__O__O($g.ReactDOM.render($thiz.raw__Ljapgolly_scalajs_react_raw_React$ComponentElement(), container, $m_Ljapgolly_scalajs_react_CallbackTo$().toJsFn$extension__F0__sjs_js_Function0(callback)))
+function $f_Ljapgolly_scalajs_react_component_Generic$UnmountedSimple__renderIntoDOM__sjs_js_$bar__Ljapgolly_scalajs_react_internal_Trampoline__O($thiz, container, callback) {
+  var jsx$3 = $thiz.mountRaw__F1();
+  var jsx$2 = $g.ReactDOM;
+  var a = $thiz.raw__Ljapgolly_scalajs_react_raw_React$ComponentElement();
+  var jsx$1 = jsx$2.render(a, container, $m_Ljapgolly_scalajs_react_CallbackTo$().toJsFn$extension__Ljapgolly_scalajs_react_internal_Trampoline__sjs_js_Function0(callback));
+  return jsx$3.apply__O__O(jsx$1)
 }
 /** @constructor */
 function $c_Ljapgolly_scalajs_react_component_JsForwardRef$() {
@@ -1705,8 +1976,7 @@ function $m_Ljapgolly_scalajs_react_component_ScalaForwardRef$() {
 }
 /** @constructor */
 function $c_Ljapgolly_scalajs_react_component_builder_Builder$() {
-  $c_O.call(this);
-  this.japgolly$scalajs$react$component$builder$Builder$$InitStateUnit$1 = null
+  $c_O.call(this)
 }
 $c_Ljapgolly_scalajs_react_component_builder_Builder$.prototype = new $h_O();
 $c_Ljapgolly_scalajs_react_component_builder_Builder$.prototype.constructor = $c_Ljapgolly_scalajs_react_component_builder_Builder$;
@@ -1716,30 +1986,24 @@ function $h_Ljapgolly_scalajs_react_component_builder_Builder$() {
 }
 $h_Ljapgolly_scalajs_react_component_builder_Builder$.prototype = $c_Ljapgolly_scalajs_react_component_builder_Builder$.prototype;
 $c_Ljapgolly_scalajs_react_component_builder_Builder$.prototype.init___ = (function() {
-  $n_Ljapgolly_scalajs_react_component_builder_Builder$ = this;
-  this.japgolly$scalajs$react$component$builder$Builder$$InitStateUnit$1 = new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function($this) {
-    return (function(x$1$2) {
-      return $m_Ljapgolly_scalajs_react_internal_Box$().Unit$1
-    })
-  })(this));
   return this
 });
 $c_Ljapgolly_scalajs_react_component_builder_Builder$.prototype.fromReactComponentClass__sjs_js_Function1__Ljapgolly_scalajs_react_CtorType$Summoner__Ljapgolly_scalajs_react_component_JsBaseComponentTemplate$ComponentWithRoot = (function(rc, ctorType) {
   $m_Ljapgolly_scalajs_react_component_Js$();
   var x = $m_Ljapgolly_scalajs_react_component_Js$().component__sjs_js_Function1__Ljapgolly_scalajs_react_CtorType$Summoner__Ljapgolly_scalajs_react_component_JsBaseComponentTemplate$ComponentWithRoot(rc, ctorType);
   return x.cmapCtorProps__F1__Ljapgolly_scalajs_react_component_JsBaseComponentTemplate$ComponentWithRoot(new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function($this) {
-    return (function(x$16$2) {
+    return (function(x$17$2) {
       $m_Ljapgolly_scalajs_react_internal_Box$();
       return {
-        "a": x$16$2
+        "a": x$17$2
       }
     })
   })(this))).mapUnmounted__F1__Ljapgolly_scalajs_react_component_JsBaseComponentTemplate$ComponentWithRoot(new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function(this$2$1) {
-    return (function(x$17$2) {
-      var x$17 = $as_Ljapgolly_scalajs_react_component_Js$UnmountedWithRoot(x$17$2);
-      return x$17.mapUnmountedProps__F1__Ljapgolly_scalajs_react_component_Js$UnmountedWithRoot(new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function($this$1) {
-        return (function(x$18$2) {
-          return x$18$2.a
+    return (function(x$18$2) {
+      var x$18 = $as_Ljapgolly_scalajs_react_component_Js$UnmountedWithRoot(x$18$2);
+      return x$18.mapUnmountedProps__F1__Ljapgolly_scalajs_react_component_Js$UnmountedWithRoot(new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function($this$1) {
+        return (function(x$19$2) {
+          return x$19$2.a
         })
       })(this$2$1))).mapMounted__F1__Ljapgolly_scalajs_react_component_Js$UnmountedWithRoot(new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function(this$2$2) {
         return (function(x$2) {
@@ -1778,7 +2042,7 @@ function $h_Ljapgolly_scalajs_react_component_builder_Builder$Step1() {
 }
 $h_Ljapgolly_scalajs_react_component_builder_Builder$Step1.prototype = $c_Ljapgolly_scalajs_react_component_builder_Builder$Step1.prototype;
 $c_Ljapgolly_scalajs_react_component_builder_Builder$Step1.prototype.stateless__Ljapgolly_scalajs_react_component_builder_Builder$Step2 = (function() {
-  return new $c_Ljapgolly_scalajs_react_component_builder_Builder$Step2().init___T__F1(this.name$1, $m_Ljapgolly_scalajs_react_component_builder_Builder$().japgolly$scalajs$react$component$builder$Builder$$InitStateUnit$1)
+  return new $c_Ljapgolly_scalajs_react_component_builder_Builder$Step2().init___T__Ljapgolly_scalajs_react_component_builder_InitState(this.name$1, $m_Ljapgolly_scalajs_react_component_builder_InitState$Stateless$())
 });
 $c_Ljapgolly_scalajs_react_component_builder_Builder$Step1.prototype.init___T = (function(name) {
   this.name$1 = name;
@@ -1795,7 +2059,7 @@ $c_Ljapgolly_scalajs_react_component_builder_Builder$Step1.prototype.$classData 
 function $c_Ljapgolly_scalajs_react_component_builder_Builder$Step2() {
   $c_O.call(this);
   this.name$1 = null;
-  this.initStateFn$1 = null
+  this.initState$1 = null
 }
 $c_Ljapgolly_scalajs_react_component_builder_Builder$Step2.prototype = new $h_O();
 $c_Ljapgolly_scalajs_react_component_builder_Builder$Step2.prototype.constructor = $c_Ljapgolly_scalajs_react_component_builder_Builder$Step2;
@@ -1805,19 +2069,19 @@ function $h_Ljapgolly_scalajs_react_component_builder_Builder$Step2() {
 }
 $h_Ljapgolly_scalajs_react_component_builder_Builder$Step2.prototype = $c_Ljapgolly_scalajs_react_component_builder_Builder$Step2.prototype;
 $c_Ljapgolly_scalajs_react_component_builder_Builder$Step2.prototype.backend__F1__Ljapgolly_scalajs_react_component_builder_Builder$Step3 = (function(f) {
-  return new $c_Ljapgolly_scalajs_react_component_builder_Builder$Step3().init___T__F1__F1(this.name$1, this.initStateFn$1, f)
+  return new $c_Ljapgolly_scalajs_react_component_builder_Builder$Step3().init___T__Ljapgolly_scalajs_react_component_builder_InitState__F1(this.name$1, this.initState$1, f)
+});
+$c_Ljapgolly_scalajs_react_component_builder_Builder$Step2.prototype.init___T__Ljapgolly_scalajs_react_component_builder_InitState = (function(name, initState) {
+  this.name$1 = name;
+  this.initState$1 = initState;
+  return this
 });
 $c_Ljapgolly_scalajs_react_component_builder_Builder$Step2.prototype.noBackend__Ljapgolly_scalajs_react_component_builder_Builder$Step3 = (function() {
   return this.backend__F1__Ljapgolly_scalajs_react_component_builder_Builder$Step3(new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function($this) {
-    return (function(x$4$2) {
-      $as_Ljapgolly_scalajs_react_component_Generic$MountedWithRoot(x$4$2)
+    return (function(x$3$2) {
+      $as_Ljapgolly_scalajs_react_component_Generic$MountedWithRoot(x$3$2)
     })
   })(this)))
-});
-$c_Ljapgolly_scalajs_react_component_builder_Builder$Step2.prototype.init___T__F1 = (function(name, initStateFn) {
-  this.name$1 = name;
-  this.initStateFn$1 = initStateFn;
-  return this
 });
 var $d_Ljapgolly_scalajs_react_component_builder_Builder$Step2 = new $TypeData().initClass({
   Ljapgolly_scalajs_react_component_builder_Builder$Step2: 0
@@ -1830,7 +2094,7 @@ $c_Ljapgolly_scalajs_react_component_builder_Builder$Step2.prototype.$classData 
 function $c_Ljapgolly_scalajs_react_component_builder_Builder$Step3() {
   $c_O.call(this);
   this.name$1 = null;
-  this.initStateFn$1 = null;
+  this.initState$1 = null;
   this.backendFn$1 = null
 }
 $c_Ljapgolly_scalajs_react_component_builder_Builder$Step3.prototype = new $h_O();
@@ -1840,14 +2104,55 @@ function $h_Ljapgolly_scalajs_react_component_builder_Builder$Step3() {
   /*<skip>*/
 }
 $h_Ljapgolly_scalajs_react_component_builder_Builder$Step3.prototype = $c_Ljapgolly_scalajs_react_component_builder_Builder$Step3.prototype;
-$c_Ljapgolly_scalajs_react_component_builder_Builder$Step3.prototype.renderWith__F1__Ljapgolly_scalajs_react_component_builder_Builder$Step4 = (function(r) {
-  return new $c_Ljapgolly_scalajs_react_component_builder_Builder$Step4().init___T__F1__F1__F1__Ljapgolly_scalajs_react_component_builder_Lifecycle(this.name$1, this.initStateFn$1, this.backendFn$1, r, new $c_Ljapgolly_scalajs_react_component_builder_Lifecycle().init___s_Option__s_Option__s_Option__s_Option__s_Option__s_Option__s_Option__s_Option__s_Option__s_Option($m_s_None$(), $m_s_None$(), $m_s_None$(), $m_s_None$(), $m_s_None$(), $m_s_None$(), $m_s_None$(), $m_s_None$(), $m_s_None$(), $m_s_None$()))
-});
-$c_Ljapgolly_scalajs_react_component_builder_Builder$Step3.prototype.init___T__F1__F1 = (function(name, initStateFn, backendFn) {
+$c_Ljapgolly_scalajs_react_component_builder_Builder$Step3.prototype.init___T__Ljapgolly_scalajs_react_component_builder_InitState__F1 = (function(name, initState, backendFn) {
   this.name$1 = name;
-  this.initStateFn$1 = initStateFn;
+  this.initState$1 = initState;
   this.backendFn$1 = backendFn;
   return this
+});
+$c_Ljapgolly_scalajs_react_component_builder_Builder$Step3.prototype.renderWith__F1__Ljapgolly_scalajs_react_component_builder_Builder$Step4 = (function(r) {
+  var lc = new $c_Ljapgolly_scalajs_react_component_builder_Lifecycle().init___s_Option__s_Option__s_Option__s_Option__s_Option__s_Option__s_Option__s_Option__s_Option__s_Option($m_s_None$(), $m_s_None$(), $m_s_None$(), $m_s_None$(), $m_s_None$(), $m_s_None$(), $m_s_None$(), $m_s_None$(), $m_s_None$(), $m_s_None$());
+  var x1 = this.initState$1;
+  if ((x1 instanceof $c_Ljapgolly_scalajs_react_component_builder_InitState$DerivedFromProps)) {
+    var x2 = $as_Ljapgolly_scalajs_react_component_builder_InitState$DerivedFromProps(x1);
+    var f = x2.fn__F1();
+    var qual$1 = lc;
+    var x$1 = new $c_s_Some().init___O(new $c_sjsr_AnonFunction2().init___sjs_js_Function2((function($this, f$1) {
+      return (function(p$2, x$4$2) {
+        return new $c_s_Some().init___O(f$1.apply__O__O(p$2))
+      })
+    })(this, f)));
+    var x$2 = qual$1.componentDidCatch$1;
+    var x$3 = qual$1.componentDidMount$1;
+    var x$4$3 = qual$1.componentDidUpdate$1;
+    var x$5 = qual$1.componentWillMount$1;
+    var x$6 = qual$1.componentWillReceiveProps$1;
+    var x$7 = qual$1.componentWillUnmount$1;
+    var x$8 = qual$1.componentWillUpdate$1;
+    var x$9 = qual$1.getSnapshotBeforeUpdate$1;
+    var x$10 = qual$1.shouldComponentUpdate$1;
+    lc = new $c_Ljapgolly_scalajs_react_component_builder_Lifecycle().init___s_Option__s_Option__s_Option__s_Option__s_Option__s_Option__s_Option__s_Option__s_Option__s_Option(x$2, x$3, x$4$3, x$5, x$6, x$7, x$8, x$1, x$9, x$10)
+  } else if ((x1 instanceof $c_Ljapgolly_scalajs_react_component_builder_InitState$DerivedFromPropsAndState)) {
+    var x3 = $as_Ljapgolly_scalajs_react_component_builder_InitState$DerivedFromPropsAndState(x1);
+    var f$2 = x3.fn__F2();
+    var qual$2 = lc;
+    var x$11 = new $c_s_Some().init___O(new $c_sjsr_AnonFunction2().init___sjs_js_Function2((function(this$2, f$2$1) {
+      return (function(p$3$2, s$2) {
+        return new $c_s_Some().init___O(f$2$1.apply__O__O__O(p$3$2, new $c_s_Some().init___O(s$2)))
+      })
+    })(this, f$2)));
+    var x$12 = qual$2.componentDidCatch$1;
+    var x$13 = qual$2.componentDidMount$1;
+    var x$14 = qual$2.componentDidUpdate$1;
+    var x$15 = qual$2.componentWillMount$1;
+    var x$16 = qual$2.componentWillReceiveProps$1;
+    var x$17 = qual$2.componentWillUnmount$1;
+    var x$18 = qual$2.componentWillUpdate$1;
+    var x$19 = qual$2.getSnapshotBeforeUpdate$1;
+    var x$20 = qual$2.shouldComponentUpdate$1;
+    lc = new $c_Ljapgolly_scalajs_react_component_builder_Lifecycle().init___s_Option__s_Option__s_Option__s_Option__s_Option__s_Option__s_Option__s_Option__s_Option__s_Option(x$12, x$13, x$14, x$15, x$16, x$17, x$18, x$11, x$19, x$20)
+  };
+  return new $c_Ljapgolly_scalajs_react_component_builder_Builder$Step4().init___T__Ljapgolly_scalajs_react_component_builder_InitState__F1__F1__Ljapgolly_scalajs_react_component_builder_Lifecycle(this.name$1, this.initState$1, this.backendFn$1, r, lc)
 });
 $c_Ljapgolly_scalajs_react_component_builder_Builder$Step3.prototype.renderStatic__Ljapgolly_scalajs_react_vdom_VdomNode__Ljapgolly_scalajs_react_component_builder_Builder$Step4 = (function(r) {
   return this.renderWith__F1__Ljapgolly_scalajs_react_component_builder_Builder$Step4(new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function($this, r$1) {
@@ -1868,7 +2173,7 @@ $c_Ljapgolly_scalajs_react_component_builder_Builder$Step3.prototype.$classData 
 function $c_Ljapgolly_scalajs_react_component_builder_Builder$Step4() {
   $c_O.call(this);
   this.name$1 = null;
-  this.initStateFn$1 = null;
+  this.initState$1 = null;
   this.backendFn$1 = null;
   this.renderFn$1 = null;
   this.lifecycle$1 = null
@@ -1880,17 +2185,17 @@ function $h_Ljapgolly_scalajs_react_component_builder_Builder$Step4() {
   /*<skip>*/
 }
 $h_Ljapgolly_scalajs_react_component_builder_Builder$Step4.prototype = $c_Ljapgolly_scalajs_react_component_builder_Builder$Step4.prototype;
-$c_Ljapgolly_scalajs_react_component_builder_Builder$Step4.prototype.build__Ljapgolly_scalajs_react_CtorType$Summoner__Ljapgolly_scalajs_react_internal_JsRepr__Ljapgolly_scalajs_react_component_JsBaseComponentTemplate$ComponentWithRoot = (function(ctorType, snapshotJs) {
-  var c = $m_Ljapgolly_scalajs_react_component_builder_ViaReactComponent$().apply__Ljapgolly_scalajs_react_component_builder_Builder$Step4__Ljapgolly_scalajs_react_internal_JsRepr__sjs_js_Function1(this, snapshotJs);
-  return $m_Ljapgolly_scalajs_react_component_builder_Builder$().fromReactComponentClass__sjs_js_Function1__Ljapgolly_scalajs_react_CtorType$Summoner__Ljapgolly_scalajs_react_component_JsBaseComponentTemplate$ComponentWithRoot(c, ctorType)
-});
-$c_Ljapgolly_scalajs_react_component_builder_Builder$Step4.prototype.init___T__F1__F1__F1__Ljapgolly_scalajs_react_component_builder_Lifecycle = (function(name, initStateFn, backendFn, renderFn, lifecycle) {
+$c_Ljapgolly_scalajs_react_component_builder_Builder$Step4.prototype.init___T__Ljapgolly_scalajs_react_component_builder_InitState__F1__F1__Ljapgolly_scalajs_react_component_builder_Lifecycle = (function(name, initState, backendFn, renderFn, lifecycle) {
   this.name$1 = name;
-  this.initStateFn$1 = initStateFn;
+  this.initState$1 = initState;
   this.backendFn$1 = backendFn;
   this.renderFn$1 = renderFn;
   this.lifecycle$1 = lifecycle;
   return this
+});
+$c_Ljapgolly_scalajs_react_component_builder_Builder$Step4.prototype.build__Ljapgolly_scalajs_react_CtorType$Summoner__Ljapgolly_scalajs_react_internal_JsRepr__Ljapgolly_scalajs_react_component_JsBaseComponentTemplate$ComponentWithRoot = (function(ctorType, snapshotJs) {
+  var c = $m_Ljapgolly_scalajs_react_component_builder_ViaReactComponent$().apply__Ljapgolly_scalajs_react_component_builder_Builder$Step4__Ljapgolly_scalajs_react_internal_JsRepr__sjs_js_Function1(this, snapshotJs);
+  return $m_Ljapgolly_scalajs_react_component_builder_Builder$().fromReactComponentClass__sjs_js_Function1__Ljapgolly_scalajs_react_CtorType$Summoner__Ljapgolly_scalajs_react_component_JsBaseComponentTemplate$ComponentWithRoot(c, ctorType)
 });
 var $d_Ljapgolly_scalajs_react_component_builder_Builder$Step4 = new $TypeData().initClass({
   Ljapgolly_scalajs_react_component_builder_Builder$Step4: 0
@@ -2118,7 +2423,8 @@ function $c_Ljapgolly_scalajs_react_component_builder_ViaReactComponent$() {
   this.x$4$1 = null;
   this.$$undgetPrototypeOf$1 = null;
   this.$$undsetPrototypeOf$1 = null;
-  this.ReactComponent$1 = null
+  this.ReactComponent$1 = null;
+  this.anyToBoxUnit$1 = null
 }
 $c_Ljapgolly_scalajs_react_component_builder_ViaReactComponent$.prototype = new $h_O();
 $c_Ljapgolly_scalajs_react_component_builder_ViaReactComponent$.prototype.constructor = $c_Ljapgolly_scalajs_react_component_builder_ViaReactComponent$;
@@ -2163,6 +2469,11 @@ $c_Ljapgolly_scalajs_react_component_builder_ViaReactComponent$.prototype.init__
   this.$$undgetPrototypeOf$1 = $as_F1(this.x$4$1.$$und1$f);
   this.$$undsetPrototypeOf$1 = this.x$4$1.$$und2$f;
   this.ReactComponent$1 = $g.React.Component;
+  this.anyToBoxUnit$1 = new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function(this$3$1) {
+    return (function(x$5$2) {
+      return $m_Ljapgolly_scalajs_react_internal_Box$().Unit$1
+    })
+  })(this));
   return this
 });
 $c_Ljapgolly_scalajs_react_component_builder_ViaReactComponent$.prototype.$$unddefineProperties__p1__sjs_js_Object__sjs_js_Array__V = (function(target, props) {
@@ -2209,13 +2520,13 @@ $c_Ljapgolly_scalajs_react_component_builder_ViaReactComponent$.prototype.$$undc
   this.$$unddefineProperties__p1__sjs_js_Object__sjs_js_Array__V(c.prototype, protoProps);
   this.$$unddefineProperties__p1__sjs_js_Object__sjs_js_Array__V(c, staticProps)
 });
-$c_Ljapgolly_scalajs_react_component_builder_ViaReactComponent$.prototype.japgolly$scalajs$react$component$builder$ViaReactComponent$$$anonfun$apply$1__Ljapgolly_scalajs_react_raw_React$Component__Ljapgolly_scalajs_react_internal_Box__sr_ObjectRef__F1__F1__Ljapgolly_scalajs_react_raw_React$Component = (function($this, props, MyComponent$1, backendFn$1, initStateFn$1) {
+$c_Ljapgolly_scalajs_react_component_builder_ViaReactComponent$.prototype.japgolly$scalajs$react$component$builder$ViaReactComponent$$$anonfun$apply$2__Ljapgolly_scalajs_react_raw_React$Component__Ljapgolly_scalajs_react_internal_Box__sr_ObjectRef__F1__F1__Ljapgolly_scalajs_react_raw_React$Component = (function($this, props, MyComponent$1, backendFn$1, initStateFn$1) {
   var _this = $m_Ljapgolly_scalajs_react_component_builder_ViaReactComponent$().$$undpossibleConstructorReturn__p1__sjs_js_Any__sjs_js_Any__sjs_js_Any($this, $m_Ljapgolly_scalajs_react_component_builder_ViaReactComponent$().$$undgetPrototypeOf$1.apply__O__O(MyComponent$1.elem$1).call($this, props));
   $m_Ljapgolly_scalajs_react_component_Js$();
   var this$2 = new $c_Ljapgolly_scalajs_react_component_Js$$anon$3().init___Ljapgolly_scalajs_react_raw_React$Component(_this);
   _this.mountedImpure = ($m_Ljapgolly_scalajs_react_component_Scala$(), new $c_Ljapgolly_scalajs_react_component_Scala$$anon$1().init___Ljapgolly_scalajs_react_component_Js$MountedWithRoot(this$2));
   var this$4 = $as_Ljapgolly_scalajs_react_component_Scala$MountedWithRoot(_this.mountedImpure);
-  var t = $m_Ljapgolly_scalajs_react_internal_Effect$Trans$().idToCallback$1;
+  var t = $m_Ljapgolly_scalajs_react_internal_Effect$Trans$().idToCallback__Ljapgolly_scalajs_react_internal_Effect$Trans();
   _this.mountedPure = $as_Ljapgolly_scalajs_react_component_Scala$MountedWithRoot(this$4.withEffect__Ljapgolly_scalajs_react_internal_Effect$Trans__Ljapgolly_scalajs_react_component_Generic$MountedWithRoot(t));
   _this.backend = backendFn$1.apply__O__O($as_Ljapgolly_scalajs_react_component_Scala$MountedWithRoot(_this.mountedPure));
   _this.state = initStateFn$1.apply__O__O(props);
@@ -2233,136 +2544,155 @@ $c_Ljapgolly_scalajs_react_component_builder_ViaReactComponent$.prototype.$$undi
   (0, this.$$undsetPrototypeOf$1)(subClass, superClass)
 });
 $c_Ljapgolly_scalajs_react_component_builder_ViaReactComponent$.prototype.apply__Ljapgolly_scalajs_react_component_builder_Builder$Step4__Ljapgolly_scalajs_react_internal_JsRepr__sjs_js_Function1 = (function(builder, snapshotJs) {
-  var initStateFn = builder.initStateFn$1;
   var backendFn = builder.backendFn$1;
   var renderFn = builder.renderFn$1;
+  var x1 = builder.initState$1;
+  if ((x1 instanceof $c_Ljapgolly_scalajs_react_component_builder_InitState$InitialState)) {
+    var x2 = $as_Ljapgolly_scalajs_react_component_builder_InitState$InitialState(x1);
+    var f = x2.fn__F1();
+    var initStateFn = f
+  } else if ((x1 instanceof $c_Ljapgolly_scalajs_react_component_builder_InitState$DerivedFromPropsAndState)) {
+    var x3 = $as_Ljapgolly_scalajs_react_component_builder_InitState$DerivedFromPropsAndState(x1);
+    var f$2 = x3.fn__F2();
+    var initStateFn = new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function($this, f$2$1) {
+      return (function(bp$2) {
+        $m_Ljapgolly_scalajs_react_internal_Box$();
+        var value = f$2$1.apply__O__O__O(bp$2.a, $m_s_None$());
+        return {
+          "a": value
+        }
+      })
+    })(this, f$2))
+  } else {
+    var initStateFn = this.anyToBoxUnit$1
+  };
   var MyComponent = new $c_sr_ObjectRef().init___O(null);
   MyComponent.elem$1 = (function(MyComponent$1, backendFn$1, initStateFn$1) {
     return (function(arg1$2) {
-      return $m_Ljapgolly_scalajs_react_component_builder_ViaReactComponent$().japgolly$scalajs$react$component$builder$ViaReactComponent$$$anonfun$apply$1__Ljapgolly_scalajs_react_raw_React$Component__Ljapgolly_scalajs_react_internal_Box__sr_ObjectRef__F1__F1__Ljapgolly_scalajs_react_raw_React$Component(this, arg1$2, MyComponent$1, backendFn$1, initStateFn$1)
+      return $m_Ljapgolly_scalajs_react_component_builder_ViaReactComponent$().japgolly$scalajs$react$component$builder$ViaReactComponent$$$anonfun$apply$2__Ljapgolly_scalajs_react_raw_React$Component__Ljapgolly_scalajs_react_internal_Box__sr_ObjectRef__F1__F1__Ljapgolly_scalajs_react_raw_React$Component(this, arg1$2, MyComponent$1, backendFn$1, initStateFn$1)
     })
   })(MyComponent, backendFn, initStateFn);
   this.$$undinherits__p1__sjs_js_Object__sjs_js_Object__V(MyComponent.elem$1, this.ReactComponent$1);
   var protoProps = $m_Ljapgolly_scalajs_react_component_builder_ViaReactComponent$ProtoProps$().$$lessinit$greater$default$1__sjs_js_Array();
   var staticProps = $m_Ljapgolly_scalajs_react_component_builder_ViaReactComponent$StaticProps$().$$lessinit$greater$default$1__sjs_js_Array();
-  $m_Ljapgolly_scalajs_react_component_builder_ViaReactComponent$ProtoProps$().add0$extension__sjs_js_Array__T__F1__V(protoProps, "render", new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function($this, renderFn$1) {
+  $m_Ljapgolly_scalajs_react_component_builder_ViaReactComponent$ProtoProps$().add0$extension__sjs_js_Array__T__F1__V(protoProps, "render", new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function(this$2$1, renderFn$1) {
     return (function(_this$2) {
       return $as_Ljapgolly_scalajs_react_vdom_VdomNode(renderFn$1.apply__O__O(new $c_Ljapgolly_scalajs_react_component_builder_Lifecycle$RenderScope().init___Ljapgolly_scalajs_react_raw_React$Component(_this$2))).rawNode__sjs_js_$bar()
     })
   })(this, renderFn)));
-  var this$2 = builder.lifecycle$1.componentDidCatch$1;
-  if ((!this$2.isEmpty__Z())) {
-    var arg1 = this$2.get__O();
-    var f = $as_F1(arg1);
+  var this$3 = builder.lifecycle$1.componentDidCatch$1;
+  if ((!this$3.isEmpty__Z())) {
+    var arg1 = this$3.get__O();
+    var f$3 = $as_F1(arg1);
     $m_Ljapgolly_scalajs_react_component_builder_ViaReactComponent$ProtoProps$().add2$extension__sjs_js_Array__T__F3__V(protoProps, "componentDidCatch", new $c_sjsr_AnonFunction3().init___sjs_js_Function3((function($this$1, f$1) {
       return (function(_this$2$1, e$2, i$2) {
-        var $$this = $as_Ljapgolly_scalajs_react_CallbackTo(f$1.apply__O__O(new $c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidCatch().init___Ljapgolly_scalajs_react_raw_React$Component__Ljapgolly_scalajs_react_raw_React$Error__Ljapgolly_scalajs_react_raw_React$ErrorInfo(_this$2$1, e$2, i$2))).japgolly$scalajs$react$CallbackTo$$f$1;
-        $$this.apply__O()
-      })
-    })(this, f)))
-  };
-  var this$4 = builder.lifecycle$1.componentDidMount$1;
-  if ((!this$4.isEmpty__Z())) {
-    var arg1$1 = this$4.get__O();
-    var f$3 = $as_F1(arg1$1);
-    $m_Ljapgolly_scalajs_react_component_builder_ViaReactComponent$ProtoProps$().add0$extension__sjs_js_Array__T__F1__V(protoProps, "componentDidMount", new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function($this$2, f$2) {
-      return (function(_this$2$2) {
-        var $$this$1 = $as_Ljapgolly_scalajs_react_CallbackTo(f$2.apply__O__O(new $c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidMount().init___Ljapgolly_scalajs_react_raw_React$Component(_this$2$2))).japgolly$scalajs$react$CallbackTo$$f$1;
-        $$this$1.apply__O()
+        var $$this = $as_Ljapgolly_scalajs_react_CallbackTo(f$1.apply__O__O(new $c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidCatch().init___Ljapgolly_scalajs_react_raw_React$Component__sjs_js_Any__Ljapgolly_scalajs_react_raw_React$ErrorInfo(_this$2$1, e$2, i$2))).japgolly$scalajs$react$CallbackTo$$trampoline$1;
+        $m_Ljapgolly_scalajs_react_internal_Trampoline$().run__Ljapgolly_scalajs_react_internal_Trampoline__O($$this)
       })
     })(this, f$3)))
   };
-  var this$6 = builder.lifecycle$1.componentDidUpdate$1;
-  if ((!this$6.isEmpty__Z())) {
-    var arg1$3 = this$6.get__O();
-    var f$4 = $as_F1(arg1$3);
-    $m_Ljapgolly_scalajs_react_component_builder_ViaReactComponent$ProtoProps$().add3$extension__sjs_js_Array__T__F4__V(protoProps, "componentDidUpdate", new $c_sjsr_AnonFunction4().init___sjs_js_Function4((function($this$3, f$5, snapshotJs$1) {
+  var this$5 = builder.lifecycle$1.componentDidMount$1;
+  if ((!this$5.isEmpty__Z())) {
+    var arg1$1 = this$5.get__O();
+    var f$4 = $as_F1(arg1$1);
+    $m_Ljapgolly_scalajs_react_component_builder_ViaReactComponent$ProtoProps$().add0$extension__sjs_js_Array__T__F1__V(protoProps, "componentDidMount", new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function($this$2, f$5) {
+      return (function(_this$2$2) {
+        var $$this$1 = $as_Ljapgolly_scalajs_react_CallbackTo(f$5.apply__O__O(new $c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidMount().init___Ljapgolly_scalajs_react_raw_React$Component(_this$2$2))).japgolly$scalajs$react$CallbackTo$$trampoline$1;
+        $m_Ljapgolly_scalajs_react_internal_Trampoline$().run__Ljapgolly_scalajs_react_internal_Trampoline__O($$this$1)
+      })
+    })(this, f$4)))
+  };
+  var this$7 = builder.lifecycle$1.componentDidUpdate$1;
+  if ((!this$7.isEmpty__Z())) {
+    var arg1$3 = this$7.get__O();
+    var f$5$1 = $as_F1(arg1$3);
+    $m_Ljapgolly_scalajs_react_component_builder_ViaReactComponent$ProtoProps$().add3$extension__sjs_js_Array__T__F4__V(protoProps, "componentDidUpdate", new $c_sjsr_AnonFunction4().init___sjs_js_Function4((function($this$3, f$6, snapshotJs$1) {
       return (function(_this$2$3, p$2, s$2, ss$2) {
-        var $$this$2 = $as_Ljapgolly_scalajs_react_CallbackTo(f$5.apply__O__O(new $c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidUpdate().init___Ljapgolly_scalajs_react_raw_React$Component__O__O__O(_this$2$3, p$2.a, s$2.a, $f_Ljapgolly_scalajs_react_internal_JsRepr__unsafeFromJs__sjs_js_Any__O(snapshotJs$1, ss$2)))).japgolly$scalajs$react$CallbackTo$$f$1;
-        $$this$2.apply__O()
+        var $$this$2 = $as_Ljapgolly_scalajs_react_CallbackTo(f$6.apply__O__O(new $c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidUpdate().init___Ljapgolly_scalajs_react_raw_React$Component__O__O__O(_this$2$3, p$2.a, s$2.a, $f_Ljapgolly_scalajs_react_internal_JsRepr__unsafeFromJs__O__O(snapshotJs$1, ss$2)))).japgolly$scalajs$react$CallbackTo$$trampoline$1;
+        $m_Ljapgolly_scalajs_react_internal_Trampoline$().run__Ljapgolly_scalajs_react_internal_Trampoline__O($$this$2)
       })
-    })(this, f$4, snapshotJs)))
+    })(this, f$5$1, snapshotJs)))
   };
-  var this$8 = builder.lifecycle$1.componentWillMount$1;
-  if ((!this$8.isEmpty__Z())) {
-    var arg1$4 = this$8.get__O();
-    var f$5$1 = $as_F1(arg1$4);
-    $m_Ljapgolly_scalajs_react_component_builder_ViaReactComponent$ProtoProps$().add0$extension__sjs_js_Array__T__F1__V(protoProps, "componentWillMount", new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function($this$4, f$6) {
+  var this$9 = builder.lifecycle$1.componentWillMount$1;
+  if ((!this$9.isEmpty__Z())) {
+    var arg1$4 = this$9.get__O();
+    var f$6$1 = $as_F1(arg1$4);
+    $m_Ljapgolly_scalajs_react_component_builder_ViaReactComponent$ProtoProps$().add0$extension__sjs_js_Array__T__F1__V(protoProps, "componentWillMount", new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function($this$4, f$7) {
       return (function(_this$2$4) {
-        var $$this$3 = $as_Ljapgolly_scalajs_react_CallbackTo(f$6.apply__O__O(new $c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillMount().init___Ljapgolly_scalajs_react_raw_React$Component(_this$2$4))).japgolly$scalajs$react$CallbackTo$$f$1;
-        $$this$3.apply__O()
-      })
-    })(this, f$5$1)))
-  };
-  var this$10 = builder.lifecycle$1.componentWillReceiveProps$1;
-  if ((!this$10.isEmpty__Z())) {
-    var arg1$5 = this$10.get__O();
-    var f$6$1 = $as_F1(arg1$5);
-    $m_Ljapgolly_scalajs_react_component_builder_ViaReactComponent$ProtoProps$().add1$extension__sjs_js_Array__T__F2__V(protoProps, "componentWillReceiveProps", new $c_sjsr_AnonFunction2().init___sjs_js_Function2((function($this$5, f$7) {
-      return (function(_this$2$5, p$2$1) {
-        var $$this$4 = $as_Ljapgolly_scalajs_react_CallbackTo(f$7.apply__O__O(new $c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillReceiveProps().init___Ljapgolly_scalajs_react_raw_React$Component__O(_this$2$5, p$2$1.a))).japgolly$scalajs$react$CallbackTo$$f$1;
-        $$this$4.apply__O()
+        var $$this$3 = $as_Ljapgolly_scalajs_react_CallbackTo(f$7.apply__O__O(new $c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillMount().init___Ljapgolly_scalajs_react_raw_React$Component(_this$2$4))).japgolly$scalajs$react$CallbackTo$$trampoline$1;
+        $m_Ljapgolly_scalajs_react_internal_Trampoline$().run__Ljapgolly_scalajs_react_internal_Trampoline__O($$this$3)
       })
     })(this, f$6$1)))
   };
-  var this$12 = builder.lifecycle$1.componentWillUnmount$1;
-  if ((!this$12.isEmpty__Z())) {
-    var arg1$6 = this$12.get__O();
-    var f$7$1 = $as_F1(arg1$6);
-    $m_Ljapgolly_scalajs_react_component_builder_ViaReactComponent$ProtoProps$().add0$extension__sjs_js_Array__T__F1__V(protoProps, "componentWillUnmount", new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function($this$6, f$8) {
-      return (function(_this$2$6) {
-        var $$this$5 = $as_Ljapgolly_scalajs_react_CallbackTo(f$8.apply__O__O(new $c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillUnmount().init___Ljapgolly_scalajs_react_raw_React$Component(_this$2$6))).japgolly$scalajs$react$CallbackTo$$f$1;
-        $$this$5.apply__O()
+  var this$11 = builder.lifecycle$1.componentWillReceiveProps$1;
+  if ((!this$11.isEmpty__Z())) {
+    var arg1$5 = this$11.get__O();
+    var f$7$1 = $as_F1(arg1$5);
+    $m_Ljapgolly_scalajs_react_component_builder_ViaReactComponent$ProtoProps$().add1$extension__sjs_js_Array__T__F2__V(protoProps, "componentWillReceiveProps", new $c_sjsr_AnonFunction2().init___sjs_js_Function2((function($this$5, f$8) {
+      return (function(_this$2$5, p$2$1) {
+        var $$this$4 = $as_Ljapgolly_scalajs_react_CallbackTo(f$8.apply__O__O(new $c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillReceiveProps().init___Ljapgolly_scalajs_react_raw_React$Component__O(_this$2$5, p$2$1.a))).japgolly$scalajs$react$CallbackTo$$trampoline$1;
+        $m_Ljapgolly_scalajs_react_internal_Trampoline$().run__Ljapgolly_scalajs_react_internal_Trampoline__O($$this$4)
       })
     })(this, f$7$1)))
   };
-  var this$14 = builder.lifecycle$1.componentWillUpdate$1;
-  if ((!this$14.isEmpty__Z())) {
-    var arg1$7 = this$14.get__O();
-    var f$8$1 = $as_F1(arg1$7);
-    $m_Ljapgolly_scalajs_react_component_builder_ViaReactComponent$ProtoProps$().add2$extension__sjs_js_Array__T__F3__V(protoProps, "componentWillUpdate", new $c_sjsr_AnonFunction3().init___sjs_js_Function3((function($this$7, f$9) {
-      return (function(_this$2$7, p$2$2, s$2$1) {
-        var $$this$6 = $as_Ljapgolly_scalajs_react_CallbackTo(f$9.apply__O__O(new $c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillUpdate().init___Ljapgolly_scalajs_react_raw_React$Component__O__O(_this$2$7, p$2$2.a, s$2$1.a))).japgolly$scalajs$react$CallbackTo$$f$1;
-        $$this$6.apply__O()
+  var this$13 = builder.lifecycle$1.componentWillUnmount$1;
+  if ((!this$13.isEmpty__Z())) {
+    var arg1$6 = this$13.get__O();
+    var f$8$1 = $as_F1(arg1$6);
+    $m_Ljapgolly_scalajs_react_component_builder_ViaReactComponent$ProtoProps$().add0$extension__sjs_js_Array__T__F1__V(protoProps, "componentWillUnmount", new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function($this$6, f$9) {
+      return (function(_this$2$6) {
+        var $$this$5 = $as_Ljapgolly_scalajs_react_CallbackTo(f$9.apply__O__O(new $c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillUnmount().init___Ljapgolly_scalajs_react_raw_React$Component(_this$2$6))).japgolly$scalajs$react$CallbackTo$$trampoline$1;
+        $m_Ljapgolly_scalajs_react_internal_Trampoline$().run__Ljapgolly_scalajs_react_internal_Trampoline__O($$this$5)
       })
     })(this, f$8$1)))
   };
-  var this$16 = builder.lifecycle$1.getDerivedStateFromProps$1;
-  if ((!this$16.isEmpty__Z())) {
-    var arg1$8 = this$16.get__O();
-    var f$9$1 = $as_F2(arg1$8);
-    $m_Ljapgolly_scalajs_react_component_builder_ViaReactComponent$StaticProps$().add2$extension__sjs_js_Array__T__F2__V(staticProps, "getDerivedStateFromProps", new $c_sjsr_AnonFunction2().init___sjs_js_Function2((function($this$8, f$10) {
-      return (function(p$2$3, s$2$2) {
-        return $m_Ljapgolly_scalajs_react_component_builder_ViaReactComponent$().boxStateOrNull__p1__s_Option__Ljapgolly_scalajs_react_internal_Box($as_s_Option(f$10.apply__O__O__O(p$2$3.a, s$2$2.a)))
+  var this$15 = builder.lifecycle$1.componentWillUpdate$1;
+  if ((!this$15.isEmpty__Z())) {
+    var arg1$7 = this$15.get__O();
+    var f$9$1 = $as_F1(arg1$7);
+    $m_Ljapgolly_scalajs_react_component_builder_ViaReactComponent$ProtoProps$().add2$extension__sjs_js_Array__T__F3__V(protoProps, "componentWillUpdate", new $c_sjsr_AnonFunction3().init___sjs_js_Function3((function($this$7, f$10) {
+      return (function(_this$2$7, p$2$2, s$2$1) {
+        var $$this$6 = $as_Ljapgolly_scalajs_react_CallbackTo(f$10.apply__O__O(new $c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillUpdate().init___Ljapgolly_scalajs_react_raw_React$Component__O__O(_this$2$7, p$2$2.a, s$2$1.a))).japgolly$scalajs$react$CallbackTo$$trampoline$1;
+        $m_Ljapgolly_scalajs_react_internal_Trampoline$().run__Ljapgolly_scalajs_react_internal_Trampoline__O($$this$6)
       })
     })(this, f$9$1)))
   };
-  var this$17 = builder.lifecycle$1.getSnapshotBeforeUpdate$1;
+  var this$17 = builder.lifecycle$1.getDerivedStateFromProps$1;
   if ((!this$17.isEmpty__Z())) {
-    var arg1$9 = this$17.get__O();
-    var f$10$1 = $as_F1(arg1$9);
-    $m_Ljapgolly_scalajs_react_component_builder_ViaReactComponent$ProtoProps$().add2$extension__sjs_js_Array__T__F3__V(protoProps, "getSnapshotBeforeUpdate", new $c_sjsr_AnonFunction3().init___sjs_js_Function3((function($this$9, snapshotJs$1$1, f$11) {
+    var arg1$8 = this$17.get__O();
+    var f$10$1 = $as_F2(arg1$8);
+    $m_Ljapgolly_scalajs_react_component_builder_ViaReactComponent$StaticProps$().add2$extension__sjs_js_Array__T__F2__V(staticProps, "getDerivedStateFromProps", new $c_sjsr_AnonFunction2().init___sjs_js_Function2((function($this$8, f$11) {
+      return (function(p$2$3, s$2$2) {
+        return $m_Ljapgolly_scalajs_react_component_builder_ViaReactComponent$().boxStateOrNull__p1__s_Option__Ljapgolly_scalajs_react_internal_Box($as_s_Option(f$11.apply__O__O__O(p$2$3.a, s$2$2.a)))
+      })
+    })(this, f$10$1)))
+  };
+  var this$18 = builder.lifecycle$1.getSnapshotBeforeUpdate$1;
+  if ((!this$18.isEmpty__Z())) {
+    var arg1$9 = this$18.get__O();
+    var f$11$1 = $as_F1(arg1$9);
+    $m_Ljapgolly_scalajs_react_component_builder_ViaReactComponent$ProtoProps$().add2$extension__sjs_js_Array__T__F3__V(protoProps, "getSnapshotBeforeUpdate", new $c_sjsr_AnonFunction3().init___sjs_js_Function3((function($this$9, snapshotJs$1$1, f$12) {
       return (function(_this$2$8, p$2$4, s$2$3) {
         var jsx$1 = snapshotJs$1$1.toJs$1;
-        var $$this$7 = $as_Ljapgolly_scalajs_react_CallbackTo(f$11.apply__O__O(new $c_Ljapgolly_scalajs_react_component_builder_Lifecycle$GetSnapshotBeforeUpdate().init___Ljapgolly_scalajs_react_raw_React$Component__O__O(_this$2$8, p$2$4.a, s$2$3.a))).japgolly$scalajs$react$CallbackTo$$f$1;
-        return jsx$1.apply__O__O($$this$7.apply__O())
+        var $$this$7 = $as_Ljapgolly_scalajs_react_CallbackTo(f$12.apply__O__O(new $c_Ljapgolly_scalajs_react_component_builder_Lifecycle$GetSnapshotBeforeUpdate().init___Ljapgolly_scalajs_react_raw_React$Component__O__O(_this$2$8, p$2$4.a, s$2$3.a))).japgolly$scalajs$react$CallbackTo$$trampoline$1;
+        return jsx$1.apply__O__O($m_Ljapgolly_scalajs_react_internal_Trampoline$().run__Ljapgolly_scalajs_react_internal_Trampoline__O($$this$7))
       })
-    })(this, snapshotJs, f$10$1)))
+    })(this, snapshotJs, f$11$1)))
   };
-  var this$19 = builder.lifecycle$1.shouldComponentUpdate$1;
-  if ((!this$19.isEmpty__Z())) {
-    var arg1$10 = this$19.get__O();
-    var f$11$1 = $as_F1(arg1$10);
-    $m_Ljapgolly_scalajs_react_component_builder_ViaReactComponent$ProtoProps$().add2$extension__sjs_js_Array__T__F3__V(protoProps, "shouldComponentUpdate", new $c_sjsr_AnonFunction3().init___sjs_js_Function3((function($this$10, f$12) {
+  var this$20 = builder.lifecycle$1.shouldComponentUpdate$1;
+  if ((!this$20.isEmpty__Z())) {
+    var arg1$10 = this$20.get__O();
+    var f$12$1 = $as_F1(arg1$10);
+    $m_Ljapgolly_scalajs_react_component_builder_ViaReactComponent$ProtoProps$().add2$extension__sjs_js_Array__T__F3__V(protoProps, "shouldComponentUpdate", new $c_sjsr_AnonFunction3().init___sjs_js_Function3((function($this$10, f$13) {
       return (function(_this$2$9, p$2$5, s$2$4) {
-        var $$this$8 = $as_Ljapgolly_scalajs_react_CallbackTo(f$12.apply__O__O(new $c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ShouldComponentUpdate().init___Ljapgolly_scalajs_react_raw_React$Component__O__O(_this$2$9, p$2$5.a, s$2$4.a))).japgolly$scalajs$react$CallbackTo$$f$1;
-        return $uZ($$this$8.apply__O())
+        var $$this$8 = $as_Ljapgolly_scalajs_react_CallbackTo(f$13.apply__O__O(new $c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ShouldComponentUpdate().init___Ljapgolly_scalajs_react_raw_React$Component__O__O(_this$2$9, p$2$5.a, s$2$4.a))).japgolly$scalajs$react$CallbackTo$$trampoline$1;
+        return $uZ($m_Ljapgolly_scalajs_react_internal_Trampoline$().run__Ljapgolly_scalajs_react_internal_Trampoline__O($$this$8))
       })
-    })(this, f$11$1)))
+    })(this, f$12$1)))
   };
-  var this$21 = $m_s_Option$().apply__O__s_Option(builder.name$1);
-  if ((!this$21.isEmpty__Z())) {
-    var arg1$11 = this$21.get__O();
+  var this$22 = $m_s_Option$().apply__O__s_Option(builder.name$1);
+  if ((!this$22.isEmpty__Z())) {
+    var arg1$11 = this$22.get__O();
     var n = $as_T(arg1$11);
     $m_Ljapgolly_scalajs_react_component_builder_ViaReactComponent$StaticProps$().add$extension__sjs_js_Array__T__sjs_js_Any__V(staticProps, "displayName", n)
   };
@@ -2487,34 +2817,6 @@ function $m_Ljapgolly_scalajs_react_component_builder_ViaReactComponent$StaticPr
   return $n_Ljapgolly_scalajs_react_component_builder_ViaReactComponent$StaticProps$
 }
 /** @constructor */
-function $c_Ljapgolly_scalajs_react_feature_ReactFragment$() {
-  $c_O.call(this)
-}
-$c_Ljapgolly_scalajs_react_feature_ReactFragment$.prototype = new $h_O();
-$c_Ljapgolly_scalajs_react_feature_ReactFragment$.prototype.constructor = $c_Ljapgolly_scalajs_react_feature_ReactFragment$;
-/** @constructor */
-function $h_Ljapgolly_scalajs_react_feature_ReactFragment$() {
-  /*<skip>*/
-}
-$h_Ljapgolly_scalajs_react_feature_ReactFragment$.prototype = $c_Ljapgolly_scalajs_react_feature_ReactFragment$.prototype;
-$c_Ljapgolly_scalajs_react_feature_ReactFragment$.prototype.init___ = (function() {
-  return this
-});
-var $d_Ljapgolly_scalajs_react_feature_ReactFragment$ = new $TypeData().initClass({
-  Ljapgolly_scalajs_react_feature_ReactFragment$: 0
-}, false, "japgolly.scalajs.react.feature.ReactFragment$", {
-  Ljapgolly_scalajs_react_feature_ReactFragment$: 1,
-  O: 1
-});
-$c_Ljapgolly_scalajs_react_feature_ReactFragment$.prototype.$classData = $d_Ljapgolly_scalajs_react_feature_ReactFragment$;
-var $n_Ljapgolly_scalajs_react_feature_ReactFragment$ = (void 0);
-function $m_Ljapgolly_scalajs_react_feature_ReactFragment$() {
-  if ((!$n_Ljapgolly_scalajs_react_feature_ReactFragment$)) {
-    $n_Ljapgolly_scalajs_react_feature_ReactFragment$ = new $c_Ljapgolly_scalajs_react_feature_ReactFragment$().init___()
-  };
-  return $n_Ljapgolly_scalajs_react_feature_ReactFragment$
-}
-/** @constructor */
 function $c_Ljapgolly_scalajs_react_internal_Box$() {
   $c_O.call(this);
   this.Unit$1 = null
@@ -2562,7 +2864,8 @@ $h_Ljapgolly_scalajs_react_internal_Effect.prototype = $c_Ljapgolly_scalajs_reac
 function $c_Ljapgolly_scalajs_react_internal_Effect$() {
   $c_O.call(this);
   this.idInstance$1 = null;
-  this.callbackInstance$1 = null
+  this.callbackInstance$1 = null;
+  this.bitmap$0$1 = false
 }
 $c_Ljapgolly_scalajs_react_internal_Effect$.prototype = new $h_O();
 $c_Ljapgolly_scalajs_react_internal_Effect$.prototype.constructor = $c_Ljapgolly_scalajs_react_internal_Effect$;
@@ -2573,9 +2876,18 @@ function $h_Ljapgolly_scalajs_react_internal_Effect$() {
 $h_Ljapgolly_scalajs_react_internal_Effect$.prototype = $c_Ljapgolly_scalajs_react_internal_Effect$.prototype;
 $c_Ljapgolly_scalajs_react_internal_Effect$.prototype.init___ = (function() {
   $n_Ljapgolly_scalajs_react_internal_Effect$ = this;
-  this.idInstance$1 = new $c_Ljapgolly_scalajs_react_internal_Effect$$anon$1().init___();
   this.callbackInstance$1 = new $c_Ljapgolly_scalajs_react_internal_Effect$$anon$2().init___();
   return this
+});
+$c_Ljapgolly_scalajs_react_internal_Effect$.prototype.idInstance$lzycompute__p1__Ljapgolly_scalajs_react_internal_Effect = (function() {
+  if ((!this.bitmap$0$1)) {
+    this.idInstance$1 = new $c_Ljapgolly_scalajs_react_internal_Effect$$anon$1().init___();
+    this.bitmap$0$1 = true
+  };
+  return this.idInstance$1
+});
+$c_Ljapgolly_scalajs_react_internal_Effect$.prototype.idInstance__Ljapgolly_scalajs_react_internal_Effect = (function() {
+  return ((!this.bitmap$0$1) ? this.idInstance$lzycompute__p1__Ljapgolly_scalajs_react_internal_Effect() : this.idInstance$1)
 });
 var $d_Ljapgolly_scalajs_react_internal_Effect$ = new $TypeData().initClass({
   Ljapgolly_scalajs_react_internal_Effect$: 0
@@ -2612,7 +2924,6 @@ $c_Ljapgolly_scalajs_react_internal_Effect$Trans.prototype.compose__Ljapgolly_sc
   if ((ev === null)) {
     return new $c_Ljapgolly_scalajs_react_internal_Effect$Trans().init___Ljapgolly_scalajs_react_internal_Effect__Ljapgolly_scalajs_react_internal_Effect(this.from$1, t.to$1)
   } else {
-    $m_Ljapgolly_scalajs_react_internal_Effect$Trans$();
     var F = this.from$1;
     var x = new $c_Ljapgolly_scalajs_react_internal_Effect$Trans$Id().init___Ljapgolly_scalajs_react_internal_Effect(F);
     return x
@@ -2636,7 +2947,8 @@ function $c_Ljapgolly_scalajs_react_internal_Effect$Trans$() {
   this.endoId$1 = null;
   this.endoCallback$1 = null;
   this.idToCallback$1 = null;
-  this.callbackToId$1 = null
+  this.callbackToId$1 = null;
+  this.bitmap$0$1 = 0
 }
 $c_Ljapgolly_scalajs_react_internal_Effect$Trans$.prototype = new $h_O();
 $c_Ljapgolly_scalajs_react_internal_Effect$Trans$.prototype.constructor = $c_Ljapgolly_scalajs_react_internal_Effect$Trans$;
@@ -2646,16 +2958,25 @@ function $h_Ljapgolly_scalajs_react_internal_Effect$Trans$() {
 }
 $h_Ljapgolly_scalajs_react_internal_Effect$Trans$.prototype = $c_Ljapgolly_scalajs_react_internal_Effect$Trans$.prototype;
 $c_Ljapgolly_scalajs_react_internal_Effect$Trans$.prototype.init___ = (function() {
-  $n_Ljapgolly_scalajs_react_internal_Effect$Trans$ = this;
-  $m_Ljapgolly_scalajs_react_internal_Effect$Trans$();
-  var F = $m_Ljapgolly_scalajs_react_internal_Effect$().idInstance$1;
-  this.endoId$1 = new $c_Ljapgolly_scalajs_react_internal_Effect$Trans$Id().init___Ljapgolly_scalajs_react_internal_Effect(F);
-  $m_Ljapgolly_scalajs_react_internal_Effect$Trans$();
-  var F$1 = $m_Ljapgolly_scalajs_react_internal_Effect$().callbackInstance$1;
-  this.endoCallback$1 = new $c_Ljapgolly_scalajs_react_internal_Effect$Trans$Id().init___Ljapgolly_scalajs_react_internal_Effect(F$1);
-  this.idToCallback$1 = $m_Ljapgolly_scalajs_react_internal_Effect$Trans$().apply__Ljapgolly_scalajs_react_internal_Effect__Ljapgolly_scalajs_react_internal_Effect__s_$eq$colon$eq__Ljapgolly_scalajs_react_internal_Effect$Trans($m_Ljapgolly_scalajs_react_internal_Effect$().idInstance$1, $m_Ljapgolly_scalajs_react_internal_Effect$().callbackInstance$1, ($m_Ljapgolly_scalajs_react_internal_Effect$Trans$(), null));
-  this.callbackToId$1 = $m_Ljapgolly_scalajs_react_internal_Effect$Trans$().apply__Ljapgolly_scalajs_react_internal_Effect__Ljapgolly_scalajs_react_internal_Effect__s_$eq$colon$eq__Ljapgolly_scalajs_react_internal_Effect$Trans($m_Ljapgolly_scalajs_react_internal_Effect$().callbackInstance$1, $m_Ljapgolly_scalajs_react_internal_Effect$().idInstance$1, ($m_Ljapgolly_scalajs_react_internal_Effect$Trans$(), null));
   return this
+});
+$c_Ljapgolly_scalajs_react_internal_Effect$Trans$.prototype.endoId__Ljapgolly_scalajs_react_internal_Effect$Trans$Id = (function() {
+  return (((((1 & this.bitmap$0$1) << 24) >> 24) === 0) ? this.endoId$lzycompute__p1__Ljapgolly_scalajs_react_internal_Effect$Trans$Id() : this.endoId$1)
+});
+$c_Ljapgolly_scalajs_react_internal_Effect$Trans$.prototype.idToCallback$lzycompute__p1__Ljapgolly_scalajs_react_internal_Effect$Trans = (function() {
+  if (((((4 & this.bitmap$0$1) << 24) >> 24) === 0)) {
+    this.idToCallback$1 = $m_Ljapgolly_scalajs_react_internal_Effect$Trans$().apply__Ljapgolly_scalajs_react_internal_Effect__Ljapgolly_scalajs_react_internal_Effect__s_$eq$colon$eq__Ljapgolly_scalajs_react_internal_Effect$Trans($m_Ljapgolly_scalajs_react_internal_Effect$().idInstance__Ljapgolly_scalajs_react_internal_Effect(), $m_Ljapgolly_scalajs_react_internal_Effect$().callbackInstance$1, null);
+    this.bitmap$0$1 = (((4 | this.bitmap$0$1) << 24) >> 24)
+  };
+  return this.idToCallback$1
+});
+$c_Ljapgolly_scalajs_react_internal_Effect$Trans$.prototype.endoId$lzycompute__p1__Ljapgolly_scalajs_react_internal_Effect$Trans$Id = (function() {
+  if (((((1 & this.bitmap$0$1) << 24) >> 24) === 0)) {
+    var F = $m_Ljapgolly_scalajs_react_internal_Effect$().idInstance__Ljapgolly_scalajs_react_internal_Effect();
+    this.endoId$1 = new $c_Ljapgolly_scalajs_react_internal_Effect$Trans$Id().init___Ljapgolly_scalajs_react_internal_Effect(F);
+    this.bitmap$0$1 = (((1 | this.bitmap$0$1) << 24) >> 24)
+  };
+  return this.endoId$1
 });
 $c_Ljapgolly_scalajs_react_internal_Effect$Trans$.prototype.apply__Ljapgolly_scalajs_react_internal_Effect__Ljapgolly_scalajs_react_internal_Effect__s_$eq$colon$eq__Ljapgolly_scalajs_react_internal_Effect$Trans = (function(F, G, ev) {
   if ((ev === null)) {
@@ -2664,6 +2985,9 @@ $c_Ljapgolly_scalajs_react_internal_Effect$Trans$.prototype.apply__Ljapgolly_sca
     var x = new $c_Ljapgolly_scalajs_react_internal_Effect$Trans$Id().init___Ljapgolly_scalajs_react_internal_Effect(F);
     return x
   }
+});
+$c_Ljapgolly_scalajs_react_internal_Effect$Trans$.prototype.idToCallback__Ljapgolly_scalajs_react_internal_Effect$Trans = (function() {
+  return (((((4 & this.bitmap$0$1) << 24) >> 24) === 0) ? this.idToCallback$lzycompute__p1__Ljapgolly_scalajs_react_internal_Effect$Trans() : this.idToCallback$1)
 });
 var $d_Ljapgolly_scalajs_react_internal_Effect$Trans$ = new $TypeData().initClass({
   Ljapgolly_scalajs_react_internal_Effect$Trans$: 0
@@ -2789,7 +3113,15 @@ $c_Ljapgolly_scalajs_react_internal_JsUtil$JsSymbol$.prototype.init___ = (functi
 });
 $c_Ljapgolly_scalajs_react_internal_JsUtil$JsSymbol$.prototype.unapply__O__s_Option = (function(a) {
   var x1 = $as_T((typeof a));
-  return ((x1 === "symbol") ? new $c_s_Some().init___O(a) : $m_s_None$())
+  switch (x1) {
+    case "symbol": {
+      return new $c_s_Some().init___O(a);
+      break
+    }
+    default: {
+      return $m_s_None$()
+    }
+  }
 });
 var $d_Ljapgolly_scalajs_react_internal_JsUtil$JsSymbol$ = new $TypeData().initClass({
   Ljapgolly_scalajs_react_internal_JsUtil$JsSymbol$: 0
@@ -2932,7 +3264,7 @@ function $h_Ljapgolly_scalajs_react_internal_Singleton() {
   /*<skip>*/
 }
 $h_Ljapgolly_scalajs_react_internal_Singleton.prototype = $c_Ljapgolly_scalajs_react_internal_Singleton.prototype;
-$c_Ljapgolly_scalajs_react_internal_Singleton.prototype.init___O__F0__F0 = (function(value, mutable, mutableObj) {
+$c_Ljapgolly_scalajs_react_internal_Singleton.prototype.init___O__F0 = (function(value, mutableObj) {
   this.value$1 = value;
   this.mutableObj$1 = mutableObj;
   return this
@@ -2960,32 +3292,17 @@ function $h_Ljapgolly_scalajs_react_internal_Singleton$() {
 $h_Ljapgolly_scalajs_react_internal_Singleton$.prototype = $c_Ljapgolly_scalajs_react_internal_Singleton$.prototype;
 $c_Ljapgolly_scalajs_react_internal_Singleton$.prototype.init___ = (function() {
   $n_Ljapgolly_scalajs_react_internal_Singleton$ = this;
-  this.Null$1 = new $c_Ljapgolly_scalajs_react_internal_Singleton().init___O__F0__F0(null, new $c_sjsr_AnonFunction0().init___sjs_js_Function0((function($this) {
-    return (function() {
-      return null
-    })
-  })(this)), new $c_sjsr_AnonFunction0().init___sjs_js_Function0((function(this$2) {
+  this.Null$1 = new $c_Ljapgolly_scalajs_react_internal_Singleton().init___O__F0(null, new $c_sjsr_AnonFunction0().init___sjs_js_Function0((function($this) {
     return (function() {
       return {}
     })
   })(this)));
-  this.Unit$1 = new $c_Ljapgolly_scalajs_react_internal_Singleton().init___O__F0__F0((void 0), new $c_sjsr_AnonFunction0().init___sjs_js_Function0((function(this$3) {
-    return (function() {
-      return (void 0)
-    })
-  })(this)), new $c_sjsr_AnonFunction0().init___sjs_js_Function0((function(this$4) {
+  this.Unit$1 = new $c_Ljapgolly_scalajs_react_internal_Singleton().init___O__F0((void 0), new $c_sjsr_AnonFunction0().init___sjs_js_Function0((function(this$2) {
     return (function() {
       return {}
     })
   })(this)));
-  this.BoxUnit$1 = new $c_Ljapgolly_scalajs_react_internal_Singleton().init___O__F0__F0($m_Ljapgolly_scalajs_react_internal_Box$().Unit$1, new $c_sjsr_AnonFunction0().init___sjs_js_Function0((function(this$5) {
-    return (function() {
-      $m_Ljapgolly_scalajs_react_internal_Box$();
-      return {
-        "a": (void 0)
-      }
-    })
-  })(this)), new $c_sjsr_AnonFunction0().init___sjs_js_Function0((function(this$6) {
+  this.BoxUnit$1 = new $c_Ljapgolly_scalajs_react_internal_Singleton().init___O__F0($m_Ljapgolly_scalajs_react_internal_Box$().Unit$1, new $c_sjsr_AnonFunction0().init___sjs_js_Function0((function(this$3) {
     return (function() {
       $m_Ljapgolly_scalajs_react_internal_Box$();
       return {
@@ -3008,6 +3325,68 @@ function $m_Ljapgolly_scalajs_react_internal_Singleton$() {
     $n_Ljapgolly_scalajs_react_internal_Singleton$ = new $c_Ljapgolly_scalajs_react_internal_Singleton$().init___()
   };
   return $n_Ljapgolly_scalajs_react_internal_Singleton$
+}
+/** @constructor */
+function $c_Ljapgolly_scalajs_react_internal_Trampoline$() {
+  $c_O.call(this);
+  this.unit$1 = null
+}
+$c_Ljapgolly_scalajs_react_internal_Trampoline$.prototype = new $h_O();
+$c_Ljapgolly_scalajs_react_internal_Trampoline$.prototype.constructor = $c_Ljapgolly_scalajs_react_internal_Trampoline$;
+/** @constructor */
+function $h_Ljapgolly_scalajs_react_internal_Trampoline$() {
+  /*<skip>*/
+}
+$h_Ljapgolly_scalajs_react_internal_Trampoline$.prototype = $c_Ljapgolly_scalajs_react_internal_Trampoline$.prototype;
+$c_Ljapgolly_scalajs_react_internal_Trampoline$.prototype.init___ = (function() {
+  $n_Ljapgolly_scalajs_react_internal_Trampoline$ = this;
+  this.unit$1 = new $c_Ljapgolly_scalajs_react_internal_Trampoline$Pure().init___O((void 0));
+  return this
+});
+$c_Ljapgolly_scalajs_react_internal_Trampoline$.prototype.run__Ljapgolly_scalajs_react_internal_Trampoline__O = (function(initial) {
+  var next = initial;
+  var stack = [];
+  while (true) {
+    var x1 = next;
+    if ((x1 instanceof $c_Ljapgolly_scalajs_react_internal_Trampoline$FlatMap)) {
+      var x2 = $as_Ljapgolly_scalajs_react_internal_Trampoline$FlatMap(x1);
+      stack.push(x2.f$1);
+      next = x2.from$1
+    } else if ((x1 instanceof $c_Ljapgolly_scalajs_react_internal_Trampoline$Suspend)) {
+      var x3 = $as_Ljapgolly_scalajs_react_internal_Trampoline$Suspend(x1);
+      next = $as_Ljapgolly_scalajs_react_internal_Trampoline(x3.suspension__F0().apply__O())
+    } else if ((x1 instanceof $c_Ljapgolly_scalajs_react_internal_Trampoline$Pure)) {
+      var x4 = $as_Ljapgolly_scalajs_react_internal_Trampoline$Pure(x1);
+      if (($uI(stack.length) === 0)) {
+        return x4.value$1
+      } else {
+        next = $as_Ljapgolly_scalajs_react_internal_Trampoline($as_F1(stack.pop()).apply__O__O(x4.value$1))
+      }
+    } else if ((x1 instanceof $c_Ljapgolly_scalajs_react_internal_Trampoline$Delay)) {
+      var x5 = $as_Ljapgolly_scalajs_react_internal_Trampoline$Delay(x1);
+      if (($uI(stack.length) === 0)) {
+        return x5.value$1.apply__O()
+      } else {
+        next = $as_Ljapgolly_scalajs_react_internal_Trampoline($as_F1(stack.pop()).apply__O__O(x5.value$1.apply__O()))
+      }
+    } else {
+      throw new $c_s_MatchError().init___O(x1)
+    }
+  }
+});
+var $d_Ljapgolly_scalajs_react_internal_Trampoline$ = new $TypeData().initClass({
+  Ljapgolly_scalajs_react_internal_Trampoline$: 0
+}, false, "japgolly.scalajs.react.internal.Trampoline$", {
+  Ljapgolly_scalajs_react_internal_Trampoline$: 1,
+  O: 1
+});
+$c_Ljapgolly_scalajs_react_internal_Trampoline$.prototype.$classData = $d_Ljapgolly_scalajs_react_internal_Trampoline$;
+var $n_Ljapgolly_scalajs_react_internal_Trampoline$ = (void 0);
+function $m_Ljapgolly_scalajs_react_internal_Trampoline$() {
+  if ((!$n_Ljapgolly_scalajs_react_internal_Trampoline$)) {
+    $n_Ljapgolly_scalajs_react_internal_Trampoline$ = new $c_Ljapgolly_scalajs_react_internal_Trampoline$().init___()
+  };
+  return $n_Ljapgolly_scalajs_react_internal_Trampoline$
 }
 /** @constructor */
 function $c_Ljapgolly_scalajs_react_internal_package$() {
@@ -3114,8 +3493,10 @@ function $m_Ljapgolly_scalajs_react_vdom_Attr$() {
 /** @constructor */
 function $c_Ljapgolly_scalajs_react_vdom_Attr$ValueType$() {
   $c_O.call(this);
+  this.untypedRef$1 = null;
   this.direct$1 = null;
-  this.string$1 = null
+  this.string$1 = null;
+  this.bitmap$0$1 = false
 }
 $c_Ljapgolly_scalajs_react_vdom_Attr$ValueType$.prototype = new $h_O();
 $c_Ljapgolly_scalajs_react_vdom_Attr$ValueType$.prototype.constructor = $c_Ljapgolly_scalajs_react_vdom_Attr$ValueType$;
@@ -3157,9 +3538,9 @@ $c_Ljapgolly_scalajs_react_vdom_Attr$ValueType$.prototype.apply$extension__F2__T
   var f = new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function($this, $$this$1, name$1, value$1) {
     return (function(b$2) {
       var b = $as_Ljapgolly_scalajs_react_vdom_Builder(b$2);
-      $$this$1.apply__O__O__O(new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function($this$1, b$1, name$1$1) {
+      $$this$1.apply__O__O__O(new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function($this$1, b$1, name$2) {
         return (function(x$5$2) {
-          b$1.addAttr$1.apply__O__O__O(name$1$1, x$5$2)
+          b$1.addAttr$1.apply__O__O__O(name$2, x$5$2)
         })
       })($this, b, name$1)), value$1)
     })
@@ -3180,39 +3561,9 @@ function $m_Ljapgolly_scalajs_react_vdom_Attr$ValueType$() {
   };
   return $n_Ljapgolly_scalajs_react_vdom_Attr$ValueType$
 }
-/** @constructor */
-function $c_Ljapgolly_scalajs_react_vdom_Builder$() {
-  $c_O.call(this)
-}
-$c_Ljapgolly_scalajs_react_vdom_Builder$.prototype = new $h_O();
-$c_Ljapgolly_scalajs_react_vdom_Builder$.prototype.constructor = $c_Ljapgolly_scalajs_react_vdom_Builder$;
-/** @constructor */
-function $h_Ljapgolly_scalajs_react_vdom_Builder$() {
-  /*<skip>*/
-}
-$h_Ljapgolly_scalajs_react_vdom_Builder$.prototype = $c_Ljapgolly_scalajs_react_vdom_Builder$.prototype;
-$c_Ljapgolly_scalajs_react_vdom_Builder$.prototype.init___ = (function() {
-  return this
-});
-$c_Ljapgolly_scalajs_react_vdom_Builder$.prototype.nonEmptyObject__sjs_js_Object__sjs_js_UndefOr = (function(o) {
-  return (($uI($g.Object.keys(o).length) === 0) ? (void 0) : o)
-});
-$c_Ljapgolly_scalajs_react_vdom_Builder$.prototype.setObjectKeyValue__sjs_js_Object__T__sjs_js_Any__V = (function(o, k, v) {
-  o[k] = v
-});
-var $d_Ljapgolly_scalajs_react_vdom_Builder$ = new $TypeData().initClass({
-  Ljapgolly_scalajs_react_vdom_Builder$: 0
-}, false, "japgolly.scalajs.react.vdom.Builder$", {
-  Ljapgolly_scalajs_react_vdom_Builder$: 1,
-  O: 1
-});
-$c_Ljapgolly_scalajs_react_vdom_Builder$.prototype.$classData = $d_Ljapgolly_scalajs_react_vdom_Builder$;
-var $n_Ljapgolly_scalajs_react_vdom_Builder$ = (void 0);
-function $m_Ljapgolly_scalajs_react_vdom_Builder$() {
-  if ((!$n_Ljapgolly_scalajs_react_vdom_Builder$)) {
-    $n_Ljapgolly_scalajs_react_vdom_Builder$ = new $c_Ljapgolly_scalajs_react_vdom_Builder$().init___()
-  };
-  return $n_Ljapgolly_scalajs_react_vdom_Builder$
+function $f_Ljapgolly_scalajs_react_vdom_Builder$ToJs__japgolly$scalajs$react$vdom$Builder$ToJs$$$anonfun$addEventHandler$3__sjs_js_Any__sjs_js_Function1__sjs_js_Function1__V($thiz, e, f$1, g$1) {
+  f$1(e);
+  g$1(e)
 }
 function $f_Ljapgolly_scalajs_react_vdom_Builder$ToJs__$$init$__V($thiz) {
   $thiz.props$1 = {};
@@ -3223,7 +3574,8 @@ function $f_Ljapgolly_scalajs_react_vdom_Builder$ToJs__$$init$__V($thiz) {
   $thiz.addAttr$1 = new $c_sjsr_AnonFunction2().init___sjs_js_Function2((function($this) {
     return (function(x$1$2, x$2$2) {
       var x$1 = $as_T(x$1$2);
-      $m_Ljapgolly_scalajs_react_vdom_Builder$().setObjectKeyValue__sjs_js_Object__T__sjs_js_Any__V($this.props$1, x$1, x$2$2)
+      var o = $this.props$1;
+      o[x$1] = x$2$2
     })
   })($thiz));
   $thiz.addClassName$1 = new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function(this$2) {
@@ -3238,49 +3590,73 @@ function $f_Ljapgolly_scalajs_react_vdom_Builder$ToJs__$$init$__V($thiz) {
       this$2.nonEmptyClassName$1 = value$1
     })
   })($thiz));
-  $thiz.addStyle$1 = new $c_sjsr_AnonFunction2().init___sjs_js_Function2((function(this$3$1) {
-    return (function(x$4$2, x$5$2) {
-      var x$4 = $as_T(x$4$2);
-      $m_Ljapgolly_scalajs_react_vdom_Builder$().setObjectKeyValue__sjs_js_Object__T__sjs_js_Any__V(this$3$1.styles$1, x$4, x$5$2)
+  $thiz.addEventHandler$1 = new $c_sjsr_AnonFunction2().init___sjs_js_Function2((function(this$3$1) {
+    return (function(k$2, g$2) {
+      var k = $as_T(k$2);
+      var o$1 = this$3$1.props$1;
+      var cur = o$1[k];
+      if ((cur === (void 0))) {
+        var jsx$1 = g$2
+      } else {
+        if ((cur === (void 0))) {
+          throw new $c_ju_NoSuchElementException().init___T("undefined.get")
+        };
+        var jsx$1 = (function(arg$outer, f$1, g$1) {
+          return (function(arg1$2) {
+            $f_Ljapgolly_scalajs_react_vdom_Builder$ToJs__japgolly$scalajs$react$vdom$Builder$ToJs$$$anonfun$addEventHandler$3__sjs_js_Any__sjs_js_Function1__sjs_js_Function1__V(arg$outer, arg1$2, f$1, g$1)
+          })
+        })(this$3$1, cur, g$2)
+      };
+      o$1[k] = jsx$1
     })
   })($thiz));
-  $thiz.addStylesObject$1 = new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function(this$4$1) {
-    return (function(o$2) {
-      var this$9 = $m_Ljapgolly_scalajs_react_internal_JsUtil$().objectIterator__sjs_js_Object__sc_Iterator(o$2);
-      while (this$9.hasNext__Z()) {
-        var arg1 = this$9.next__O();
+  $thiz.addStyle$1 = new $c_sjsr_AnonFunction2().init___sjs_js_Function2((function(this$4$1) {
+    return (function(x$4$2, x$5$2) {
+      var x$4 = $as_T(x$4$2);
+      var o$2 = this$4$1.styles$1;
+      o$2[x$4] = x$5$2
+    })
+  })($thiz));
+  $thiz.addStylesObject$1 = new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function(this$5$1) {
+    return (function(o$2$1) {
+      var this$19 = $m_Ljapgolly_scalajs_react_internal_JsUtil$().objectIterator__sjs_js_Object__sc_Iterator(o$2$1);
+      while (this$19.hasNext__Z()) {
+        var arg1 = this$19.next__O();
         var x$6 = $as_T2(arg1);
         if ((x$6 !== null)) {
-          var k = $as_T(x$6.$$und1$f);
+          var k$1 = $as_T(x$6.$$und1$f);
           var v = x$6.$$und2$f;
-          $asUnit(this$4$1.addStyle$1.apply__O__O__O(k, v))
+          $asUnit(this$5$1.addStyle$1.apply__O__O__O(k$1, v))
         } else {
           throw new $c_s_MatchError().init___O(x$6)
         }
       }
     })
   })($thiz));
-  $thiz.appendChild$1 = new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function(this$5$1) {
+  $thiz.appendChild$1 = new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function(this$6$1) {
     return (function(x$7$2) {
-      this$5$1.children$1.push(x$7$2)
+      this$6$1.children$1.push(x$7$2)
     })
   })($thiz));
-  $thiz.setKey$1 = new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function(this$6$1) {
-    return (function(k$2) {
-      this$6$1.key$1 = k$2
+  $thiz.setKey$1 = new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function(this$7$1) {
+    return (function(k$3$2) {
+      this$7$1.key$1 = k$3$2
     })
   })($thiz))
 }
 function $f_Ljapgolly_scalajs_react_vdom_Builder$ToJs__addClassNameToProps__V($thiz) {
   var value = $thiz.nonEmptyClassName$1;
   if ((value !== (void 0))) {
-    $m_Ljapgolly_scalajs_react_vdom_Builder$().setObjectKeyValue__sjs_js_Object__T__sjs_js_Any__V($thiz.props$1, "className", value)
+    var o = $thiz.props$1;
+    o.className = value
   }
 }
 function $f_Ljapgolly_scalajs_react_vdom_Builder$ToJs__addStyleToProps__V($thiz) {
-  var value = $m_Ljapgolly_scalajs_react_vdom_Builder$().nonEmptyObject__sjs_js_Object__sjs_js_UndefOr($thiz.styles$1);
+  var o = $thiz.styles$1;
+  var value = (($uI($g.Object.keys(o).length) === 0) ? (void 0) : o);
   if ((value !== (void 0))) {
-    $m_Ljapgolly_scalajs_react_vdom_Builder$().setObjectKeyValue__sjs_js_Object__T__sjs_js_Any__V($thiz.props$1, "style", value)
+    var o$1 = $thiz.props$1;
+    o$1.style = value
   }
 }
 /** @constructor */
@@ -3301,7 +3677,7 @@ $c_Ljapgolly_scalajs_react_vdom_Builder$ToRawReactElement$.prototype.init___ = (
     return (function(tag$2, props$2, key$2, children$2) {
       var tag = $as_T(tag$2);
       if ((key$2 !== (void 0))) {
-        $m_Ljapgolly_scalajs_react_vdom_Builder$().setObjectKeyValue__sjs_js_Object__T__sjs_js_Any__V(props$2, "key", key$2)
+        props$2.key = key$2
       };
       var jsx$1 = $g.React;
       var jsx$4 = jsx$1.createElement;
@@ -3311,9 +3687,9 @@ $c_Ljapgolly_scalajs_react_vdom_Builder$ToRawReactElement$.prototype.init___ = (
         var jsx$3 = x2.array$5
       } else {
         var result = [];
-        var this$12 = col.iterator__sc_Iterator();
-        while (this$12.hasNext__Z()) {
-          var arg1 = this$12.next__O();
+        var this$13 = col.iterator__sc_Iterator();
+        while (this$13.hasNext__Z()) {
+          var arg1 = this$13.next__O();
           $uI(result.push(arg1))
         };
         var jsx$3 = result
@@ -3350,8 +3726,7 @@ function $c_Ljapgolly_scalajs_react_vdom_Exports() {
   this.VdomArray$1 = null;
   this.VdomElement$1 = null;
   this.VdomNode$1 = null;
-  this.VdomStyle$1 = null;
-  this.ReactFragment$1 = null
+  this.VdomStyle$1 = null
 }
 $c_Ljapgolly_scalajs_react_vdom_Exports.prototype = new $h_O();
 $c_Ljapgolly_scalajs_react_vdom_Exports.prototype.constructor = $c_Ljapgolly_scalajs_react_vdom_Exports;
@@ -3363,7 +3738,6 @@ $h_Ljapgolly_scalajs_react_vdom_Exports.prototype = $c_Ljapgolly_scalajs_react_v
 $c_Ljapgolly_scalajs_react_vdom_Exports.prototype.init___ = (function() {
   this.EmptyVdom$1 = $m_Ljapgolly_scalajs_react_vdom_VdomNode$().empty$1;
   this.HtmlTagOf$1 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
-  this.ReactFragment$1 = $m_Ljapgolly_scalajs_react_feature_ReactFragment$();
   this.ReactPortal$1 = $m_Ljapgolly_scalajs_react_vdom_ReactPortal$();
   this.SvgTagOf$1 = $m_Ljapgolly_scalajs_react_vdom_SvgTagOf$();
   this.TagMod$1 = $m_Ljapgolly_scalajs_react_vdom_TagMod$();
@@ -5867,151 +6241,6 @@ function $m_sr_Statics$PFMarker$() {
   return $n_sr_Statics$PFMarker$
 }
 /** @constructor */
-function $c_LMyTalk$() {
-  $c_O.call(this);
-  this.chapter1$1 = null;
-  this.chapter2$1 = null;
-  this.Talk$1 = null
-}
-$c_LMyTalk$.prototype = new $h_O();
-$c_LMyTalk$.prototype.constructor = $c_LMyTalk$;
-/** @constructor */
-function $h_LMyTalk$() {
-  /*<skip>*/
-}
-$h_LMyTalk$.prototype = $c_LMyTalk$.prototype;
-$c_LMyTalk$.prototype.init___ = (function() {
-  $n_LMyTalk$ = this;
-  var jsx$25 = $m_Lshared_PresentationUtil$();
-  var jsx$24 = $m_Lshared_PresentationUtil$();
-  var jsx$23 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
-  $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
-  $m_Ljapgolly_scalajs_react_vdom_Exports$();
-  var array = [($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_VdomNode$(), new $c_Ljapgolly_scalajs_react_vdom_VdomNode$$anon$1().init___sjs_js_$bar("Build your presentations with ScalaJS + reveal.js"))];
-  var jsx$22 = jsx$23.apply$extension__T__sci_Seq__Ljapgolly_scalajs_react_vdom_TagOf("h2", new $c_sjsr_WrappedVarArgs().init___sjs_js_Array(array));
-  var this$8 = $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().$$less$3;
-  var t = $f_Ljapgolly_scalajs_react_vdom_HtmlTags__br__T(this$8);
-  var jsx$21 = new $c_Ljapgolly_scalajs_react_vdom_TagOf().init___T__sci_List__T(t, $m_sci_Nil$(), $m_Ljapgolly_scalajs_react_vdom_Namespace$().Html$1);
-  var jsx$20 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
-  $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
-  $m_Ljapgolly_scalajs_react_vdom_Exports$();
-  var array$1 = [($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_VdomNode$(), new $c_Ljapgolly_scalajs_react_vdom_VdomNode$$anon$1().init___sjs_js_$bar("move down (down-arrow)"))];
-  var array$2 = [jsx$22, jsx$21, jsx$20.apply$extension__T__sci_Seq__Ljapgolly_scalajs_react_vdom_TagOf("h4", new $c_sjsr_WrappedVarArgs().init___sjs_js_Array(array$1))];
-  var jsx$19 = jsx$24.chapterSlide__sci_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjsr_WrappedVarArgs().init___sjs_js_Array(array$2));
-  var jsx$18 = $m_Lshared_PresentationUtil$();
-  var jsx$17 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
-  $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
-  $m_Ljapgolly_scalajs_react_vdom_Exports$();
-  var array$3 = [($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_VdomNode$(), new $c_Ljapgolly_scalajs_react_vdom_VdomNode$$anon$1().init___sjs_js_$bar("Press 'f' to go full-screen and ESC to see an overview of your slides."))];
-  var jsx$16 = jsx$17.apply$extension__T__sci_Seq__Ljapgolly_scalajs_react_vdom_TagOf("p", new $c_sjsr_WrappedVarArgs().init___sjs_js_Array(array$3));
-  var this$27 = $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().$$less$3;
-  var t$1 = $f_Ljapgolly_scalajs_react_vdom_HtmlTags__br__T(this$27);
-  var jsx$15 = new $c_Ljapgolly_scalajs_react_vdom_TagOf().init___T__sci_List__T(t$1, $m_sci_Nil$(), $m_Ljapgolly_scalajs_react_vdom_Namespace$().Html$1);
-  var jsx$14 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
-  $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
-  $m_Ljapgolly_scalajs_react_vdom_Exports$();
-  var array$4 = [($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_VdomNode$(), new $c_Ljapgolly_scalajs_react_vdom_VdomNode$$anon$1().init___sjs_js_$bar("You can navigate to the right and down."))];
-  var array$5 = [jsx$16, jsx$15, jsx$14.apply$extension__T__sci_Seq__Ljapgolly_scalajs_react_vdom_TagOf("p", new $c_sjsr_WrappedVarArgs().init___sjs_js_Array(array$4))];
-  var jsx$13 = jsx$18.headerSlide__T__sci_Seq__Ljapgolly_scalajs_react_vdom_TagOf("reveal.js commands", new $c_sjsr_WrappedVarArgs().init___sjs_js_Array(array$5));
-  var jsx$12 = $m_Lshared_PresentationUtil$();
-  var jsx$11 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
-  $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
-  $m_Ljapgolly_scalajs_react_vdom_Exports$();
-  var array$6 = [($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_VdomNode$(), new $c_Ljapgolly_scalajs_react_vdom_VdomNode$$anon$1().init___sjs_js_$bar("Headers everywhere"))];
-  var array$7 = [jsx$11.apply$extension__T__sci_Seq__Ljapgolly_scalajs_react_vdom_TagOf("h3", new $c_sjsr_WrappedVarArgs().init___sjs_js_Array(array$6))];
-  var jsx$10 = jsx$12.headerSlide__T__sci_Seq__Ljapgolly_scalajs_react_vdom_TagOf("My Header", new $c_sjsr_WrappedVarArgs().init___sjs_js_Array(array$7));
-  var jsx$9 = $m_Lshared_PresentationUtil$();
-  var jsx$8 = $m_Lshared_PresentationUtil$Enumeration$();
-  var jsx$7 = $m_Lshared_PresentationUtil$Enumeration$Item$().stable__T__Ljapgolly_scalajs_react_vdom_TagOf("always show this item");
-  var array$8 = [$m_Lshared_PresentationUtil$Enumeration$Item$().fadeIn__T__Ljapgolly_scalajs_react_vdom_TagOf("I fade in"), $m_Lshared_PresentationUtil$Enumeration$Item$().stable__T__Ljapgolly_scalajs_react_vdom_TagOf("I am also always here")];
-  var array$9 = [jsx$8.apply__Ljapgolly_scalajs_react_vdom_TagOf__sci_Seq__Ljapgolly_scalajs_react_vdom_TagOf(jsx$7, new $c_sjsr_WrappedVarArgs().init___sjs_js_Array(array$8))];
-  var jsx$6 = jsx$9.headerSlide__T__sci_Seq__Ljapgolly_scalajs_react_vdom_TagOf("Enumeration", new $c_sjsr_WrappedVarArgs().init___sjs_js_Array(array$9));
-  var jsx$5 = $m_Lshared_PresentationUtil$();
-  var jsx$4 = $m_Lshared_PresentationUtil$().scalaC__T__Ljapgolly_scalajs_react_vdom_TagOf("\n        def main(args: Array[String]): Unit = {\n          println(\"hello, world\")\n        }\n      ");
-  var this$55 = $m_Lshared_PresentationUtil$();
-  var array$10 = [jsx$4, this$55.rawCodeFragment__p1__T__T__Ljapgolly_scalajs_react_vdom_TagOf("Scala", "\n        def moreSideEffects(): Unit = {\n          println(\"pop in\")\n        }\n      ")];
-  var jsx$3 = jsx$5.headerSlide__T__sci_Seq__Ljapgolly_scalajs_react_vdom_TagOf("Code, so much code", new $c_sjsr_WrappedVarArgs().init___sjs_js_Array(array$10));
-  var jsx$2 = $m_Lshared_PresentationUtil$();
-  var jsx$1 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
-  $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
-  $m_Ljapgolly_scalajs_react_vdom_Exports$();
-  var array$11 = [($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_VdomNode$(), new $c_Ljapgolly_scalajs_react_vdom_VdomNode$$anon$1().init___sjs_js_$bar("Or have a blank slide"))];
-  var array$12 = [jsx$1.apply$extension__T__sci_Seq__Ljapgolly_scalajs_react_vdom_TagOf("h3", new $c_sjsr_WrappedVarArgs().init___sjs_js_Array(array$11))];
-  var array$13 = [jsx$19, jsx$13, jsx$10, jsx$6, jsx$3, jsx$2.noHeaderSlide__sci_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjsr_WrappedVarArgs().init___sjs_js_Array(array$12))];
-  this.chapter1$1 = jsx$25.chapter__sci_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjsr_WrappedVarArgs().init___sjs_js_Array(array$13));
-  var jsx$34 = $m_Lshared_PresentationUtil$();
-  var jsx$33 = $m_Lshared_PresentationUtil$();
-  var jsx$32 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
-  $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
-  $m_Ljapgolly_scalajs_react_vdom_Exports$();
-  var array$14 = [($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_VdomNode$(), new $c_Ljapgolly_scalajs_react_vdom_VdomNode$$anon$1().init___sjs_js_$bar("Where can I find more information?"))];
-  var array$15 = [jsx$32.apply$extension__T__sci_Seq__Ljapgolly_scalajs_react_vdom_TagOf("h2", new $c_sjsr_WrappedVarArgs().init___sjs_js_Array(array$14))];
-  var jsx$31 = jsx$33.chapterSlide__sci_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjsr_WrappedVarArgs().init___sjs_js_Array(array$15));
-  var jsx$30 = $m_Lshared_PresentationUtil$();
-  var jsx$29 = $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().$$less$3.a__Ljapgolly_scalajs_react_vdom_HtmlTags$a$();
-  $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
-  $m_Ljapgolly_scalajs_react_vdom_PackageBase$();
-  var this$84 = new $c_Ljapgolly_scalajs_react_vdom_Attr$Generic().init___T("href");
-  var t$2 = $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2;
-  var array$16 = [$m_Ljapgolly_scalajs_react_vdom_Attr$ValueType$().apply$extension__F2__T__O__Ljapgolly_scalajs_react_vdom_TagMod(t$2, this$84.attrName$1, "https://github.com/hakimel/reveal.js/"), ($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_VdomNode$(), new $c_Ljapgolly_scalajs_react_vdom_VdomNode$$anon$1().init___sjs_js_$bar("reveal.js"))];
-  var array$17 = [jsx$29.apply__sci_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjsr_WrappedVarArgs().init___sjs_js_Array(array$16))];
-  var jsx$28 = jsx$30.headerSlide__T__sci_Seq__Ljapgolly_scalajs_react_vdom_TagOf("about reveal.js", new $c_sjsr_WrappedVarArgs().init___sjs_js_Array(array$17));
-  var jsx$27 = $m_Lshared_PresentationUtil$();
-  var jsx$26 = $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().$$less$3.a__Ljapgolly_scalajs_react_vdom_HtmlTags$a$();
-  $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
-  $m_Ljapgolly_scalajs_react_vdom_PackageBase$();
-  var this$95 = new $c_Ljapgolly_scalajs_react_vdom_Attr$Generic().init___T("href");
-  var t$3 = $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2;
-  var array$18 = [$m_Ljapgolly_scalajs_react_vdom_Attr$ValueType$().apply$extension__F2__T__O__Ljapgolly_scalajs_react_vdom_TagMod(t$3, this$95.attrName$1, "https://www.scala-js.org"), ($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_VdomNode$(), new $c_Ljapgolly_scalajs_react_vdom_VdomNode$$anon$1().init___sjs_js_$bar("ScalaJS"))];
-  var array$19 = [jsx$26.apply__sci_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjsr_WrappedVarArgs().init___sjs_js_Array(array$18))];
-  var array$20 = [jsx$31, jsx$28, jsx$27.headerSlide__T__sci_Seq__Ljapgolly_scalajs_react_vdom_TagOf("about ScalaJS", new $c_sjsr_WrappedVarArgs().init___sjs_js_Array(array$19))];
-  this.chapter2$1 = jsx$34.chapter__sci_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjsr_WrappedVarArgs().init___sjs_js_Array(array$20));
-  $m_Ljapgolly_scalajs_react_component_builder_Builder$();
-  $m_Ljapgolly_scalajs_react_package$();
-  var b = new $c_Ljapgolly_scalajs_react_component_builder_Builder$Step1().init___T("Presentation");
-  var jsx$38 = ($m_Ljapgolly_scalajs_react_component_builder_Builder$(), b.stateless__Ljapgolly_scalajs_react_component_builder_Builder$Step2()).noBackend__Ljapgolly_scalajs_react_component_builder_Builder$Step3();
-  var jsx$37 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
-  $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
-  $m_Ljapgolly_scalajs_react_vdom_Exports$();
-  var jsx$36 = ($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("reveal", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2);
-  var jsx$35 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
-  $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
-  $m_Ljapgolly_scalajs_react_vdom_Exports$();
-  var array$21 = [($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("slides", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2), this.chapter1$1, this.chapter2$1];
-  var array$22 = [jsx$36, jsx$35.apply$extension__T__sci_Seq__Ljapgolly_scalajs_react_vdom_TagOf("div", new $c_sjsr_WrappedVarArgs().init___sjs_js_Array(array$21))];
-  var stabilizer$1 = jsx$38.renderStatic__Ljapgolly_scalajs_react_vdom_VdomNode__Ljapgolly_scalajs_react_component_builder_Builder$Step4(jsx$37.apply$extension__T__sci_Seq__Ljapgolly_scalajs_react_vdom_TagOf("div", new $c_sjsr_WrappedVarArgs().init___sjs_js_Array(array$22)));
-  this.Talk$1 = stabilizer$1.build__Ljapgolly_scalajs_react_CtorType$Summoner__Ljapgolly_scalajs_react_internal_JsRepr__Ljapgolly_scalajs_react_component_JsBaseComponentTemplate$ComponentWithRoot($m_Ljapgolly_scalajs_react_CtorType$Summoner$().summonN__Ljapgolly_scalajs_react_internal_Singleton__Ljapgolly_scalajs_react_CtorType$Summoner($m_Ljapgolly_scalajs_react_internal_Singleton$().BoxUnit$1), $m_Ljapgolly_scalajs_react_internal_JsRepr$().unit$1);
-  return this
-});
-$c_LMyTalk$.prototype.main__V = (function() {
-  var c = this.Talk$1;
-  var qual$1 = $as_Ljapgolly_scalajs_react_component_Js$UnmountedWithRoot($as_Ljapgolly_scalajs_react_CtorType$Nullary(c.ctor__Ljapgolly_scalajs_react_CtorType()).apply__O());
-  var a = $m_Lorg_scalajs_dom_package$().document__Lorg_scalajs_dom_raw_HTMLDocument().body;
-  var x$2 = $m_Ljapgolly_scalajs_react_Callback$().empty$1;
-  $f_Ljapgolly_scalajs_react_component_Generic$UnmountedSimple__renderIntoDOM__sjs_js_$bar__F0__O(qual$1, a, x$2)
-});
-$c_LMyTalk$.prototype.$$js$exported$meth$main__O = (function() {
-  this.main__V()
-});
-$c_LMyTalk$.prototype.main = (function() {
-  return this.$$js$exported$meth$main__O()
-});
-var $d_LMyTalk$ = new $TypeData().initClass({
-  LMyTalk$: 0
-}, false, "MyTalk$", {
-  LMyTalk$: 1,
-  O: 1,
-  sjs_js_JSApp: 1
-});
-$c_LMyTalk$.prototype.$classData = $d_LMyTalk$;
-var $n_LMyTalk$ = (void 0);
-function $m_LMyTalk$() {
-  if ((!$n_LMyTalk$)) {
-    $n_LMyTalk$ = new $c_LMyTalk$().init___()
-  };
-  return $n_LMyTalk$
-}
-/** @constructor */
 function $c_Ljapgolly_scalajs_react_CtorType$Nullary() {
   $c_Ljapgolly_scalajs_react_CtorType.call(this);
   this.unmodified$2 = null;
@@ -6437,11 +6666,16 @@ $c_Ljapgolly_scalajs_react_internal_Effect$$anon$2.prototype.init___ = (function
   return this
 });
 $c_Ljapgolly_scalajs_react_internal_Effect$$anon$2.prototype.extract__F0__F0 = (function(a) {
-  var $$this = $as_Ljapgolly_scalajs_react_CallbackTo(a.apply__O()).japgolly$scalajs$react$CallbackTo$$f$1;
-  return $$this
+  var this$1 = $m_Ljapgolly_scalajs_react_CallbackTo$();
+  var $$this = $as_Ljapgolly_scalajs_react_CallbackTo(a.apply__O()).japgolly$scalajs$react$CallbackTo$$trampoline$1;
+  return new $c_sjsr_AnonFunction0().init___sjs_js_Function0((function($this, $$this$1) {
+    return (function() {
+      return $m_Ljapgolly_scalajs_react_internal_Trampoline$().run__Ljapgolly_scalajs_react_internal_Trampoline__O($$this$1)
+    })
+  })(this$1, $$this))
 });
 $c_Ljapgolly_scalajs_react_internal_Effect$$anon$2.prototype.point__F0__O = (function(a) {
-  return new $c_Ljapgolly_scalajs_react_CallbackTo().init___F0(a)
+  return new $c_Ljapgolly_scalajs_react_CallbackTo().init___Ljapgolly_scalajs_react_internal_Trampoline(($m_Ljapgolly_scalajs_react_internal_Trampoline$(), new $c_Ljapgolly_scalajs_react_internal_Trampoline$Delay().init___F0(a)))
 });
 var $d_Ljapgolly_scalajs_react_internal_Effect$$anon$2 = new $TypeData().initClass({
   Ljapgolly_scalajs_react_internal_Effect$$anon$2: 0
@@ -6512,6 +6746,120 @@ function $f_Ljapgolly_scalajs_react_internal_JsReprHighPri__$$init$__V($thiz) {
   })($thiz)))
 }
 /** @constructor */
+function $c_Ljapgolly_scalajs_react_internal_Trampoline$Delay() {
+  $c_O.call(this);
+  this.value$1 = null
+}
+$c_Ljapgolly_scalajs_react_internal_Trampoline$Delay.prototype = new $h_O();
+$c_Ljapgolly_scalajs_react_internal_Trampoline$Delay.prototype.constructor = $c_Ljapgolly_scalajs_react_internal_Trampoline$Delay;
+/** @constructor */
+function $h_Ljapgolly_scalajs_react_internal_Trampoline$Delay() {
+  /*<skip>*/
+}
+$h_Ljapgolly_scalajs_react_internal_Trampoline$Delay.prototype = $c_Ljapgolly_scalajs_react_internal_Trampoline$Delay.prototype;
+$c_Ljapgolly_scalajs_react_internal_Trampoline$Delay.prototype.init___F0 = (function(value) {
+  this.value$1 = value;
+  return this
+});
+function $as_Ljapgolly_scalajs_react_internal_Trampoline$Delay(obj) {
+  return (((obj instanceof $c_Ljapgolly_scalajs_react_internal_Trampoline$Delay) || (obj === null)) ? obj : $throwClassCastException(obj, "japgolly.scalajs.react.internal.Trampoline$Delay"))
+}
+function $isArrayOf_Ljapgolly_scalajs_react_internal_Trampoline$Delay(obj, depth) {
+  return (!(!(((obj && obj.$classData) && (obj.$classData.arrayDepth === depth)) && obj.$classData.arrayBase.ancestors.Ljapgolly_scalajs_react_internal_Trampoline$Delay)))
+}
+function $asArrayOf_Ljapgolly_scalajs_react_internal_Trampoline$Delay(obj, depth) {
+  return (($isArrayOf_Ljapgolly_scalajs_react_internal_Trampoline$Delay(obj, depth) || (obj === null)) ? obj : $throwArrayCastException(obj, "Ljapgolly.scalajs.react.internal.Trampoline$Delay;", depth))
+}
+var $d_Ljapgolly_scalajs_react_internal_Trampoline$Delay = new $TypeData().initClass({
+  Ljapgolly_scalajs_react_internal_Trampoline$Delay: 0
+}, false, "japgolly.scalajs.react.internal.Trampoline$Delay", {
+  Ljapgolly_scalajs_react_internal_Trampoline$Delay: 1,
+  O: 1,
+  Ljapgolly_scalajs_react_internal_Trampoline: 1
+});
+$c_Ljapgolly_scalajs_react_internal_Trampoline$Delay.prototype.$classData = $d_Ljapgolly_scalajs_react_internal_Trampoline$Delay;
+/** @constructor */
+function $c_Ljapgolly_scalajs_react_internal_Trampoline$FlatMap() {
+  $c_O.call(this);
+  this.from$1 = null;
+  this.f$1 = null
+}
+$c_Ljapgolly_scalajs_react_internal_Trampoline$FlatMap.prototype = new $h_O();
+$c_Ljapgolly_scalajs_react_internal_Trampoline$FlatMap.prototype.constructor = $c_Ljapgolly_scalajs_react_internal_Trampoline$FlatMap;
+/** @constructor */
+function $h_Ljapgolly_scalajs_react_internal_Trampoline$FlatMap() {
+  /*<skip>*/
+}
+$h_Ljapgolly_scalajs_react_internal_Trampoline$FlatMap.prototype = $c_Ljapgolly_scalajs_react_internal_Trampoline$FlatMap.prototype;
+$c_Ljapgolly_scalajs_react_internal_Trampoline$FlatMap.prototype.init___Ljapgolly_scalajs_react_internal_Trampoline__F1 = (function(from, f) {
+  this.from$1 = from;
+  this.f$1 = f;
+  return this
+});
+function $as_Ljapgolly_scalajs_react_internal_Trampoline$FlatMap(obj) {
+  return (((obj instanceof $c_Ljapgolly_scalajs_react_internal_Trampoline$FlatMap) || (obj === null)) ? obj : $throwClassCastException(obj, "japgolly.scalajs.react.internal.Trampoline$FlatMap"))
+}
+function $isArrayOf_Ljapgolly_scalajs_react_internal_Trampoline$FlatMap(obj, depth) {
+  return (!(!(((obj && obj.$classData) && (obj.$classData.arrayDepth === depth)) && obj.$classData.arrayBase.ancestors.Ljapgolly_scalajs_react_internal_Trampoline$FlatMap)))
+}
+function $asArrayOf_Ljapgolly_scalajs_react_internal_Trampoline$FlatMap(obj, depth) {
+  return (($isArrayOf_Ljapgolly_scalajs_react_internal_Trampoline$FlatMap(obj, depth) || (obj === null)) ? obj : $throwArrayCastException(obj, "Ljapgolly.scalajs.react.internal.Trampoline$FlatMap;", depth))
+}
+var $d_Ljapgolly_scalajs_react_internal_Trampoline$FlatMap = new $TypeData().initClass({
+  Ljapgolly_scalajs_react_internal_Trampoline$FlatMap: 0
+}, false, "japgolly.scalajs.react.internal.Trampoline$FlatMap", {
+  Ljapgolly_scalajs_react_internal_Trampoline$FlatMap: 1,
+  O: 1,
+  Ljapgolly_scalajs_react_internal_Trampoline: 1
+});
+$c_Ljapgolly_scalajs_react_internal_Trampoline$FlatMap.prototype.$classData = $d_Ljapgolly_scalajs_react_internal_Trampoline$FlatMap;
+/** @constructor */
+function $c_Ljapgolly_scalajs_react_internal_Trampoline$Pure() {
+  $c_O.call(this);
+  this.value$1 = null
+}
+$c_Ljapgolly_scalajs_react_internal_Trampoline$Pure.prototype = new $h_O();
+$c_Ljapgolly_scalajs_react_internal_Trampoline$Pure.prototype.constructor = $c_Ljapgolly_scalajs_react_internal_Trampoline$Pure;
+/** @constructor */
+function $h_Ljapgolly_scalajs_react_internal_Trampoline$Pure() {
+  /*<skip>*/
+}
+$h_Ljapgolly_scalajs_react_internal_Trampoline$Pure.prototype = $c_Ljapgolly_scalajs_react_internal_Trampoline$Pure.prototype;
+$c_Ljapgolly_scalajs_react_internal_Trampoline$Pure.prototype.init___O = (function(value) {
+  this.value$1 = value;
+  return this
+});
+function $as_Ljapgolly_scalajs_react_internal_Trampoline$Pure(obj) {
+  return (((obj instanceof $c_Ljapgolly_scalajs_react_internal_Trampoline$Pure) || (obj === null)) ? obj : $throwClassCastException(obj, "japgolly.scalajs.react.internal.Trampoline$Pure"))
+}
+function $isArrayOf_Ljapgolly_scalajs_react_internal_Trampoline$Pure(obj, depth) {
+  return (!(!(((obj && obj.$classData) && (obj.$classData.arrayDepth === depth)) && obj.$classData.arrayBase.ancestors.Ljapgolly_scalajs_react_internal_Trampoline$Pure)))
+}
+function $asArrayOf_Ljapgolly_scalajs_react_internal_Trampoline$Pure(obj, depth) {
+  return (($isArrayOf_Ljapgolly_scalajs_react_internal_Trampoline$Pure(obj, depth) || (obj === null)) ? obj : $throwArrayCastException(obj, "Ljapgolly.scalajs.react.internal.Trampoline$Pure;", depth))
+}
+var $d_Ljapgolly_scalajs_react_internal_Trampoline$Pure = new $TypeData().initClass({
+  Ljapgolly_scalajs_react_internal_Trampoline$Pure: 0
+}, false, "japgolly.scalajs.react.internal.Trampoline$Pure", {
+  Ljapgolly_scalajs_react_internal_Trampoline$Pure: 1,
+  O: 1,
+  Ljapgolly_scalajs_react_internal_Trampoline: 1
+});
+$c_Ljapgolly_scalajs_react_internal_Trampoline$Pure.prototype.$classData = $d_Ljapgolly_scalajs_react_internal_Trampoline$Pure;
+/** @constructor */
+function $c_Ljapgolly_scalajs_react_internal_Trampoline$Suspend() {
+  /*<skip>*/
+}
+function $as_Ljapgolly_scalajs_react_internal_Trampoline$Suspend(obj) {
+  return (((obj instanceof $c_Ljapgolly_scalajs_react_internal_Trampoline$Suspend) || (obj === null)) ? obj : $throwClassCastException(obj, "japgolly.scalajs.react.internal.Trampoline$Suspend"))
+}
+function $isArrayOf_Ljapgolly_scalajs_react_internal_Trampoline$Suspend(obj, depth) {
+  return (!(!(((obj && obj.$classData) && (obj.$classData.arrayDepth === depth)) && obj.$classData.arrayBase.ancestors.Ljapgolly_scalajs_react_internal_Trampoline$Suspend)))
+}
+function $asArrayOf_Ljapgolly_scalajs_react_internal_Trampoline$Suspend(obj, depth) {
+  return (($isArrayOf_Ljapgolly_scalajs_react_internal_Trampoline$Suspend(obj, depth) || (obj === null)) ? obj : $throwArrayCastException(obj, "Ljapgolly.scalajs.react.internal.Trampoline$Suspend;", depth))
+}
+/** @constructor */
 function $c_Ljapgolly_scalajs_react_package$() {
   $c_O.call(this);
   this.GenericComponent$1 = null;
@@ -6520,7 +6868,10 @@ function $c_Ljapgolly_scalajs_react_package$() {
   this.JsForwardRefComponent$1 = null;
   this.ScalaComponent$1 = null;
   this.ScalaFnComponent$1 = null;
-  this.ScalaForwardRefComponent$1 = null
+  this.ScalaForwardRefComponent$1 = null;
+  this.preventDefault$1 = null;
+  this.stopPropagation$1 = null;
+  this.preventDefaultAndStopPropagation$1 = null
 }
 $c_Ljapgolly_scalajs_react_package$.prototype = new $h_O();
 $c_Ljapgolly_scalajs_react_package$.prototype.constructor = $c_Ljapgolly_scalajs_react_package$;
@@ -6538,6 +6889,21 @@ $c_Ljapgolly_scalajs_react_package$.prototype.init___ = (function() {
   this.ScalaComponent$1 = $m_Ljapgolly_scalajs_react_component_Scala$();
   this.ScalaFnComponent$1 = $m_Ljapgolly_scalajs_react_component_ScalaFn$();
   this.ScalaForwardRefComponent$1 = $m_Ljapgolly_scalajs_react_component_ScalaForwardRef$();
+  this.preventDefault$1 = new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function($this) {
+    return (function(x$1$2) {
+      return new $c_Ljapgolly_scalajs_react_CallbackTo().init___Ljapgolly_scalajs_react_internal_Trampoline($m_Ljapgolly_scalajs_react_ReactExt$undReactEvent$().preventDefaultCB$extension__Ljapgolly_scalajs_react_raw_SyntheticEvent__Ljapgolly_scalajs_react_internal_Trampoline(($m_Ljapgolly_scalajs_react_package$(), x$1$2)))
+    })
+  })(this));
+  this.stopPropagation$1 = new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function(this$2) {
+    return (function(x$2$2) {
+      return new $c_Ljapgolly_scalajs_react_CallbackTo().init___Ljapgolly_scalajs_react_internal_Trampoline($m_Ljapgolly_scalajs_react_ReactExt$undReactEvent$().stopPropagationCB$extension__Ljapgolly_scalajs_react_raw_SyntheticEvent__Ljapgolly_scalajs_react_internal_Trampoline(($m_Ljapgolly_scalajs_react_package$(), x$2$2)))
+    })
+  })(this));
+  this.preventDefaultAndStopPropagation$1 = new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function(this$3$1) {
+    return (function(e$2) {
+      return new $c_Ljapgolly_scalajs_react_CallbackTo().init___Ljapgolly_scalajs_react_internal_Trampoline($m_Ljapgolly_scalajs_react_CallbackTo$().$$greater$greater$extension__Ljapgolly_scalajs_react_internal_Trampoline__Ljapgolly_scalajs_react_internal_Trampoline__Ljapgolly_scalajs_react_internal_Trampoline($m_Ljapgolly_scalajs_react_ReactExt$undReactEvent$().preventDefaultCB$extension__Ljapgolly_scalajs_react_raw_SyntheticEvent__Ljapgolly_scalajs_react_internal_Trampoline(($m_Ljapgolly_scalajs_react_package$(), e$2)), $m_Ljapgolly_scalajs_react_ReactExt$undReactEvent$().stopPropagationCB$extension__Ljapgolly_scalajs_react_raw_SyntheticEvent__Ljapgolly_scalajs_react_internal_Trampoline(($m_Ljapgolly_scalajs_react_package$(), e$2))))
+    })
+  })(this));
   return this
 });
 var $d_Ljapgolly_scalajs_react_package$ = new $TypeData().initClass({
@@ -6595,6 +6961,43 @@ function $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$() {
   };
   return $n_Ljapgolly_scalajs_react_vdom_Attr$ClassName$
 }
+/** @constructor */
+function $c_Ljapgolly_scalajs_react_vdom_Attr$Event() {
+  $c_Ljapgolly_scalajs_react_vdom_Attr.call(this)
+}
+$c_Ljapgolly_scalajs_react_vdom_Attr$Event.prototype = new $h_Ljapgolly_scalajs_react_vdom_Attr();
+$c_Ljapgolly_scalajs_react_vdom_Attr$Event.prototype.constructor = $c_Ljapgolly_scalajs_react_vdom_Attr$Event;
+/** @constructor */
+function $h_Ljapgolly_scalajs_react_vdom_Attr$Event() {
+  /*<skip>*/
+}
+$h_Ljapgolly_scalajs_react_vdom_Attr$Event.prototype = $c_Ljapgolly_scalajs_react_vdom_Attr$Event.prototype;
+$c_Ljapgolly_scalajs_react_vdom_Attr$Event.prototype.$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod = (function(a, t) {
+  $m_Ljapgolly_scalajs_react_vdom_TagMod$();
+  var f = new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function($this, t$1, a$1) {
+    return (function(b$2) {
+      var b = $as_Ljapgolly_scalajs_react_vdom_Builder(b$2);
+      t$1.apply__O__O__O(new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function($this$1, b$1) {
+        return (function(f$2) {
+          b$1.addEventHandler$1.apply__O__O__O($this$1.attrName$1, f$2)
+        })
+      })($this, b)), a$1)
+    })
+  })(this, t, a));
+  return new $c_Ljapgolly_scalajs_react_vdom_TagMod$$anon$3().init___F1(f)
+});
+$c_Ljapgolly_scalajs_react_vdom_Attr$Event.prototype.init___T = (function(name) {
+  $c_Ljapgolly_scalajs_react_vdom_Attr.prototype.init___T.call(this, name);
+  return this
+});
+var $d_Ljapgolly_scalajs_react_vdom_Attr$Event = new $TypeData().initClass({
+  Ljapgolly_scalajs_react_vdom_Attr$Event: 0
+}, false, "japgolly.scalajs.react.vdom.Attr$Event", {
+  Ljapgolly_scalajs_react_vdom_Attr$Event: 1,
+  Ljapgolly_scalajs_react_vdom_Attr: 1,
+  O: 1
+});
+$c_Ljapgolly_scalajs_react_vdom_Attr$Event.prototype.$classData = $d_Ljapgolly_scalajs_react_vdom_Attr$Event;
 /** @constructor */
 function $c_Ljapgolly_scalajs_react_vdom_Attr$Generic() {
   $c_Ljapgolly_scalajs_react_vdom_Attr.call(this)
@@ -7464,6 +7867,17 @@ $c_ju_regex_Matcher.prototype.appendReplacement__jl_StringBuffer__T__ju_regex_Ma
   };
   this.appendPos$1 = this.end__I();
   return this
+});
+$c_ju_regex_Matcher.prototype.replaceFirst__T__T = (function(replacement) {
+  this.reset__ju_regex_Matcher();
+  if (this.find__Z()) {
+    var sb = new $c_jl_StringBuffer().init___();
+    this.appendReplacement__jl_StringBuffer__T__ju_regex_Matcher(sb, replacement);
+    this.appendTail__jl_StringBuffer__jl_StringBuffer(sb);
+    return sb.toString__T()
+  } else {
+    return this.inputstr$1
+  }
 });
 $c_ju_regex_Matcher.prototype.replaceAll__T__T = (function(replacement) {
   this.reset__ju_regex_Matcher();
@@ -8866,30 +9280,6 @@ var $d_sr_ObjectRef = new $TypeData().initClass({
 });
 $c_sr_ObjectRef.prototype.$classData = $d_sr_ObjectRef;
 /** @constructor */
-function $c_Ljapgolly_scalajs_react_vdom_Attr$Event() {
-  $c_Ljapgolly_scalajs_react_vdom_Attr$Generic.call(this)
-}
-$c_Ljapgolly_scalajs_react_vdom_Attr$Event.prototype = new $h_Ljapgolly_scalajs_react_vdom_Attr$Generic();
-$c_Ljapgolly_scalajs_react_vdom_Attr$Event.prototype.constructor = $c_Ljapgolly_scalajs_react_vdom_Attr$Event;
-/** @constructor */
-function $h_Ljapgolly_scalajs_react_vdom_Attr$Event() {
-  /*<skip>*/
-}
-$h_Ljapgolly_scalajs_react_vdom_Attr$Event.prototype = $c_Ljapgolly_scalajs_react_vdom_Attr$Event.prototype;
-$c_Ljapgolly_scalajs_react_vdom_Attr$Event.prototype.init___T = (function(name) {
-  $c_Ljapgolly_scalajs_react_vdom_Attr.prototype.init___T.call(this, name);
-  return this
-});
-var $d_Ljapgolly_scalajs_react_vdom_Attr$Event = new $TypeData().initClass({
-  Ljapgolly_scalajs_react_vdom_Attr$Event: 0
-}, false, "japgolly.scalajs.react.vdom.Attr$Event", {
-  Ljapgolly_scalajs_react_vdom_Attr$Event: 1,
-  Ljapgolly_scalajs_react_vdom_Attr$Generic: 1,
-  Ljapgolly_scalajs_react_vdom_Attr: 1,
-  O: 1
-});
-$c_Ljapgolly_scalajs_react_vdom_Attr$Event.prototype.$classData = $d_Ljapgolly_scalajs_react_vdom_Attr$Event;
-/** @constructor */
 function $c_Ljapgolly_scalajs_react_vdom_Builder$ToRawReactElement() {
   $c_O.call(this);
   this.props$1 = null;
@@ -8899,6 +9289,7 @@ function $c_Ljapgolly_scalajs_react_vdom_Builder$ToRawReactElement() {
   this.nonEmptyClassName$1 = null;
   this.addAttr$1 = null;
   this.addClassName$1 = null;
+  this.addEventHandler$1 = null;
   this.addStyle$1 = null;
   this.addStylesObject$1 = null;
   this.appendChild$1 = null;
@@ -9765,6 +10156,100 @@ function $m_Ljapgolly_scalajs_react_CtorType$Mod$() {
   };
   return $n_Ljapgolly_scalajs_react_CtorType$Mod$
 }
+/** @constructor */
+function $c_Ljapgolly_scalajs_react_ReactCaughtError() {
+  $c_O.call(this);
+  this.rawError$1 = null;
+  this.rawInfo$1 = null;
+  this.typeOfError$1 = null;
+  this.jsError$1 = null
+}
+$c_Ljapgolly_scalajs_react_ReactCaughtError.prototype = new $h_O();
+$c_Ljapgolly_scalajs_react_ReactCaughtError.prototype.constructor = $c_Ljapgolly_scalajs_react_ReactCaughtError;
+/** @constructor */
+function $h_Ljapgolly_scalajs_react_ReactCaughtError() {
+  /*<skip>*/
+}
+$h_Ljapgolly_scalajs_react_ReactCaughtError.prototype = $c_Ljapgolly_scalajs_react_ReactCaughtError.prototype;
+$c_Ljapgolly_scalajs_react_ReactCaughtError.prototype.productPrefix__T = (function() {
+  return "ReactCaughtError"
+});
+$c_Ljapgolly_scalajs_react_ReactCaughtError.prototype.productArity__I = (function() {
+  return 2
+});
+$c_Ljapgolly_scalajs_react_ReactCaughtError.prototype.equals__O__Z = (function(x$1) {
+  if ((this === x$1)) {
+    return true
+  } else if ((x$1 instanceof $c_Ljapgolly_scalajs_react_ReactCaughtError)) {
+    var ReactCaughtError$1 = $as_Ljapgolly_scalajs_react_ReactCaughtError(x$1);
+    return ($m_sr_BoxesRunTime$().equals__O__O__Z(this.rawError$1, ReactCaughtError$1.rawError$1) && $m_sr_BoxesRunTime$().equals__O__O__Z(this.rawInfo$1, ReactCaughtError$1.rawInfo$1))
+  } else {
+    return false
+  }
+});
+$c_Ljapgolly_scalajs_react_ReactCaughtError.prototype.productElement__I__O = (function(x$1) {
+  switch (x$1) {
+    case 0: {
+      return this.rawError$1;
+      break
+    }
+    case 1: {
+      return this.rawInfo$1;
+      break
+    }
+    default: {
+      return $m_sr_Statics$().ioobe__I__O(x$1)
+    }
+  }
+});
+$c_Ljapgolly_scalajs_react_ReactCaughtError.prototype.init___sjs_js_Any__Ljapgolly_scalajs_react_raw_React$ErrorInfo = (function(rawError, rawInfo) {
+  this.rawError$1 = rawError;
+  this.rawInfo$1 = rawInfo;
+  this.typeOfError$1 = $as_T((typeof rawError));
+  this.jsError$1 = ($uZ((rawError instanceof $g.Error)) ? ($m_s_package$(), new $c_s_util_Right().init___O(rawError)) : ($m_s_package$(), new $c_s_util_Left().init___O(rawError)));
+  return this
+});
+$c_Ljapgolly_scalajs_react_ReactCaughtError.prototype.toString__T = (function() {
+  return (("ReactCaughtError(" + this.rawErrorString__T()) + ")")
+});
+$c_Ljapgolly_scalajs_react_ReactCaughtError.prototype.hashCode__I = (function() {
+  var this$2 = $m_s_util_hashing_MurmurHash3$();
+  return this$2.productHash__s_Product__I__Z__I(this, (-889275714), false)
+});
+$c_Ljapgolly_scalajs_react_ReactCaughtError.prototype.rawErrorString__T = (function() {
+  try {
+    return ("" + this.rawError$1)
+  } catch (e) {
+    var e$2 = $m_sjsr_package$().wrapJavaScriptException__O__jl_Throwable(e);
+    if ((e$2 !== null)) {
+      return ""
+    } else {
+      throw e
+    }
+  }
+});
+$c_Ljapgolly_scalajs_react_ReactCaughtError.prototype.productIterator__sc_Iterator = (function() {
+  return new $c_sr_ScalaRunTime$$anon$1().init___s_Product(this)
+});
+function $as_Ljapgolly_scalajs_react_ReactCaughtError(obj) {
+  return (((obj instanceof $c_Ljapgolly_scalajs_react_ReactCaughtError) || (obj === null)) ? obj : $throwClassCastException(obj, "japgolly.scalajs.react.ReactCaughtError"))
+}
+function $isArrayOf_Ljapgolly_scalajs_react_ReactCaughtError(obj, depth) {
+  return (!(!(((obj && obj.$classData) && (obj.$classData.arrayDepth === depth)) && obj.$classData.arrayBase.ancestors.Ljapgolly_scalajs_react_ReactCaughtError)))
+}
+function $asArrayOf_Ljapgolly_scalajs_react_ReactCaughtError(obj, depth) {
+  return (($isArrayOf_Ljapgolly_scalajs_react_ReactCaughtError(obj, depth) || (obj === null)) ? obj : $throwArrayCastException(obj, "Ljapgolly.scalajs.react.ReactCaughtError;", depth))
+}
+var $d_Ljapgolly_scalajs_react_ReactCaughtError = new $TypeData().initClass({
+  Ljapgolly_scalajs_react_ReactCaughtError: 0
+}, false, "japgolly.scalajs.react.ReactCaughtError", {
+  Ljapgolly_scalajs_react_ReactCaughtError: 1,
+  O: 1,
+  s_Product: 1,
+  s_Equals: 1,
+  Ljava_io_Serializable: 1
+});
+$c_Ljapgolly_scalajs_react_ReactCaughtError.prototype.$classData = $d_Ljapgolly_scalajs_react_ReactCaughtError;
 function $is_Ljapgolly_scalajs_react_component_Js$UnmountedWithRoot(obj) {
   return (!(!((obj && obj.$classData) && obj.$classData.ancestors.Ljapgolly_scalajs_react_component_Js$UnmountedWithRoot)))
 }
@@ -10517,6 +11002,17 @@ function $isArrayOf_s_reflect_ClassTag(obj, depth) {
 function $asArrayOf_s_reflect_ClassTag(obj, depth) {
   return (($isArrayOf_s_reflect_ClassTag(obj, depth) || (obj === null)) ? obj : $throwArrayCastException(obj, "Lscala.reflect.ClassTag;", depth))
 }
+/** @constructor */
+function $c_s_util_Either() {
+  $c_O.call(this)
+}
+$c_s_util_Either.prototype = new $h_O();
+$c_s_util_Either.prototype.constructor = $c_s_util_Either;
+/** @constructor */
+function $h_s_util_Either() {
+  /*<skip>*/
+}
+$h_s_util_Either.prototype = $c_s_util_Either.prototype;
 /** @constructor */
 function $c_sc_AbstractIterator() {
   $c_O.call(this)
@@ -11459,6 +11955,95 @@ var $d_sjsr_RuntimeLong = new $TypeData().initClass({
 });
 $c_sjsr_RuntimeLong.prototype.$classData = $d_sjsr_RuntimeLong;
 /** @constructor */
+function $c_Ljapgolly_scalajs_react_component_builder_InitState$DerivedFromProps() {
+  /*<skip>*/
+}
+function $as_Ljapgolly_scalajs_react_component_builder_InitState$DerivedFromProps(obj) {
+  return (((obj instanceof $c_Ljapgolly_scalajs_react_component_builder_InitState$DerivedFromProps) || (obj === null)) ? obj : $throwClassCastException(obj, "japgolly.scalajs.react.component.builder.InitState$DerivedFromProps"))
+}
+function $isArrayOf_Ljapgolly_scalajs_react_component_builder_InitState$DerivedFromProps(obj, depth) {
+  return (!(!(((obj && obj.$classData) && (obj.$classData.arrayDepth === depth)) && obj.$classData.arrayBase.ancestors.Ljapgolly_scalajs_react_component_builder_InitState$DerivedFromProps)))
+}
+function $asArrayOf_Ljapgolly_scalajs_react_component_builder_InitState$DerivedFromProps(obj, depth) {
+  return (($isArrayOf_Ljapgolly_scalajs_react_component_builder_InitState$DerivedFromProps(obj, depth) || (obj === null)) ? obj : $throwArrayCastException(obj, "Ljapgolly.scalajs.react.component.builder.InitState$DerivedFromProps;", depth))
+}
+/** @constructor */
+function $c_Ljapgolly_scalajs_react_component_builder_InitState$DerivedFromPropsAndState() {
+  /*<skip>*/
+}
+function $as_Ljapgolly_scalajs_react_component_builder_InitState$DerivedFromPropsAndState(obj) {
+  return (((obj instanceof $c_Ljapgolly_scalajs_react_component_builder_InitState$DerivedFromPropsAndState) || (obj === null)) ? obj : $throwClassCastException(obj, "japgolly.scalajs.react.component.builder.InitState$DerivedFromPropsAndState"))
+}
+function $isArrayOf_Ljapgolly_scalajs_react_component_builder_InitState$DerivedFromPropsAndState(obj, depth) {
+  return (!(!(((obj && obj.$classData) && (obj.$classData.arrayDepth === depth)) && obj.$classData.arrayBase.ancestors.Ljapgolly_scalajs_react_component_builder_InitState$DerivedFromPropsAndState)))
+}
+function $asArrayOf_Ljapgolly_scalajs_react_component_builder_InitState$DerivedFromPropsAndState(obj, depth) {
+  return (($isArrayOf_Ljapgolly_scalajs_react_component_builder_InitState$DerivedFromPropsAndState(obj, depth) || (obj === null)) ? obj : $throwArrayCastException(obj, "Ljapgolly.scalajs.react.component.builder.InitState$DerivedFromPropsAndState;", depth))
+}
+/** @constructor */
+function $c_Ljapgolly_scalajs_react_component_builder_InitState$InitialState() {
+  /*<skip>*/
+}
+function $as_Ljapgolly_scalajs_react_component_builder_InitState$InitialState(obj) {
+  return (((obj instanceof $c_Ljapgolly_scalajs_react_component_builder_InitState$InitialState) || (obj === null)) ? obj : $throwClassCastException(obj, "japgolly.scalajs.react.component.builder.InitState$InitialState"))
+}
+function $isArrayOf_Ljapgolly_scalajs_react_component_builder_InitState$InitialState(obj, depth) {
+  return (!(!(((obj && obj.$classData) && (obj.$classData.arrayDepth === depth)) && obj.$classData.arrayBase.ancestors.Ljapgolly_scalajs_react_component_builder_InitState$InitialState)))
+}
+function $asArrayOf_Ljapgolly_scalajs_react_component_builder_InitState$InitialState(obj, depth) {
+  return (($isArrayOf_Ljapgolly_scalajs_react_component_builder_InitState$InitialState(obj, depth) || (obj === null)) ? obj : $throwArrayCastException(obj, "Ljapgolly.scalajs.react.component.builder.InitState$InitialState;", depth))
+}
+/** @constructor */
+function $c_Ljapgolly_scalajs_react_component_builder_InitState$Stateless$() {
+  $c_O.call(this)
+}
+$c_Ljapgolly_scalajs_react_component_builder_InitState$Stateless$.prototype = new $h_O();
+$c_Ljapgolly_scalajs_react_component_builder_InitState$Stateless$.prototype.constructor = $c_Ljapgolly_scalajs_react_component_builder_InitState$Stateless$;
+/** @constructor */
+function $h_Ljapgolly_scalajs_react_component_builder_InitState$Stateless$() {
+  /*<skip>*/
+}
+$h_Ljapgolly_scalajs_react_component_builder_InitState$Stateless$.prototype = $c_Ljapgolly_scalajs_react_component_builder_InitState$Stateless$.prototype;
+$c_Ljapgolly_scalajs_react_component_builder_InitState$Stateless$.prototype.init___ = (function() {
+  return this
+});
+$c_Ljapgolly_scalajs_react_component_builder_InitState$Stateless$.prototype.productPrefix__T = (function() {
+  return "Stateless"
+});
+$c_Ljapgolly_scalajs_react_component_builder_InitState$Stateless$.prototype.productArity__I = (function() {
+  return 0
+});
+$c_Ljapgolly_scalajs_react_component_builder_InitState$Stateless$.prototype.productElement__I__O = (function(x$1) {
+  return $m_sr_Statics$().ioobe__I__O(x$1)
+});
+$c_Ljapgolly_scalajs_react_component_builder_InitState$Stateless$.prototype.toString__T = (function() {
+  return "Stateless"
+});
+$c_Ljapgolly_scalajs_react_component_builder_InitState$Stateless$.prototype.hashCode__I = (function() {
+  return (-81209974)
+});
+$c_Ljapgolly_scalajs_react_component_builder_InitState$Stateless$.prototype.productIterator__sc_Iterator = (function() {
+  return new $c_sr_ScalaRunTime$$anon$1().init___s_Product(this)
+});
+var $d_Ljapgolly_scalajs_react_component_builder_InitState$Stateless$ = new $TypeData().initClass({
+  Ljapgolly_scalajs_react_component_builder_InitState$Stateless$: 0
+}, false, "japgolly.scalajs.react.component.builder.InitState$Stateless$", {
+  Ljapgolly_scalajs_react_component_builder_InitState$Stateless$: 1,
+  O: 1,
+  Ljapgolly_scalajs_react_component_builder_InitState: 1,
+  s_Product: 1,
+  s_Equals: 1,
+  Ljava_io_Serializable: 1
+});
+$c_Ljapgolly_scalajs_react_component_builder_InitState$Stateless$.prototype.$classData = $d_Ljapgolly_scalajs_react_component_builder_InitState$Stateless$;
+var $n_Ljapgolly_scalajs_react_component_builder_InitState$Stateless$ = (void 0);
+function $m_Ljapgolly_scalajs_react_component_builder_InitState$Stateless$() {
+  if ((!$n_Ljapgolly_scalajs_react_component_builder_InitState$Stateless$)) {
+    $n_Ljapgolly_scalajs_react_component_builder_InitState$Stateless$ = new $c_Ljapgolly_scalajs_react_component_builder_InitState$Stateless$().init___()
+  };
+  return $n_Ljapgolly_scalajs_react_component_builder_InitState$Stateless$
+}
+/** @constructor */
 function $c_Ljapgolly_scalajs_react_vdom_HtmlTags$a$() {
   $c_Ljapgolly_scalajs_react_vdom_TagOf.call(this)
 }
@@ -12224,6 +12809,152 @@ function $isArrayOf_s_Option(obj, depth) {
 function $asArrayOf_s_Option(obj, depth) {
   return (($isArrayOf_s_Option(obj, depth) || (obj === null)) ? obj : $throwArrayCastException(obj, "Lscala.Option;", depth))
 }
+/** @constructor */
+function $c_s_util_Left() {
+  $c_s_util_Either.call(this);
+  this.value$2 = null
+}
+$c_s_util_Left.prototype = new $h_s_util_Either();
+$c_s_util_Left.prototype.constructor = $c_s_util_Left;
+/** @constructor */
+function $h_s_util_Left() {
+  /*<skip>*/
+}
+$h_s_util_Left.prototype = $c_s_util_Left.prototype;
+$c_s_util_Left.prototype.productPrefix__T = (function() {
+  return "Left"
+});
+$c_s_util_Left.prototype.productArity__I = (function() {
+  return 1
+});
+$c_s_util_Left.prototype.equals__O__Z = (function(x$1) {
+  if ((this === x$1)) {
+    return true
+  } else if ((x$1 instanceof $c_s_util_Left)) {
+    var Left$1 = $as_s_util_Left(x$1);
+    return $m_sr_BoxesRunTime$().equals__O__O__Z(this.value$2, Left$1.value$2)
+  } else {
+    return false
+  }
+});
+$c_s_util_Left.prototype.productElement__I__O = (function(x$1) {
+  switch (x$1) {
+    case 0: {
+      return this.value$2;
+      break
+    }
+    default: {
+      return $m_sr_Statics$().ioobe__I__O(x$1)
+    }
+  }
+});
+$c_s_util_Left.prototype.toString__T = (function() {
+  return $m_sr_ScalaRunTime$().$$undtoString__s_Product__T(this)
+});
+$c_s_util_Left.prototype.init___O = (function(value) {
+  this.value$2 = value;
+  return this
+});
+$c_s_util_Left.prototype.hashCode__I = (function() {
+  var this$2 = $m_s_util_hashing_MurmurHash3$();
+  return this$2.productHash__s_Product__I__Z__I(this, (-889275714), false)
+});
+$c_s_util_Left.prototype.productIterator__sc_Iterator = (function() {
+  return new $c_sr_ScalaRunTime$$anon$1().init___s_Product(this)
+});
+function $as_s_util_Left(obj) {
+  return (((obj instanceof $c_s_util_Left) || (obj === null)) ? obj : $throwClassCastException(obj, "scala.util.Left"))
+}
+function $isArrayOf_s_util_Left(obj, depth) {
+  return (!(!(((obj && obj.$classData) && (obj.$classData.arrayDepth === depth)) && obj.$classData.arrayBase.ancestors.s_util_Left)))
+}
+function $asArrayOf_s_util_Left(obj, depth) {
+  return (($isArrayOf_s_util_Left(obj, depth) || (obj === null)) ? obj : $throwArrayCastException(obj, "Lscala.util.Left;", depth))
+}
+var $d_s_util_Left = new $TypeData().initClass({
+  s_util_Left: 0
+}, false, "scala.util.Left", {
+  s_util_Left: 1,
+  s_util_Either: 1,
+  O: 1,
+  s_Product: 1,
+  s_Equals: 1,
+  Ljava_io_Serializable: 1
+});
+$c_s_util_Left.prototype.$classData = $d_s_util_Left;
+/** @constructor */
+function $c_s_util_Right() {
+  $c_s_util_Either.call(this);
+  this.value$2 = null
+}
+$c_s_util_Right.prototype = new $h_s_util_Either();
+$c_s_util_Right.prototype.constructor = $c_s_util_Right;
+/** @constructor */
+function $h_s_util_Right() {
+  /*<skip>*/
+}
+$h_s_util_Right.prototype = $c_s_util_Right.prototype;
+$c_s_util_Right.prototype.productPrefix__T = (function() {
+  return "Right"
+});
+$c_s_util_Right.prototype.productArity__I = (function() {
+  return 1
+});
+$c_s_util_Right.prototype.equals__O__Z = (function(x$1) {
+  if ((this === x$1)) {
+    return true
+  } else if ((x$1 instanceof $c_s_util_Right)) {
+    var Right$1 = $as_s_util_Right(x$1);
+    return $m_sr_BoxesRunTime$().equals__O__O__Z(this.value$2, Right$1.value$2)
+  } else {
+    return false
+  }
+});
+$c_s_util_Right.prototype.productElement__I__O = (function(x$1) {
+  switch (x$1) {
+    case 0: {
+      return this.value$2;
+      break
+    }
+    default: {
+      return $m_sr_Statics$().ioobe__I__O(x$1)
+    }
+  }
+});
+$c_s_util_Right.prototype.toString__T = (function() {
+  return $m_sr_ScalaRunTime$().$$undtoString__s_Product__T(this)
+});
+$c_s_util_Right.prototype.init___O = (function(value) {
+  this.value$2 = value;
+  return this
+});
+$c_s_util_Right.prototype.hashCode__I = (function() {
+  var this$2 = $m_s_util_hashing_MurmurHash3$();
+  return this$2.productHash__s_Product__I__Z__I(this, (-889275714), false)
+});
+$c_s_util_Right.prototype.productIterator__sc_Iterator = (function() {
+  return new $c_sr_ScalaRunTime$$anon$1().init___s_Product(this)
+});
+function $as_s_util_Right(obj) {
+  return (((obj instanceof $c_s_util_Right) || (obj === null)) ? obj : $throwClassCastException(obj, "scala.util.Right"))
+}
+function $isArrayOf_s_util_Right(obj, depth) {
+  return (!(!(((obj && obj.$classData) && (obj.$classData.arrayDepth === depth)) && obj.$classData.arrayBase.ancestors.s_util_Right)))
+}
+function $asArrayOf_s_util_Right(obj, depth) {
+  return (($isArrayOf_s_util_Right(obj, depth) || (obj === null)) ? obj : $throwArrayCastException(obj, "Lscala.util.Right;", depth))
+}
+var $d_s_util_Right = new $TypeData().initClass({
+  s_util_Right: 0
+}, false, "scala.util.Right", {
+  s_util_Right: 1,
+  s_util_Either: 1,
+  O: 1,
+  s_Product: 1,
+  s_Equals: 1,
+  Ljava_io_Serializable: 1
+});
+$c_s_util_Right.prototype.$classData = $d_s_util_Right;
 /** @constructor */
 function $c_sc_Iterator$$anon$19() {
   $c_sc_AbstractIterator.call(this)
@@ -15056,18 +15787,6 @@ var $d_sjs_js_JavaScriptException = new $TypeData().initClass({
   s_Equals: 1
 });
 $c_sjs_js_JavaScriptException.prototype.$classData = $d_sjs_js_JavaScriptException;
-function $is_Ljapgolly_scalajs_react_component_Generic$MountedWithRoot(obj) {
-  return (!(!((obj && obj.$classData) && obj.$classData.ancestors.Ljapgolly_scalajs_react_component_Generic$MountedWithRoot)))
-}
-function $as_Ljapgolly_scalajs_react_component_Generic$MountedWithRoot(obj) {
-  return (($is_Ljapgolly_scalajs_react_component_Generic$MountedWithRoot(obj) || (obj === null)) ? obj : $throwClassCastException(obj, "japgolly.scalajs.react.component.Generic$MountedWithRoot"))
-}
-function $isArrayOf_Ljapgolly_scalajs_react_component_Generic$MountedWithRoot(obj, depth) {
-  return (!(!(((obj && obj.$classData) && (obj.$classData.arrayDepth === depth)) && obj.$classData.arrayBase.ancestors.Ljapgolly_scalajs_react_component_Generic$MountedWithRoot)))
-}
-function $asArrayOf_Ljapgolly_scalajs_react_component_Generic$MountedWithRoot(obj, depth) {
-  return (($isArrayOf_Ljapgolly_scalajs_react_component_Generic$MountedWithRoot(obj, depth) || (obj === null)) ? obj : $throwArrayCastException(obj, "Ljapgolly.scalajs.react.component.Generic$MountedWithRoot;", depth))
-}
 /** @constructor */
 function $c_Ljapgolly_scalajs_react_vdom_PackageBase$() {
   $c_Ljapgolly_scalajs_react_vdom_PackageBase.call(this)
@@ -15356,102 +16075,18 @@ $c_s_reflect_ManifestFactory$UnitManifest.prototype.newArray__I__O = (function(l
 $c_s_reflect_ManifestFactory$UnitManifest.prototype.runtimeClass__jl_Class = (function() {
   return $d_V.getClassOf()
 });
-/** @constructor */
-function $c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidUpdate() {
-  $c_O.call(this);
-  this.raw$1 = null;
-  this.prevProps$1 = null;
-  this.prevState$1 = null;
-  this.snapshot$1 = null
+function $is_Ljapgolly_scalajs_react_component_Generic$MountedWithRoot(obj) {
+  return (!(!((obj && obj.$classData) && obj.$classData.ancestors.Ljapgolly_scalajs_react_component_Generic$MountedWithRoot)))
 }
-$c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidUpdate.prototype = new $h_O();
-$c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidUpdate.prototype.constructor = $c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidUpdate;
-/** @constructor */
-function $h_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidUpdate() {
-  /*<skip>*/
+function $as_Ljapgolly_scalajs_react_component_Generic$MountedWithRoot(obj) {
+  return (($is_Ljapgolly_scalajs_react_component_Generic$MountedWithRoot(obj) || (obj === null)) ? obj : $throwClassCastException(obj, "japgolly.scalajs.react.component.Generic$MountedWithRoot"))
 }
-$h_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidUpdate.prototype = $c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidUpdate.prototype;
-$c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidUpdate.prototype.init___Ljapgolly_scalajs_react_raw_React$Component__O__O__O = (function(raw, prevProps, prevState, snapshot) {
-  this.raw$1 = raw;
-  this.prevProps$1 = prevProps;
-  this.prevState$1 = prevState;
-  this.snapshot$1 = snapshot;
-  return this
-});
-$c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidUpdate.prototype.toString__T = (function() {
-  return $m_Ljapgolly_scalajs_react_component_builder_Lifecycle$().japgolly$scalajs$react$component$builder$Lifecycle$$wrapTostring__T__T((((((((("ComponentDidUpdate(props: " + this.prevProps$1) + " \u2192 ") + $f_Ljapgolly_scalajs_react_component_builder_Lifecycle$Base__mountedImpure__Ljapgolly_scalajs_react_component_Scala$MountedWithRoot(this).props__O()) + ", state: ") + this.prevState$1) + " \u2192 ") + $f_Ljapgolly_scalajs_react_component_builder_Lifecycle$Base__mountedImpure__Ljapgolly_scalajs_react_component_Scala$MountedWithRoot(this).state__O()) + ")"))
-});
-$c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidUpdate.prototype.raw__Ljapgolly_scalajs_react_raw_React$Component = (function() {
-  return this.raw$1
-});
-var $d_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidUpdate = new $TypeData().initClass({
-  Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidUpdate: 0
-}, false, "japgolly.scalajs.react.component.builder.Lifecycle$ComponentDidUpdate", {
-  Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidUpdate: 1,
-  O: 1,
-  Ljapgolly_scalajs_react_component_builder_Lifecycle$StateW: 1,
-  Ljapgolly_scalajs_react_component_builder_Lifecycle$Base: 1,
-  Ljapgolly_scalajs_react_StateAccess$WriteWithProps: 1,
-  Ljapgolly_scalajs_react_StateAccess$Write: 1,
-  Ljapgolly_scalajs_react_StateAccess$SetState: 1,
-  Ljapgolly_scalajs_react_StateAccess$ModState: 1,
-  Ljapgolly_scalajs_react_StateAccess$ModStateWithProps: 1,
-  Ljapgolly_scalajs_react_component_builder_Lifecycle$ForceUpdate: 1
-});
-$c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidUpdate.prototype.$classData = $d_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidUpdate;
-/** @constructor */
-function $c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillMount() {
-  $c_O.call(this);
-  this.raw$1 = null
+function $isArrayOf_Ljapgolly_scalajs_react_component_Generic$MountedWithRoot(obj, depth) {
+  return (!(!(((obj && obj.$classData) && (obj.$classData.arrayDepth === depth)) && obj.$classData.arrayBase.ancestors.Ljapgolly_scalajs_react_component_Generic$MountedWithRoot)))
 }
-$c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillMount.prototype = new $h_O();
-$c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillMount.prototype.constructor = $c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillMount;
-/** @constructor */
-function $h_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillMount() {
-  /*<skip>*/
+function $asArrayOf_Ljapgolly_scalajs_react_component_Generic$MountedWithRoot(obj, depth) {
+  return (($isArrayOf_Ljapgolly_scalajs_react_component_Generic$MountedWithRoot(obj, depth) || (obj === null)) ? obj : $throwArrayCastException(obj, "Ljapgolly.scalajs.react.component.Generic$MountedWithRoot;", depth))
 }
-$h_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillMount.prototype = $c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillMount.prototype;
-$c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillMount.prototype.equals__O__Z = (function(x$1) {
-  return $m_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillMount$().equals$extension__Ljapgolly_scalajs_react_raw_React$Component__O__Z(this.raw$1, x$1)
-});
-$c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillMount.prototype.toString__T = (function() {
-  return $m_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillMount$().toString$extension__Ljapgolly_scalajs_react_raw_React$Component__T(this.raw$1)
-});
-$c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillMount.prototype.init___Ljapgolly_scalajs_react_raw_React$Component = (function(raw) {
-  this.raw$1 = raw;
-  return this
-});
-$c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillMount.prototype.hashCode__I = (function() {
-  var $$this = this.raw$1;
-  return $objectHashCode($$this)
-});
-$c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillMount.prototype.raw__Ljapgolly_scalajs_react_raw_React$Component = (function() {
-  return this.raw$1
-});
-function $as_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillMount(obj) {
-  return (((obj instanceof $c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillMount) || (obj === null)) ? obj : $throwClassCastException(obj, "japgolly.scalajs.react.component.builder.Lifecycle$ComponentWillMount"))
-}
-function $isArrayOf_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillMount(obj, depth) {
-  return (!(!(((obj && obj.$classData) && (obj.$classData.arrayDepth === depth)) && obj.$classData.arrayBase.ancestors.Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillMount)))
-}
-function $asArrayOf_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillMount(obj, depth) {
-  return (($isArrayOf_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillMount(obj, depth) || (obj === null)) ? obj : $throwArrayCastException(obj, "Ljapgolly.scalajs.react.component.builder.Lifecycle$ComponentWillMount;", depth))
-}
-var $d_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillMount = new $TypeData().initClass({
-  Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillMount: 0
-}, false, "japgolly.scalajs.react.component.builder.Lifecycle$ComponentWillMount", {
-  Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillMount: 1,
-  O: 1,
-  Ljapgolly_scalajs_react_component_builder_Lifecycle$StateRW: 1,
-  Ljapgolly_scalajs_react_component_builder_Lifecycle$StateW: 1,
-  Ljapgolly_scalajs_react_component_builder_Lifecycle$Base: 1,
-  Ljapgolly_scalajs_react_StateAccess$WriteWithProps: 1,
-  Ljapgolly_scalajs_react_StateAccess$Write: 1,
-  Ljapgolly_scalajs_react_StateAccess$SetState: 1,
-  Ljapgolly_scalajs_react_StateAccess$ModState: 1,
-  Ljapgolly_scalajs_react_StateAccess$ModStateWithProps: 1
-});
-$c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillMount.prototype.$classData = $d_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillMount;
 /** @constructor */
 function $c_s_reflect_ManifestFactory$BooleanManifest$() {
   $c_s_reflect_ManifestFactory$BooleanManifest.call(this)
@@ -15983,174 +16618,92 @@ function $isArrayOf_sc_Seq(obj, depth) {
 function $asArrayOf_sc_Seq(obj, depth) {
   return (($isArrayOf_sc_Seq(obj, depth) || (obj === null)) ? obj : $throwArrayCastException(obj, "Lscala.collection.Seq;", depth))
 }
-function $is_Ljapgolly_scalajs_react_component_Js$MountedWithRoot(obj) {
-  return (!(!((obj && obj.$classData) && obj.$classData.ancestors.Ljapgolly_scalajs_react_component_Js$MountedWithRoot)))
-}
-function $as_Ljapgolly_scalajs_react_component_Js$MountedWithRoot(obj) {
-  return (($is_Ljapgolly_scalajs_react_component_Js$MountedWithRoot(obj) || (obj === null)) ? obj : $throwClassCastException(obj, "japgolly.scalajs.react.component.Js$MountedWithRoot"))
-}
-function $isArrayOf_Ljapgolly_scalajs_react_component_Js$MountedWithRoot(obj, depth) {
-  return (!(!(((obj && obj.$classData) && (obj.$classData.arrayDepth === depth)) && obj.$classData.arrayBase.ancestors.Ljapgolly_scalajs_react_component_Js$MountedWithRoot)))
-}
-function $asArrayOf_Ljapgolly_scalajs_react_component_Js$MountedWithRoot(obj, depth) {
-  return (($isArrayOf_Ljapgolly_scalajs_react_component_Js$MountedWithRoot(obj, depth) || (obj === null)) ? obj : $throwArrayCastException(obj, "Ljapgolly.scalajs.react.component.Js$MountedWithRoot;", depth))
-}
-function $is_Ljapgolly_scalajs_react_component_Scala$MountedWithRoot(obj) {
-  return (!(!((obj && obj.$classData) && obj.$classData.ancestors.Ljapgolly_scalajs_react_component_Scala$MountedWithRoot)))
-}
-function $as_Ljapgolly_scalajs_react_component_Scala$MountedWithRoot(obj) {
-  return (($is_Ljapgolly_scalajs_react_component_Scala$MountedWithRoot(obj) || (obj === null)) ? obj : $throwClassCastException(obj, "japgolly.scalajs.react.component.Scala$MountedWithRoot"))
-}
-function $isArrayOf_Ljapgolly_scalajs_react_component_Scala$MountedWithRoot(obj, depth) {
-  return (!(!(((obj && obj.$classData) && (obj.$classData.arrayDepth === depth)) && obj.$classData.arrayBase.ancestors.Ljapgolly_scalajs_react_component_Scala$MountedWithRoot)))
-}
-function $asArrayOf_Ljapgolly_scalajs_react_component_Scala$MountedWithRoot(obj, depth) {
-  return (($isArrayOf_Ljapgolly_scalajs_react_component_Scala$MountedWithRoot(obj, depth) || (obj === null)) ? obj : $throwArrayCastException(obj, "Ljapgolly.scalajs.react.component.Scala$MountedWithRoot;", depth))
-}
 /** @constructor */
-function $c_Ljapgolly_scalajs_react_component_Template$MountedMapped() {
-  $c_O.call(this);
-  this.from$1 = null;
-  this.mp$1 = null;
-  this.ls$1 = null;
-  this.ft$1 = null
-}
-$c_Ljapgolly_scalajs_react_component_Template$MountedMapped.prototype = new $h_O();
-$c_Ljapgolly_scalajs_react_component_Template$MountedMapped.prototype.constructor = $c_Ljapgolly_scalajs_react_component_Template$MountedMapped;
-/** @constructor */
-function $h_Ljapgolly_scalajs_react_component_Template$MountedMapped() {
-  /*<skip>*/
-}
-$h_Ljapgolly_scalajs_react_component_Template$MountedMapped.prototype = $c_Ljapgolly_scalajs_react_component_Template$MountedMapped.prototype;
-$c_Ljapgolly_scalajs_react_component_Template$MountedMapped.prototype.withEffect__Ljapgolly_scalajs_react_internal_Effect$Trans__Ljapgolly_scalajs_react_component_Generic$MountedWithRoot = (function(t) {
-  return this.mapped__F1__Ljapgolly_scalajs_react_internal_Lens__Ljapgolly_scalajs_react_internal_Effect$Trans__Ljapgolly_scalajs_react_component_Generic$MountedWithRoot(this.mp$1, this.ls$1, this.ft$1.compose__Ljapgolly_scalajs_react_internal_Effect$Trans__s_$less$colon$less__Ljapgolly_scalajs_react_internal_Effect$Trans(t, null))
-});
-$c_Ljapgolly_scalajs_react_component_Template$MountedMapped.prototype.props__O = (function() {
-  return this.ft$1.apply__F0__O(new $c_sjsr_AnonFunction0().init___sjs_js_Function0((function($this) {
-    return (function() {
-      return $this.mp$1.apply__O__O($this.from$1.props__O())
-    })
-  })(this)))
-});
-$c_Ljapgolly_scalajs_react_component_Template$MountedMapped.prototype.init___Ljapgolly_scalajs_react_component_Generic$MountedWithRoot__F1__Ljapgolly_scalajs_react_internal_Lens__Ljapgolly_scalajs_react_internal_Effect$Trans = (function(from, mp, ls, ft) {
-  this.from$1 = from;
-  this.mp$1 = mp;
-  this.ls$1 = ls;
-  this.ft$1 = ft;
-  return this
-});
-$c_Ljapgolly_scalajs_react_component_Template$MountedMapped.prototype.state__O = (function() {
-  return this.ft$1.apply__F0__O(new $c_sjsr_AnonFunction0().init___sjs_js_Function0((function($this) {
-    return (function() {
-      return $this.ls$1.get$1.apply__O__O($this.from$1.state__O())
-    })
-  })(this)))
-});
-/** @constructor */
-function $c_Ljapgolly_scalajs_react_component_Template$MountedWithRoot() {
-  $c_O.call(this);
-  this.ft$1 = null
-}
-$c_Ljapgolly_scalajs_react_component_Template$MountedWithRoot.prototype = new $h_O();
-$c_Ljapgolly_scalajs_react_component_Template$MountedWithRoot.prototype.constructor = $c_Ljapgolly_scalajs_react_component_Template$MountedWithRoot;
-/** @constructor */
-function $h_Ljapgolly_scalajs_react_component_Template$MountedWithRoot() {
-  /*<skip>*/
-}
-$h_Ljapgolly_scalajs_react_component_Template$MountedWithRoot.prototype = $c_Ljapgolly_scalajs_react_component_Template$MountedWithRoot.prototype;
-$c_Ljapgolly_scalajs_react_component_Template$MountedWithRoot.prototype.withEffect__Ljapgolly_scalajs_react_internal_Effect$Trans__Ljapgolly_scalajs_react_component_Generic$MountedWithRoot = (function(t) {
-  var jsx$1 = $m_Ljapgolly_scalajs_react_internal_package$().identityFnInstance$1;
-  var this$1 = $m_Ljapgolly_scalajs_react_internal_Lens$();
-  return this.mapped__F1__Ljapgolly_scalajs_react_internal_Lens__Ljapgolly_scalajs_react_internal_Effect$Trans__Ljapgolly_scalajs_react_component_Generic$MountedWithRoot(jsx$1, this$1.idInstance$1, this.ft$1.compose__Ljapgolly_scalajs_react_internal_Effect$Trans__s_$less$colon$less__Ljapgolly_scalajs_react_internal_Effect$Trans(t, null))
-});
-$c_Ljapgolly_scalajs_react_component_Template$MountedWithRoot.prototype.init___Ljapgolly_scalajs_react_internal_Effect$Trans = (function(ft) {
-  this.ft$1 = ft;
-  return this
-});
-/** @constructor */
-function $c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidCatch() {
+function $c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidUpdate() {
   $c_O.call(this);
   this.raw$1 = null;
-  this.error$1 = null;
-  this.info$1 = null
+  this.prevProps$1 = null;
+  this.prevState$1 = null;
+  this.snapshot$1 = null
 }
-$c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidCatch.prototype = new $h_O();
-$c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidCatch.prototype.constructor = $c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidCatch;
+$c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidUpdate.prototype = new $h_O();
+$c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidUpdate.prototype.constructor = $c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidUpdate;
 /** @constructor */
-function $h_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidCatch() {
+function $h_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidUpdate() {
   /*<skip>*/
 }
-$h_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidCatch.prototype = $c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidCatch.prototype;
-$c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidCatch.prototype.toString__T = (function() {
-  return $m_Ljapgolly_scalajs_react_component_builder_Lifecycle$().japgolly$scalajs$react$component$builder$Lifecycle$$wrapTostring__T__T((("ComponentDidCatch(" + this.error$1) + ")"))
-});
-$c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidCatch.prototype.init___Ljapgolly_scalajs_react_raw_React$Component__Ljapgolly_scalajs_react_raw_React$Error__Ljapgolly_scalajs_react_raw_React$ErrorInfo = (function(raw, error, info) {
+$h_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidUpdate.prototype = $c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidUpdate.prototype;
+$c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidUpdate.prototype.init___Ljapgolly_scalajs_react_raw_React$Component__O__O__O = (function(raw, prevProps, prevState, snapshot) {
   this.raw$1 = raw;
-  this.error$1 = error;
-  this.info$1 = info;
+  this.prevProps$1 = prevProps;
+  this.prevState$1 = prevState;
+  this.snapshot$1 = snapshot;
   return this
 });
-$c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidCatch.prototype.raw__Ljapgolly_scalajs_react_raw_React$Component = (function() {
+$c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidUpdate.prototype.toString__T = (function() {
+  return $m_Ljapgolly_scalajs_react_component_builder_Lifecycle$().japgolly$scalajs$react$component$builder$Lifecycle$$wrapTostring__T__T((((((((("ComponentDidUpdate(props: " + this.prevProps$1) + " \u2192 ") + $f_Ljapgolly_scalajs_react_component_builder_Lifecycle$Base__mountedImpure__Ljapgolly_scalajs_react_component_Scala$MountedWithRoot(this).props__O()) + ", state: ") + this.prevState$1) + " \u2192 ") + $f_Ljapgolly_scalajs_react_component_builder_Lifecycle$Base__mountedImpure__Ljapgolly_scalajs_react_component_Scala$MountedWithRoot(this).state__O()) + ")"))
+});
+$c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidUpdate.prototype.raw__Ljapgolly_scalajs_react_raw_React$Component = (function() {
   return this.raw$1
 });
-var $d_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidCatch = new $TypeData().initClass({
-  Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidCatch: 0
-}, false, "japgolly.scalajs.react.component.builder.Lifecycle$ComponentDidCatch", {
-  Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidCatch: 1,
+var $d_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidUpdate = new $TypeData().initClass({
+  Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidUpdate: 0
+}, false, "japgolly.scalajs.react.component.builder.Lifecycle$ComponentDidUpdate", {
+  Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidUpdate: 1,
   O: 1,
-  Ljapgolly_scalajs_react_component_builder_Lifecycle$StateRW: 1,
   Ljapgolly_scalajs_react_component_builder_Lifecycle$StateW: 1,
   Ljapgolly_scalajs_react_component_builder_Lifecycle$Base: 1,
   Ljapgolly_scalajs_react_StateAccess$WriteWithProps: 1,
   Ljapgolly_scalajs_react_StateAccess$Write: 1,
   Ljapgolly_scalajs_react_StateAccess$SetState: 1,
+  Ljapgolly_scalajs_react_StateAccess$Base: 1,
   Ljapgolly_scalajs_react_StateAccess$ModState: 1,
   Ljapgolly_scalajs_react_StateAccess$ModStateWithProps: 1,
   Ljapgolly_scalajs_react_component_builder_Lifecycle$ForceUpdate: 1
 });
-$c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidCatch.prototype.$classData = $d_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidCatch;
+$c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidUpdate.prototype.$classData = $d_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidUpdate;
 /** @constructor */
-function $c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidMount() {
+function $c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillMount() {
   $c_O.call(this);
   this.raw$1 = null
 }
-$c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidMount.prototype = new $h_O();
-$c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidMount.prototype.constructor = $c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidMount;
+$c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillMount.prototype = new $h_O();
+$c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillMount.prototype.constructor = $c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillMount;
 /** @constructor */
-function $h_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidMount() {
+function $h_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillMount() {
   /*<skip>*/
 }
-$h_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidMount.prototype = $c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidMount.prototype;
-$c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidMount.prototype.equals__O__Z = (function(x$1) {
-  return $m_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidMount$().equals$extension__Ljapgolly_scalajs_react_raw_React$Component__O__Z(this.raw$1, x$1)
+$h_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillMount.prototype = $c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillMount.prototype;
+$c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillMount.prototype.equals__O__Z = (function(x$1) {
+  return $m_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillMount$().equals$extension__Ljapgolly_scalajs_react_raw_React$Component__O__Z(this.raw$1, x$1)
 });
-$c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidMount.prototype.toString__T = (function() {
-  return $m_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidMount$().toString$extension__Ljapgolly_scalajs_react_raw_React$Component__T(this.raw$1)
+$c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillMount.prototype.toString__T = (function() {
+  return $m_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillMount$().toString$extension__Ljapgolly_scalajs_react_raw_React$Component__T(this.raw$1)
 });
-$c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidMount.prototype.init___Ljapgolly_scalajs_react_raw_React$Component = (function(raw) {
+$c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillMount.prototype.init___Ljapgolly_scalajs_react_raw_React$Component = (function(raw) {
   this.raw$1 = raw;
   return this
 });
-$c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidMount.prototype.hashCode__I = (function() {
+$c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillMount.prototype.hashCode__I = (function() {
   var $$this = this.raw$1;
   return $objectHashCode($$this)
 });
-$c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidMount.prototype.raw__Ljapgolly_scalajs_react_raw_React$Component = (function() {
+$c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillMount.prototype.raw__Ljapgolly_scalajs_react_raw_React$Component = (function() {
   return this.raw$1
 });
-function $as_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidMount(obj) {
-  return (((obj instanceof $c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidMount) || (obj === null)) ? obj : $throwClassCastException(obj, "japgolly.scalajs.react.component.builder.Lifecycle$ComponentDidMount"))
+function $as_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillMount(obj) {
+  return (((obj instanceof $c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillMount) || (obj === null)) ? obj : $throwClassCastException(obj, "japgolly.scalajs.react.component.builder.Lifecycle$ComponentWillMount"))
 }
-function $isArrayOf_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidMount(obj, depth) {
-  return (!(!(((obj && obj.$classData) && (obj.$classData.arrayDepth === depth)) && obj.$classData.arrayBase.ancestors.Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidMount)))
+function $isArrayOf_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillMount(obj, depth) {
+  return (!(!(((obj && obj.$classData) && (obj.$classData.arrayDepth === depth)) && obj.$classData.arrayBase.ancestors.Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillMount)))
 }
-function $asArrayOf_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidMount(obj, depth) {
-  return (($isArrayOf_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidMount(obj, depth) || (obj === null)) ? obj : $throwArrayCastException(obj, "Ljapgolly.scalajs.react.component.builder.Lifecycle$ComponentDidMount;", depth))
+function $asArrayOf_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillMount(obj, depth) {
+  return (($isArrayOf_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillMount(obj, depth) || (obj === null)) ? obj : $throwArrayCastException(obj, "Ljapgolly.scalajs.react.component.builder.Lifecycle$ComponentWillMount;", depth))
 }
-var $d_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidMount = new $TypeData().initClass({
-  Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidMount: 0
-}, false, "japgolly.scalajs.react.component.builder.Lifecycle$ComponentDidMount", {
-  Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidMount: 1,
+var $d_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillMount = new $TypeData().initClass({
+  Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillMount: 0
+}, false, "japgolly.scalajs.react.component.builder.Lifecycle$ComponentWillMount", {
+  Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillMount: 1,
   O: 1,
   Ljapgolly_scalajs_react_component_builder_Lifecycle$StateRW: 1,
   Ljapgolly_scalajs_react_component_builder_Lifecycle$StateW: 1,
@@ -16158,105 +16711,11 @@ var $d_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidMount = n
   Ljapgolly_scalajs_react_StateAccess$WriteWithProps: 1,
   Ljapgolly_scalajs_react_StateAccess$Write: 1,
   Ljapgolly_scalajs_react_StateAccess$SetState: 1,
+  Ljapgolly_scalajs_react_StateAccess$Base: 1,
   Ljapgolly_scalajs_react_StateAccess$ModState: 1,
-  Ljapgolly_scalajs_react_StateAccess$ModStateWithProps: 1,
-  Ljapgolly_scalajs_react_component_builder_Lifecycle$ForceUpdate: 1
+  Ljapgolly_scalajs_react_StateAccess$ModStateWithProps: 1
 });
-$c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidMount.prototype.$classData = $d_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidMount;
-/** @constructor */
-function $c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillReceiveProps() {
-  $c_O.call(this);
-  this.raw$1 = null;
-  this.nextProps$1 = null
-}
-$c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillReceiveProps.prototype = new $h_O();
-$c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillReceiveProps.prototype.constructor = $c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillReceiveProps;
-/** @constructor */
-function $h_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillReceiveProps() {
-  /*<skip>*/
-}
-$h_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillReceiveProps.prototype = $c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillReceiveProps.prototype;
-$c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillReceiveProps.prototype.init___Ljapgolly_scalajs_react_raw_React$Component__O = (function(raw, nextProps) {
-  this.raw$1 = raw;
-  this.nextProps$1 = nextProps;
-  return this
-});
-$c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillReceiveProps.prototype.toString__T = (function() {
-  return $m_Ljapgolly_scalajs_react_component_builder_Lifecycle$().japgolly$scalajs$react$component$builder$Lifecycle$$wrapTostring__T__T((((((("ComponentWillReceiveProps(props: " + $f_Ljapgolly_scalajs_react_component_builder_Lifecycle$Base__mountedImpure__Ljapgolly_scalajs_react_component_Scala$MountedWithRoot(this).props__O()) + " \u2192 ") + this.nextProps$1) + ", state: ") + $f_Ljapgolly_scalajs_react_component_builder_Lifecycle$Base__mountedImpure__Ljapgolly_scalajs_react_component_Scala$MountedWithRoot(this).state__O()) + ")"))
-});
-$c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillReceiveProps.prototype.raw__Ljapgolly_scalajs_react_raw_React$Component = (function() {
-  return this.raw$1
-});
-var $d_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillReceiveProps = new $TypeData().initClass({
-  Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillReceiveProps: 0
-}, false, "japgolly.scalajs.react.component.builder.Lifecycle$ComponentWillReceiveProps", {
-  Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillReceiveProps: 1,
-  O: 1,
-  Ljapgolly_scalajs_react_component_builder_Lifecycle$StateRW: 1,
-  Ljapgolly_scalajs_react_component_builder_Lifecycle$StateW: 1,
-  Ljapgolly_scalajs_react_component_builder_Lifecycle$Base: 1,
-  Ljapgolly_scalajs_react_StateAccess$WriteWithProps: 1,
-  Ljapgolly_scalajs_react_StateAccess$Write: 1,
-  Ljapgolly_scalajs_react_StateAccess$SetState: 1,
-  Ljapgolly_scalajs_react_StateAccess$ModState: 1,
-  Ljapgolly_scalajs_react_StateAccess$ModStateWithProps: 1,
-  Ljapgolly_scalajs_react_component_builder_Lifecycle$ForceUpdate: 1
-});
-$c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillReceiveProps.prototype.$classData = $d_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillReceiveProps;
-/** @constructor */
-function $c_Ljapgolly_scalajs_react_component_builder_Lifecycle$RenderScope() {
-  $c_O.call(this);
-  this.raw$1 = null
-}
-$c_Ljapgolly_scalajs_react_component_builder_Lifecycle$RenderScope.prototype = new $h_O();
-$c_Ljapgolly_scalajs_react_component_builder_Lifecycle$RenderScope.prototype.constructor = $c_Ljapgolly_scalajs_react_component_builder_Lifecycle$RenderScope;
-/** @constructor */
-function $h_Ljapgolly_scalajs_react_component_builder_Lifecycle$RenderScope() {
-  /*<skip>*/
-}
-$h_Ljapgolly_scalajs_react_component_builder_Lifecycle$RenderScope.prototype = $c_Ljapgolly_scalajs_react_component_builder_Lifecycle$RenderScope.prototype;
-$c_Ljapgolly_scalajs_react_component_builder_Lifecycle$RenderScope.prototype.equals__O__Z = (function(x$1) {
-  return $m_Ljapgolly_scalajs_react_component_builder_Lifecycle$RenderScope$().equals$extension__Ljapgolly_scalajs_react_raw_React$Component__O__Z(this.raw$1, x$1)
-});
-$c_Ljapgolly_scalajs_react_component_builder_Lifecycle$RenderScope.prototype.toString__T = (function() {
-  return $m_Ljapgolly_scalajs_react_component_builder_Lifecycle$RenderScope$().toString$extension__Ljapgolly_scalajs_react_raw_React$Component__T(this.raw$1)
-});
-$c_Ljapgolly_scalajs_react_component_builder_Lifecycle$RenderScope.prototype.init___Ljapgolly_scalajs_react_raw_React$Component = (function(raw) {
-  this.raw$1 = raw;
-  return this
-});
-$c_Ljapgolly_scalajs_react_component_builder_Lifecycle$RenderScope.prototype.hashCode__I = (function() {
-  var $$this = this.raw$1;
-  return $objectHashCode($$this)
-});
-$c_Ljapgolly_scalajs_react_component_builder_Lifecycle$RenderScope.prototype.raw__Ljapgolly_scalajs_react_raw_React$Component = (function() {
-  return this.raw$1
-});
-function $as_Ljapgolly_scalajs_react_component_builder_Lifecycle$RenderScope(obj) {
-  return (((obj instanceof $c_Ljapgolly_scalajs_react_component_builder_Lifecycle$RenderScope) || (obj === null)) ? obj : $throwClassCastException(obj, "japgolly.scalajs.react.component.builder.Lifecycle$RenderScope"))
-}
-function $isArrayOf_Ljapgolly_scalajs_react_component_builder_Lifecycle$RenderScope(obj, depth) {
-  return (!(!(((obj && obj.$classData) && (obj.$classData.arrayDepth === depth)) && obj.$classData.arrayBase.ancestors.Ljapgolly_scalajs_react_component_builder_Lifecycle$RenderScope)))
-}
-function $asArrayOf_Ljapgolly_scalajs_react_component_builder_Lifecycle$RenderScope(obj, depth) {
-  return (($isArrayOf_Ljapgolly_scalajs_react_component_builder_Lifecycle$RenderScope(obj, depth) || (obj === null)) ? obj : $throwArrayCastException(obj, "Ljapgolly.scalajs.react.component.builder.Lifecycle$RenderScope;", depth))
-}
-var $d_Ljapgolly_scalajs_react_component_builder_Lifecycle$RenderScope = new $TypeData().initClass({
-  Ljapgolly_scalajs_react_component_builder_Lifecycle$RenderScope: 0
-}, false, "japgolly.scalajs.react.component.builder.Lifecycle$RenderScope", {
-  Ljapgolly_scalajs_react_component_builder_Lifecycle$RenderScope: 1,
-  O: 1,
-  Ljapgolly_scalajs_react_component_builder_Lifecycle$StateRW: 1,
-  Ljapgolly_scalajs_react_component_builder_Lifecycle$StateW: 1,
-  Ljapgolly_scalajs_react_component_builder_Lifecycle$Base: 1,
-  Ljapgolly_scalajs_react_StateAccess$WriteWithProps: 1,
-  Ljapgolly_scalajs_react_StateAccess$Write: 1,
-  Ljapgolly_scalajs_react_StateAccess$SetState: 1,
-  Ljapgolly_scalajs_react_StateAccess$ModState: 1,
-  Ljapgolly_scalajs_react_StateAccess$ModStateWithProps: 1,
-  Ljapgolly_scalajs_react_component_builder_Lifecycle$ForceUpdate: 1
-});
-$c_Ljapgolly_scalajs_react_component_builder_Lifecycle$RenderScope.prototype.$classData = $d_Ljapgolly_scalajs_react_component_builder_Lifecycle$RenderScope;
+$c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillMount.prototype.$classData = $d_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillMount;
 function $f_sc_Map__equals__O__Z($thiz, o) {
   if ($is_sc_Map(o)) {
     var x2 = $as_sc_Map(o);
@@ -16524,6 +16983,282 @@ $c_sc_View$Prepended.prototype.init___O__sc_IterableOps = (function(elem, underl
   this.underlying$3 = underlying;
   return this
 });
+function $is_Ljapgolly_scalajs_react_component_Js$MountedWithRoot(obj) {
+  return (!(!((obj && obj.$classData) && obj.$classData.ancestors.Ljapgolly_scalajs_react_component_Js$MountedWithRoot)))
+}
+function $as_Ljapgolly_scalajs_react_component_Js$MountedWithRoot(obj) {
+  return (($is_Ljapgolly_scalajs_react_component_Js$MountedWithRoot(obj) || (obj === null)) ? obj : $throwClassCastException(obj, "japgolly.scalajs.react.component.Js$MountedWithRoot"))
+}
+function $isArrayOf_Ljapgolly_scalajs_react_component_Js$MountedWithRoot(obj, depth) {
+  return (!(!(((obj && obj.$classData) && (obj.$classData.arrayDepth === depth)) && obj.$classData.arrayBase.ancestors.Ljapgolly_scalajs_react_component_Js$MountedWithRoot)))
+}
+function $asArrayOf_Ljapgolly_scalajs_react_component_Js$MountedWithRoot(obj, depth) {
+  return (($isArrayOf_Ljapgolly_scalajs_react_component_Js$MountedWithRoot(obj, depth) || (obj === null)) ? obj : $throwArrayCastException(obj, "Ljapgolly.scalajs.react.component.Js$MountedWithRoot;", depth))
+}
+function $is_Ljapgolly_scalajs_react_component_Scala$MountedWithRoot(obj) {
+  return (!(!((obj && obj.$classData) && obj.$classData.ancestors.Ljapgolly_scalajs_react_component_Scala$MountedWithRoot)))
+}
+function $as_Ljapgolly_scalajs_react_component_Scala$MountedWithRoot(obj) {
+  return (($is_Ljapgolly_scalajs_react_component_Scala$MountedWithRoot(obj) || (obj === null)) ? obj : $throwClassCastException(obj, "japgolly.scalajs.react.component.Scala$MountedWithRoot"))
+}
+function $isArrayOf_Ljapgolly_scalajs_react_component_Scala$MountedWithRoot(obj, depth) {
+  return (!(!(((obj && obj.$classData) && (obj.$classData.arrayDepth === depth)) && obj.$classData.arrayBase.ancestors.Ljapgolly_scalajs_react_component_Scala$MountedWithRoot)))
+}
+function $asArrayOf_Ljapgolly_scalajs_react_component_Scala$MountedWithRoot(obj, depth) {
+  return (($isArrayOf_Ljapgolly_scalajs_react_component_Scala$MountedWithRoot(obj, depth) || (obj === null)) ? obj : $throwArrayCastException(obj, "Ljapgolly.scalajs.react.component.Scala$MountedWithRoot;", depth))
+}
+/** @constructor */
+function $c_Ljapgolly_scalajs_react_component_Template$MountedMapped() {
+  $c_O.call(this);
+  this.from$1 = null;
+  this.mp$1 = null;
+  this.ls$1 = null;
+  this.ft$1 = null
+}
+$c_Ljapgolly_scalajs_react_component_Template$MountedMapped.prototype = new $h_O();
+$c_Ljapgolly_scalajs_react_component_Template$MountedMapped.prototype.constructor = $c_Ljapgolly_scalajs_react_component_Template$MountedMapped;
+/** @constructor */
+function $h_Ljapgolly_scalajs_react_component_Template$MountedMapped() {
+  /*<skip>*/
+}
+$h_Ljapgolly_scalajs_react_component_Template$MountedMapped.prototype = $c_Ljapgolly_scalajs_react_component_Template$MountedMapped.prototype;
+$c_Ljapgolly_scalajs_react_component_Template$MountedMapped.prototype.withEffect__Ljapgolly_scalajs_react_internal_Effect$Trans__Ljapgolly_scalajs_react_component_Generic$MountedWithRoot = (function(t) {
+  return this.mapped__F1__Ljapgolly_scalajs_react_internal_Lens__Ljapgolly_scalajs_react_internal_Effect$Trans__Ljapgolly_scalajs_react_component_Generic$MountedWithRoot(this.mp$1, this.ls$1, this.ft$1.compose__Ljapgolly_scalajs_react_internal_Effect$Trans__s_$less$colon$less__Ljapgolly_scalajs_react_internal_Effect$Trans(t, null))
+});
+$c_Ljapgolly_scalajs_react_component_Template$MountedMapped.prototype.props__O = (function() {
+  return this.ft$1.apply__F0__O(new $c_sjsr_AnonFunction0().init___sjs_js_Function0((function($this) {
+    return (function() {
+      return $this.mp$1.apply__O__O($this.from$1.props__O())
+    })
+  })(this)))
+});
+$c_Ljapgolly_scalajs_react_component_Template$MountedMapped.prototype.init___Ljapgolly_scalajs_react_component_Generic$MountedWithRoot__F1__Ljapgolly_scalajs_react_internal_Lens__Ljapgolly_scalajs_react_internal_Effect$Trans = (function(from, mp, ls, ft) {
+  this.from$1 = from;
+  this.mp$1 = mp;
+  this.ls$1 = ls;
+  this.ft$1 = ft;
+  return this
+});
+$c_Ljapgolly_scalajs_react_component_Template$MountedMapped.prototype.state__O = (function() {
+  return this.ft$1.apply__F0__O(new $c_sjsr_AnonFunction0().init___sjs_js_Function0((function($this) {
+    return (function() {
+      return $this.ls$1.get$1.apply__O__O($this.from$1.state__O())
+    })
+  })(this)))
+});
+/** @constructor */
+function $c_Ljapgolly_scalajs_react_component_Template$MountedWithRoot() {
+  $c_O.call(this);
+  this.ft$1 = null
+}
+$c_Ljapgolly_scalajs_react_component_Template$MountedWithRoot.prototype = new $h_O();
+$c_Ljapgolly_scalajs_react_component_Template$MountedWithRoot.prototype.constructor = $c_Ljapgolly_scalajs_react_component_Template$MountedWithRoot;
+/** @constructor */
+function $h_Ljapgolly_scalajs_react_component_Template$MountedWithRoot() {
+  /*<skip>*/
+}
+$h_Ljapgolly_scalajs_react_component_Template$MountedWithRoot.prototype = $c_Ljapgolly_scalajs_react_component_Template$MountedWithRoot.prototype;
+$c_Ljapgolly_scalajs_react_component_Template$MountedWithRoot.prototype.withEffect__Ljapgolly_scalajs_react_internal_Effect$Trans__Ljapgolly_scalajs_react_component_Generic$MountedWithRoot = (function(t) {
+  var jsx$1 = $m_Ljapgolly_scalajs_react_internal_package$().identityFnInstance$1;
+  var this$1 = $m_Ljapgolly_scalajs_react_internal_Lens$();
+  return this.mapped__F1__Ljapgolly_scalajs_react_internal_Lens__Ljapgolly_scalajs_react_internal_Effect$Trans__Ljapgolly_scalajs_react_component_Generic$MountedWithRoot(jsx$1, this$1.idInstance$1, this.ft$1.compose__Ljapgolly_scalajs_react_internal_Effect$Trans__s_$less$colon$less__Ljapgolly_scalajs_react_internal_Effect$Trans(t, null))
+});
+$c_Ljapgolly_scalajs_react_component_Template$MountedWithRoot.prototype.init___Ljapgolly_scalajs_react_internal_Effect$Trans = (function(ft) {
+  this.ft$1 = ft;
+  return this
+});
+/** @constructor */
+function $c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidCatch() {
+  $c_O.call(this);
+  this.raw$1 = null;
+  this.error$1 = null
+}
+$c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidCatch.prototype = new $h_O();
+$c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidCatch.prototype.constructor = $c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidCatch;
+/** @constructor */
+function $h_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidCatch() {
+  /*<skip>*/
+}
+$h_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidCatch.prototype = $c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidCatch.prototype;
+$c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidCatch.prototype.init___Ljapgolly_scalajs_react_raw_React$Component__sjs_js_Any__Ljapgolly_scalajs_react_raw_React$ErrorInfo = (function(raw, rawError, rawInfo) {
+  this.raw$1 = raw;
+  this.error$1 = new $c_Ljapgolly_scalajs_react_ReactCaughtError().init___sjs_js_Any__Ljapgolly_scalajs_react_raw_React$ErrorInfo(rawError, rawInfo);
+  return this
+});
+$c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidCatch.prototype.toString__T = (function() {
+  return $m_Ljapgolly_scalajs_react_component_builder_Lifecycle$().japgolly$scalajs$react$component$builder$Lifecycle$$wrapTostring__T__T((("ComponentDidCatch(" + this.error$1.rawErrorString__T()) + ")"))
+});
+$c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidCatch.prototype.raw__Ljapgolly_scalajs_react_raw_React$Component = (function() {
+  return this.raw$1
+});
+var $d_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidCatch = new $TypeData().initClass({
+  Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidCatch: 0
+}, false, "japgolly.scalajs.react.component.builder.Lifecycle$ComponentDidCatch", {
+  Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidCatch: 1,
+  O: 1,
+  Ljapgolly_scalajs_react_component_builder_Lifecycle$StateRW: 1,
+  Ljapgolly_scalajs_react_component_builder_Lifecycle$StateW: 1,
+  Ljapgolly_scalajs_react_component_builder_Lifecycle$Base: 1,
+  Ljapgolly_scalajs_react_StateAccess$WriteWithProps: 1,
+  Ljapgolly_scalajs_react_StateAccess$Write: 1,
+  Ljapgolly_scalajs_react_StateAccess$SetState: 1,
+  Ljapgolly_scalajs_react_StateAccess$Base: 1,
+  Ljapgolly_scalajs_react_StateAccess$ModState: 1,
+  Ljapgolly_scalajs_react_StateAccess$ModStateWithProps: 1,
+  Ljapgolly_scalajs_react_component_builder_Lifecycle$ForceUpdate: 1
+});
+$c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidCatch.prototype.$classData = $d_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidCatch;
+/** @constructor */
+function $c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidMount() {
+  $c_O.call(this);
+  this.raw$1 = null
+}
+$c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidMount.prototype = new $h_O();
+$c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidMount.prototype.constructor = $c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidMount;
+/** @constructor */
+function $h_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidMount() {
+  /*<skip>*/
+}
+$h_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidMount.prototype = $c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidMount.prototype;
+$c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidMount.prototype.equals__O__Z = (function(x$1) {
+  return $m_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidMount$().equals$extension__Ljapgolly_scalajs_react_raw_React$Component__O__Z(this.raw$1, x$1)
+});
+$c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidMount.prototype.toString__T = (function() {
+  return $m_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidMount$().toString$extension__Ljapgolly_scalajs_react_raw_React$Component__T(this.raw$1)
+});
+$c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidMount.prototype.init___Ljapgolly_scalajs_react_raw_React$Component = (function(raw) {
+  this.raw$1 = raw;
+  return this
+});
+$c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidMount.prototype.hashCode__I = (function() {
+  var $$this = this.raw$1;
+  return $objectHashCode($$this)
+});
+$c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidMount.prototype.raw__Ljapgolly_scalajs_react_raw_React$Component = (function() {
+  return this.raw$1
+});
+function $as_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidMount(obj) {
+  return (((obj instanceof $c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidMount) || (obj === null)) ? obj : $throwClassCastException(obj, "japgolly.scalajs.react.component.builder.Lifecycle$ComponentDidMount"))
+}
+function $isArrayOf_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidMount(obj, depth) {
+  return (!(!(((obj && obj.$classData) && (obj.$classData.arrayDepth === depth)) && obj.$classData.arrayBase.ancestors.Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidMount)))
+}
+function $asArrayOf_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidMount(obj, depth) {
+  return (($isArrayOf_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidMount(obj, depth) || (obj === null)) ? obj : $throwArrayCastException(obj, "Ljapgolly.scalajs.react.component.builder.Lifecycle$ComponentDidMount;", depth))
+}
+var $d_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidMount = new $TypeData().initClass({
+  Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidMount: 0
+}, false, "japgolly.scalajs.react.component.builder.Lifecycle$ComponentDidMount", {
+  Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidMount: 1,
+  O: 1,
+  Ljapgolly_scalajs_react_component_builder_Lifecycle$StateRW: 1,
+  Ljapgolly_scalajs_react_component_builder_Lifecycle$StateW: 1,
+  Ljapgolly_scalajs_react_component_builder_Lifecycle$Base: 1,
+  Ljapgolly_scalajs_react_StateAccess$WriteWithProps: 1,
+  Ljapgolly_scalajs_react_StateAccess$Write: 1,
+  Ljapgolly_scalajs_react_StateAccess$SetState: 1,
+  Ljapgolly_scalajs_react_StateAccess$Base: 1,
+  Ljapgolly_scalajs_react_StateAccess$ModState: 1,
+  Ljapgolly_scalajs_react_StateAccess$ModStateWithProps: 1,
+  Ljapgolly_scalajs_react_component_builder_Lifecycle$ForceUpdate: 1
+});
+$c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidMount.prototype.$classData = $d_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidMount;
+/** @constructor */
+function $c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillReceiveProps() {
+  $c_O.call(this);
+  this.raw$1 = null;
+  this.nextProps$1 = null
+}
+$c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillReceiveProps.prototype = new $h_O();
+$c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillReceiveProps.prototype.constructor = $c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillReceiveProps;
+/** @constructor */
+function $h_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillReceiveProps() {
+  /*<skip>*/
+}
+$h_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillReceiveProps.prototype = $c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillReceiveProps.prototype;
+$c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillReceiveProps.prototype.init___Ljapgolly_scalajs_react_raw_React$Component__O = (function(raw, nextProps) {
+  this.raw$1 = raw;
+  this.nextProps$1 = nextProps;
+  return this
+});
+$c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillReceiveProps.prototype.toString__T = (function() {
+  return $m_Ljapgolly_scalajs_react_component_builder_Lifecycle$().japgolly$scalajs$react$component$builder$Lifecycle$$wrapTostring__T__T((((((("ComponentWillReceiveProps(props: " + $f_Ljapgolly_scalajs_react_component_builder_Lifecycle$Base__mountedImpure__Ljapgolly_scalajs_react_component_Scala$MountedWithRoot(this).props__O()) + " \u2192 ") + this.nextProps$1) + ", state: ") + $f_Ljapgolly_scalajs_react_component_builder_Lifecycle$Base__mountedImpure__Ljapgolly_scalajs_react_component_Scala$MountedWithRoot(this).state__O()) + ")"))
+});
+$c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillReceiveProps.prototype.raw__Ljapgolly_scalajs_react_raw_React$Component = (function() {
+  return this.raw$1
+});
+var $d_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillReceiveProps = new $TypeData().initClass({
+  Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillReceiveProps: 0
+}, false, "japgolly.scalajs.react.component.builder.Lifecycle$ComponentWillReceiveProps", {
+  Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillReceiveProps: 1,
+  O: 1,
+  Ljapgolly_scalajs_react_component_builder_Lifecycle$StateRW: 1,
+  Ljapgolly_scalajs_react_component_builder_Lifecycle$StateW: 1,
+  Ljapgolly_scalajs_react_component_builder_Lifecycle$Base: 1,
+  Ljapgolly_scalajs_react_StateAccess$WriteWithProps: 1,
+  Ljapgolly_scalajs_react_StateAccess$Write: 1,
+  Ljapgolly_scalajs_react_StateAccess$SetState: 1,
+  Ljapgolly_scalajs_react_StateAccess$Base: 1,
+  Ljapgolly_scalajs_react_StateAccess$ModState: 1,
+  Ljapgolly_scalajs_react_StateAccess$ModStateWithProps: 1,
+  Ljapgolly_scalajs_react_component_builder_Lifecycle$ForceUpdate: 1
+});
+$c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillReceiveProps.prototype.$classData = $d_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillReceiveProps;
+/** @constructor */
+function $c_Ljapgolly_scalajs_react_component_builder_Lifecycle$RenderScope() {
+  $c_O.call(this);
+  this.raw$1 = null
+}
+$c_Ljapgolly_scalajs_react_component_builder_Lifecycle$RenderScope.prototype = new $h_O();
+$c_Ljapgolly_scalajs_react_component_builder_Lifecycle$RenderScope.prototype.constructor = $c_Ljapgolly_scalajs_react_component_builder_Lifecycle$RenderScope;
+/** @constructor */
+function $h_Ljapgolly_scalajs_react_component_builder_Lifecycle$RenderScope() {
+  /*<skip>*/
+}
+$h_Ljapgolly_scalajs_react_component_builder_Lifecycle$RenderScope.prototype = $c_Ljapgolly_scalajs_react_component_builder_Lifecycle$RenderScope.prototype;
+$c_Ljapgolly_scalajs_react_component_builder_Lifecycle$RenderScope.prototype.equals__O__Z = (function(x$1) {
+  return $m_Ljapgolly_scalajs_react_component_builder_Lifecycle$RenderScope$().equals$extension__Ljapgolly_scalajs_react_raw_React$Component__O__Z(this.raw$1, x$1)
+});
+$c_Ljapgolly_scalajs_react_component_builder_Lifecycle$RenderScope.prototype.toString__T = (function() {
+  return $m_Ljapgolly_scalajs_react_component_builder_Lifecycle$RenderScope$().toString$extension__Ljapgolly_scalajs_react_raw_React$Component__T(this.raw$1)
+});
+$c_Ljapgolly_scalajs_react_component_builder_Lifecycle$RenderScope.prototype.init___Ljapgolly_scalajs_react_raw_React$Component = (function(raw) {
+  this.raw$1 = raw;
+  return this
+});
+$c_Ljapgolly_scalajs_react_component_builder_Lifecycle$RenderScope.prototype.hashCode__I = (function() {
+  var $$this = this.raw$1;
+  return $objectHashCode($$this)
+});
+$c_Ljapgolly_scalajs_react_component_builder_Lifecycle$RenderScope.prototype.raw__Ljapgolly_scalajs_react_raw_React$Component = (function() {
+  return this.raw$1
+});
+function $as_Ljapgolly_scalajs_react_component_builder_Lifecycle$RenderScope(obj) {
+  return (((obj instanceof $c_Ljapgolly_scalajs_react_component_builder_Lifecycle$RenderScope) || (obj === null)) ? obj : $throwClassCastException(obj, "japgolly.scalajs.react.component.builder.Lifecycle$RenderScope"))
+}
+function $isArrayOf_Ljapgolly_scalajs_react_component_builder_Lifecycle$RenderScope(obj, depth) {
+  return (!(!(((obj && obj.$classData) && (obj.$classData.arrayDepth === depth)) && obj.$classData.arrayBase.ancestors.Ljapgolly_scalajs_react_component_builder_Lifecycle$RenderScope)))
+}
+function $asArrayOf_Ljapgolly_scalajs_react_component_builder_Lifecycle$RenderScope(obj, depth) {
+  return (($isArrayOf_Ljapgolly_scalajs_react_component_builder_Lifecycle$RenderScope(obj, depth) || (obj === null)) ? obj : $throwArrayCastException(obj, "Ljapgolly.scalajs.react.component.builder.Lifecycle$RenderScope;", depth))
+}
+var $d_Ljapgolly_scalajs_react_component_builder_Lifecycle$RenderScope = new $TypeData().initClass({
+  Ljapgolly_scalajs_react_component_builder_Lifecycle$RenderScope: 0
+}, false, "japgolly.scalajs.react.component.builder.Lifecycle$RenderScope", {
+  Ljapgolly_scalajs_react_component_builder_Lifecycle$RenderScope: 1,
+  O: 1,
+  Ljapgolly_scalajs_react_component_builder_Lifecycle$StateRW: 1,
+  Ljapgolly_scalajs_react_component_builder_Lifecycle$StateW: 1,
+  Ljapgolly_scalajs_react_component_builder_Lifecycle$Base: 1,
+  Ljapgolly_scalajs_react_StateAccess$WriteWithProps: 1,
+  Ljapgolly_scalajs_react_StateAccess$Write: 1,
+  Ljapgolly_scalajs_react_StateAccess$SetState: 1,
+  Ljapgolly_scalajs_react_StateAccess$Base: 1,
+  Ljapgolly_scalajs_react_StateAccess$ModState: 1,
+  Ljapgolly_scalajs_react_StateAccess$ModStateWithProps: 1,
+  Ljapgolly_scalajs_react_component_builder_Lifecycle$ForceUpdate: 1
+});
+$c_Ljapgolly_scalajs_react_component_builder_Lifecycle$RenderScope.prototype.$classData = $d_Ljapgolly_scalajs_react_component_builder_Lifecycle$RenderScope;
 function $is_sc_IndexedSeq(obj) {
   return (!(!((obj && obj.$classData) && obj.$classData.ancestors.sc_IndexedSeq)))
 }
@@ -16624,224 +17359,6 @@ function $isArrayOf_sci_Seq(obj, depth) {
 function $asArrayOf_sci_Seq(obj, depth) {
   return (($isArrayOf_sci_Seq(obj, depth) || (obj === null)) ? obj : $throwArrayCastException(obj, "Lscala.collection.immutable.Seq;", depth))
 }
-/** @constructor */
-function $c_Ljapgolly_scalajs_react_component_Js$$anon$3() {
-  $c_Ljapgolly_scalajs_react_component_Template$MountedWithRoot.call(this);
-  this.raw$2 = null
-}
-$c_Ljapgolly_scalajs_react_component_Js$$anon$3.prototype = new $h_Ljapgolly_scalajs_react_component_Template$MountedWithRoot();
-$c_Ljapgolly_scalajs_react_component_Js$$anon$3.prototype.constructor = $c_Ljapgolly_scalajs_react_component_Js$$anon$3;
-/** @constructor */
-function $h_Ljapgolly_scalajs_react_component_Js$$anon$3() {
-  /*<skip>*/
-}
-$h_Ljapgolly_scalajs_react_component_Js$$anon$3.prototype = $c_Ljapgolly_scalajs_react_component_Js$$anon$3.prototype;
-$c_Ljapgolly_scalajs_react_component_Js$$anon$3.prototype.mapped__F1__Ljapgolly_scalajs_react_internal_Lens__Ljapgolly_scalajs_react_internal_Effect$Trans__Ljapgolly_scalajs_react_component_Generic$MountedWithRoot = (function(mp, ls, ft) {
-  $m_Ljapgolly_scalajs_react_component_Js$();
-  return new $c_Ljapgolly_scalajs_react_component_Js$$anon$4().init___Ljapgolly_scalajs_react_component_Js$MountedWithRoot__F1__Ljapgolly_scalajs_react_internal_Lens__Ljapgolly_scalajs_react_internal_Effect$Trans(this, mp, ls, ft)
-});
-$c_Ljapgolly_scalajs_react_component_Js$$anon$3.prototype.props__sjs_js_Object = (function() {
-  return this.raw$2.props
-});
-$c_Ljapgolly_scalajs_react_component_Js$$anon$3.prototype.props__O = (function() {
-  return this.props__sjs_js_Object()
-});
-$c_Ljapgolly_scalajs_react_component_Js$$anon$3.prototype.init___Ljapgolly_scalajs_react_raw_React$Component = (function(r$2) {
-  $c_Ljapgolly_scalajs_react_component_Template$MountedWithRoot.prototype.init___Ljapgolly_scalajs_react_internal_Effect$Trans.call(this, $m_Ljapgolly_scalajs_react_internal_Effect$Trans$().endoId$1);
-  this.raw$2 = r$2;
-  return this
-});
-$c_Ljapgolly_scalajs_react_component_Js$$anon$3.prototype.state__O = (function() {
-  return this.state__sjs_js_Object()
-});
-$c_Ljapgolly_scalajs_react_component_Js$$anon$3.prototype.state__sjs_js_Object = (function() {
-  return this.raw$2.state
-});
-$c_Ljapgolly_scalajs_react_component_Js$$anon$3.prototype.raw__Ljapgolly_scalajs_react_raw_React$Component = (function() {
-  return this.raw$2
-});
-var $d_Ljapgolly_scalajs_react_component_Js$$anon$3 = new $TypeData().initClass({
-  Ljapgolly_scalajs_react_component_Js$$anon$3: 0
-}, false, "japgolly.scalajs.react.component.Js$$anon$3", {
-  Ljapgolly_scalajs_react_component_Js$$anon$3: 1,
-  Ljapgolly_scalajs_react_component_Template$MountedWithRoot: 1,
-  O: 1,
-  Ljapgolly_scalajs_react_component_Generic$MountedWithRoot: 1,
-  Ljapgolly_scalajs_react_component_Generic$MountedSimple: 1,
-  Ljapgolly_scalajs_react_component_Generic$MountedRaw: 1,
-  Ljapgolly_scalajs_react_StateAccess: 1,
-  Ljapgolly_scalajs_react_StateAccess$Write: 1,
-  Ljapgolly_scalajs_react_StateAccess$SetState: 1,
-  Ljapgolly_scalajs_react_StateAccess$ModState: 1,
-  Ljapgolly_scalajs_react_StateAccess$WriteWithProps: 1,
-  Ljapgolly_scalajs_react_StateAccess$ModStateWithProps: 1,
-  Ljapgolly_scalajs_react_component_Js$MountedWithRoot: 1,
-  Ljapgolly_scalajs_react_component_Js$MountedSimple: 1
-});
-$c_Ljapgolly_scalajs_react_component_Js$$anon$3.prototype.$classData = $d_Ljapgolly_scalajs_react_component_Js$$anon$3;
-/** @constructor */
-function $c_Ljapgolly_scalajs_react_component_Js$$anon$4() {
-  $c_Ljapgolly_scalajs_react_component_Template$MountedMapped.call(this);
-  this.raw$2 = null;
-  this.from$2$2 = null;
-  this.ft$1$2 = null
-}
-$c_Ljapgolly_scalajs_react_component_Js$$anon$4.prototype = new $h_Ljapgolly_scalajs_react_component_Template$MountedMapped();
-$c_Ljapgolly_scalajs_react_component_Js$$anon$4.prototype.constructor = $c_Ljapgolly_scalajs_react_component_Js$$anon$4;
-/** @constructor */
-function $h_Ljapgolly_scalajs_react_component_Js$$anon$4() {
-  /*<skip>*/
-}
-$h_Ljapgolly_scalajs_react_component_Js$$anon$4.prototype = $c_Ljapgolly_scalajs_react_component_Js$$anon$4.prototype;
-$c_Ljapgolly_scalajs_react_component_Js$$anon$4.prototype.mapped__F1__Ljapgolly_scalajs_react_internal_Lens__Ljapgolly_scalajs_react_internal_Effect$Trans__Ljapgolly_scalajs_react_component_Js$MountedWithRoot = (function(mp, ls, ft) {
-  $m_Ljapgolly_scalajs_react_component_Js$();
-  var from = this.from$2$2;
-  return new $c_Ljapgolly_scalajs_react_component_Js$$anon$4().init___Ljapgolly_scalajs_react_component_Js$MountedWithRoot__F1__Ljapgolly_scalajs_react_internal_Lens__Ljapgolly_scalajs_react_internal_Effect$Trans(from, mp, ls, ft)
-});
-$c_Ljapgolly_scalajs_react_component_Js$$anon$4.prototype.mapped__F1__Ljapgolly_scalajs_react_internal_Lens__Ljapgolly_scalajs_react_internal_Effect$Trans__Ljapgolly_scalajs_react_component_Generic$MountedWithRoot = (function(mp, ls, ft) {
-  return this.mapped__F1__Ljapgolly_scalajs_react_internal_Lens__Ljapgolly_scalajs_react_internal_Effect$Trans__Ljapgolly_scalajs_react_component_Js$MountedWithRoot(mp, ls, ft)
-});
-$c_Ljapgolly_scalajs_react_component_Js$$anon$4.prototype.init___Ljapgolly_scalajs_react_component_Js$MountedWithRoot__F1__Ljapgolly_scalajs_react_internal_Lens__Ljapgolly_scalajs_react_internal_Effect$Trans = (function(from$2, mp$2, ls$1, ft$1) {
-  this.from$2$2 = from$2;
-  this.ft$1$2 = ft$1;
-  $c_Ljapgolly_scalajs_react_component_Template$MountedMapped.prototype.init___Ljapgolly_scalajs_react_component_Generic$MountedWithRoot__F1__Ljapgolly_scalajs_react_internal_Lens__Ljapgolly_scalajs_react_internal_Effect$Trans.call(this, from$2, mp$2, ls$1, ft$1);
-  this.raw$2 = from$2.raw__Ljapgolly_scalajs_react_raw_React$Component();
-  return this
-});
-$c_Ljapgolly_scalajs_react_component_Js$$anon$4.prototype.raw__Ljapgolly_scalajs_react_raw_React$Component = (function() {
-  return this.raw$2
-});
-var $d_Ljapgolly_scalajs_react_component_Js$$anon$4 = new $TypeData().initClass({
-  Ljapgolly_scalajs_react_component_Js$$anon$4: 0
-}, false, "japgolly.scalajs.react.component.Js$$anon$4", {
-  Ljapgolly_scalajs_react_component_Js$$anon$4: 1,
-  Ljapgolly_scalajs_react_component_Template$MountedMapped: 1,
-  O: 1,
-  Ljapgolly_scalajs_react_component_Generic$MountedWithRoot: 1,
-  Ljapgolly_scalajs_react_component_Generic$MountedSimple: 1,
-  Ljapgolly_scalajs_react_component_Generic$MountedRaw: 1,
-  Ljapgolly_scalajs_react_StateAccess: 1,
-  Ljapgolly_scalajs_react_StateAccess$Write: 1,
-  Ljapgolly_scalajs_react_StateAccess$SetState: 1,
-  Ljapgolly_scalajs_react_StateAccess$ModState: 1,
-  Ljapgolly_scalajs_react_StateAccess$WriteWithProps: 1,
-  Ljapgolly_scalajs_react_StateAccess$ModStateWithProps: 1,
-  Ljapgolly_scalajs_react_component_Js$MountedWithRoot: 1,
-  Ljapgolly_scalajs_react_component_Js$MountedSimple: 1
-});
-$c_Ljapgolly_scalajs_react_component_Js$$anon$4.prototype.$classData = $d_Ljapgolly_scalajs_react_component_Js$$anon$4;
-/** @constructor */
-function $c_Ljapgolly_scalajs_react_component_Scala$$anon$1() {
-  $c_Ljapgolly_scalajs_react_component_Template$MountedWithRoot.call(this);
-  this.js$2 = null;
-  this.raw$2 = null;
-  this.x$1$2 = null
-}
-$c_Ljapgolly_scalajs_react_component_Scala$$anon$1.prototype = new $h_Ljapgolly_scalajs_react_component_Template$MountedWithRoot();
-$c_Ljapgolly_scalajs_react_component_Scala$$anon$1.prototype.constructor = $c_Ljapgolly_scalajs_react_component_Scala$$anon$1;
-/** @constructor */
-function $h_Ljapgolly_scalajs_react_component_Scala$$anon$1() {
-  /*<skip>*/
-}
-$h_Ljapgolly_scalajs_react_component_Scala$$anon$1.prototype = $c_Ljapgolly_scalajs_react_component_Scala$$anon$1.prototype;
-$c_Ljapgolly_scalajs_react_component_Scala$$anon$1.prototype.js__Ljapgolly_scalajs_react_component_Js$MountedWithRoot = (function() {
-  return this.js$2
-});
-$c_Ljapgolly_scalajs_react_component_Scala$$anon$1.prototype.mapped__F1__Ljapgolly_scalajs_react_internal_Lens__Ljapgolly_scalajs_react_internal_Effect$Trans__Ljapgolly_scalajs_react_component_Generic$MountedWithRoot = (function(mp, ls, ft) {
-  $m_Ljapgolly_scalajs_react_component_Scala$();
-  return new $c_Ljapgolly_scalajs_react_component_Scala$$anon$2().init___Ljapgolly_scalajs_react_component_Scala$MountedWithRoot__F1__Ljapgolly_scalajs_react_internal_Lens__Ljapgolly_scalajs_react_internal_Effect$Trans(this, mp, ls, ft)
-});
-$c_Ljapgolly_scalajs_react_component_Scala$$anon$1.prototype.props__O = (function() {
-  return this.x$1$2.props__O().a
-});
-$c_Ljapgolly_scalajs_react_component_Scala$$anon$1.prototype.state__O = (function() {
-  return this.x$1$2.state__O().a
-});
-$c_Ljapgolly_scalajs_react_component_Scala$$anon$1.prototype.init___Ljapgolly_scalajs_react_component_Js$MountedWithRoot = (function(x$1) {
-  this.x$1$2 = x$1;
-  $c_Ljapgolly_scalajs_react_component_Template$MountedWithRoot.prototype.init___Ljapgolly_scalajs_react_internal_Effect$Trans.call(this, $m_Ljapgolly_scalajs_react_internal_Effect$Trans$().endoId$1);
-  this.js$2 = x$1;
-  this.raw$2 = x$1.raw__Ljapgolly_scalajs_react_raw_React$Component();
-  return this
-});
-$c_Ljapgolly_scalajs_react_component_Scala$$anon$1.prototype.raw__Ljapgolly_scalajs_react_raw_React$Component = (function() {
-  return this.raw$2
-});
-var $d_Ljapgolly_scalajs_react_component_Scala$$anon$1 = new $TypeData().initClass({
-  Ljapgolly_scalajs_react_component_Scala$$anon$1: 0
-}, false, "japgolly.scalajs.react.component.Scala$$anon$1", {
-  Ljapgolly_scalajs_react_component_Scala$$anon$1: 1,
-  Ljapgolly_scalajs_react_component_Template$MountedWithRoot: 1,
-  O: 1,
-  Ljapgolly_scalajs_react_component_Generic$MountedWithRoot: 1,
-  Ljapgolly_scalajs_react_component_Generic$MountedSimple: 1,
-  Ljapgolly_scalajs_react_component_Generic$MountedRaw: 1,
-  Ljapgolly_scalajs_react_StateAccess: 1,
-  Ljapgolly_scalajs_react_StateAccess$Write: 1,
-  Ljapgolly_scalajs_react_StateAccess$SetState: 1,
-  Ljapgolly_scalajs_react_StateAccess$ModState: 1,
-  Ljapgolly_scalajs_react_StateAccess$WriteWithProps: 1,
-  Ljapgolly_scalajs_react_StateAccess$ModStateWithProps: 1,
-  Ljapgolly_scalajs_react_component_Scala$MountedWithRoot: 1,
-  Ljapgolly_scalajs_react_component_Scala$MountedSimple: 1
-});
-$c_Ljapgolly_scalajs_react_component_Scala$$anon$1.prototype.$classData = $d_Ljapgolly_scalajs_react_component_Scala$$anon$1;
-/** @constructor */
-function $c_Ljapgolly_scalajs_react_component_Scala$$anon$2() {
-  $c_Ljapgolly_scalajs_react_component_Template$MountedMapped.call(this);
-  this.js$2 = null;
-  this.raw$2 = null;
-  this.from$1$2 = null;
-  this.ft$1$2 = null
-}
-$c_Ljapgolly_scalajs_react_component_Scala$$anon$2.prototype = new $h_Ljapgolly_scalajs_react_component_Template$MountedMapped();
-$c_Ljapgolly_scalajs_react_component_Scala$$anon$2.prototype.constructor = $c_Ljapgolly_scalajs_react_component_Scala$$anon$2;
-/** @constructor */
-function $h_Ljapgolly_scalajs_react_component_Scala$$anon$2() {
-  /*<skip>*/
-}
-$h_Ljapgolly_scalajs_react_component_Scala$$anon$2.prototype = $c_Ljapgolly_scalajs_react_component_Scala$$anon$2.prototype;
-$c_Ljapgolly_scalajs_react_component_Scala$$anon$2.prototype.js__Ljapgolly_scalajs_react_component_Js$MountedWithRoot = (function() {
-  return this.js$2
-});
-$c_Ljapgolly_scalajs_react_component_Scala$$anon$2.prototype.init___Ljapgolly_scalajs_react_component_Scala$MountedWithRoot__F1__Ljapgolly_scalajs_react_internal_Lens__Ljapgolly_scalajs_react_internal_Effect$Trans = (function(from$1, mp$1, ls$1, ft$1) {
-  this.from$1$2 = from$1;
-  this.ft$1$2 = ft$1;
-  $c_Ljapgolly_scalajs_react_component_Template$MountedMapped.prototype.init___Ljapgolly_scalajs_react_component_Generic$MountedWithRoot__F1__Ljapgolly_scalajs_react_internal_Lens__Ljapgolly_scalajs_react_internal_Effect$Trans.call(this, from$1, mp$1, ls$1, ft$1);
-  this.js$2 = from$1.js__Ljapgolly_scalajs_react_component_Js$MountedWithRoot();
-  this.raw$2 = from$1.raw__Ljapgolly_scalajs_react_raw_React$Component();
-  return this
-});
-$c_Ljapgolly_scalajs_react_component_Scala$$anon$2.prototype.mapped__F1__Ljapgolly_scalajs_react_internal_Lens__Ljapgolly_scalajs_react_internal_Effect$Trans__Ljapgolly_scalajs_react_component_Generic$MountedWithRoot = (function(mp, ls, ft) {
-  return this.mapped__F1__Ljapgolly_scalajs_react_internal_Lens__Ljapgolly_scalajs_react_internal_Effect$Trans__Ljapgolly_scalajs_react_component_Scala$MountedWithRoot(mp, ls, ft)
-});
-$c_Ljapgolly_scalajs_react_component_Scala$$anon$2.prototype.mapped__F1__Ljapgolly_scalajs_react_internal_Lens__Ljapgolly_scalajs_react_internal_Effect$Trans__Ljapgolly_scalajs_react_component_Scala$MountedWithRoot = (function(mp, ls, ft) {
-  $m_Ljapgolly_scalajs_react_component_Scala$();
-  var from = this.from$1$2;
-  return new $c_Ljapgolly_scalajs_react_component_Scala$$anon$2().init___Ljapgolly_scalajs_react_component_Scala$MountedWithRoot__F1__Ljapgolly_scalajs_react_internal_Lens__Ljapgolly_scalajs_react_internal_Effect$Trans(from, mp, ls, ft)
-});
-$c_Ljapgolly_scalajs_react_component_Scala$$anon$2.prototype.raw__Ljapgolly_scalajs_react_raw_React$Component = (function() {
-  return this.raw$2
-});
-var $d_Ljapgolly_scalajs_react_component_Scala$$anon$2 = new $TypeData().initClass({
-  Ljapgolly_scalajs_react_component_Scala$$anon$2: 0
-}, false, "japgolly.scalajs.react.component.Scala$$anon$2", {
-  Ljapgolly_scalajs_react_component_Scala$$anon$2: 1,
-  Ljapgolly_scalajs_react_component_Template$MountedMapped: 1,
-  O: 1,
-  Ljapgolly_scalajs_react_component_Generic$MountedWithRoot: 1,
-  Ljapgolly_scalajs_react_component_Generic$MountedSimple: 1,
-  Ljapgolly_scalajs_react_component_Generic$MountedRaw: 1,
-  Ljapgolly_scalajs_react_StateAccess: 1,
-  Ljapgolly_scalajs_react_StateAccess$Write: 1,
-  Ljapgolly_scalajs_react_StateAccess$SetState: 1,
-  Ljapgolly_scalajs_react_StateAccess$ModState: 1,
-  Ljapgolly_scalajs_react_StateAccess$WriteWithProps: 1,
-  Ljapgolly_scalajs_react_StateAccess$ModStateWithProps: 1,
-  Ljapgolly_scalajs_react_component_Scala$MountedWithRoot: 1,
-  Ljapgolly_scalajs_react_component_Scala$MountedSimple: 1
-});
-$c_Ljapgolly_scalajs_react_component_Scala$$anon$2.prototype.$classData = $d_Ljapgolly_scalajs_react_component_Scala$$anon$2;
 /** @constructor */
 function $c_sc_AbstractMap() {
   $c_sc_AbstractIterable.call(this)
@@ -17010,6 +17527,228 @@ $c_sc_SeqView$Prepended.prototype.init___O__sc_SeqOps = (function(elem, underlyi
   $c_sc_View$Prepended.prototype.init___O__sc_IterableOps.call(this, elem, underlying);
   return this
 });
+/** @constructor */
+function $c_Ljapgolly_scalajs_react_component_Js$$anon$3() {
+  $c_Ljapgolly_scalajs_react_component_Template$MountedWithRoot.call(this);
+  this.raw$2 = null
+}
+$c_Ljapgolly_scalajs_react_component_Js$$anon$3.prototype = new $h_Ljapgolly_scalajs_react_component_Template$MountedWithRoot();
+$c_Ljapgolly_scalajs_react_component_Js$$anon$3.prototype.constructor = $c_Ljapgolly_scalajs_react_component_Js$$anon$3;
+/** @constructor */
+function $h_Ljapgolly_scalajs_react_component_Js$$anon$3() {
+  /*<skip>*/
+}
+$h_Ljapgolly_scalajs_react_component_Js$$anon$3.prototype = $c_Ljapgolly_scalajs_react_component_Js$$anon$3.prototype;
+$c_Ljapgolly_scalajs_react_component_Js$$anon$3.prototype.mapped__F1__Ljapgolly_scalajs_react_internal_Lens__Ljapgolly_scalajs_react_internal_Effect$Trans__Ljapgolly_scalajs_react_component_Generic$MountedWithRoot = (function(mp, ls, ft) {
+  $m_Ljapgolly_scalajs_react_component_Js$();
+  return new $c_Ljapgolly_scalajs_react_component_Js$$anon$4().init___Ljapgolly_scalajs_react_component_Js$MountedWithRoot__F1__Ljapgolly_scalajs_react_internal_Lens__Ljapgolly_scalajs_react_internal_Effect$Trans(this, mp, ls, ft)
+});
+$c_Ljapgolly_scalajs_react_component_Js$$anon$3.prototype.props__sjs_js_Object = (function() {
+  return this.raw$2.props
+});
+$c_Ljapgolly_scalajs_react_component_Js$$anon$3.prototype.props__O = (function() {
+  return this.props__sjs_js_Object()
+});
+$c_Ljapgolly_scalajs_react_component_Js$$anon$3.prototype.init___Ljapgolly_scalajs_react_raw_React$Component = (function(r$2) {
+  $c_Ljapgolly_scalajs_react_component_Template$MountedWithRoot.prototype.init___Ljapgolly_scalajs_react_internal_Effect$Trans.call(this, $m_Ljapgolly_scalajs_react_internal_Effect$Trans$().endoId__Ljapgolly_scalajs_react_internal_Effect$Trans$Id());
+  this.raw$2 = r$2;
+  return this
+});
+$c_Ljapgolly_scalajs_react_component_Js$$anon$3.prototype.state__O = (function() {
+  return this.state__sjs_js_Object()
+});
+$c_Ljapgolly_scalajs_react_component_Js$$anon$3.prototype.state__sjs_js_Object = (function() {
+  return this.raw$2.state
+});
+$c_Ljapgolly_scalajs_react_component_Js$$anon$3.prototype.raw__Ljapgolly_scalajs_react_raw_React$Component = (function() {
+  return this.raw$2
+});
+var $d_Ljapgolly_scalajs_react_component_Js$$anon$3 = new $TypeData().initClass({
+  Ljapgolly_scalajs_react_component_Js$$anon$3: 0
+}, false, "japgolly.scalajs.react.component.Js$$anon$3", {
+  Ljapgolly_scalajs_react_component_Js$$anon$3: 1,
+  Ljapgolly_scalajs_react_component_Template$MountedWithRoot: 1,
+  O: 1,
+  Ljapgolly_scalajs_react_component_Generic$MountedWithRoot: 1,
+  Ljapgolly_scalajs_react_component_Generic$MountedSimple: 1,
+  Ljapgolly_scalajs_react_component_Generic$MountedRaw: 1,
+  Ljapgolly_scalajs_react_StateAccess: 1,
+  Ljapgolly_scalajs_react_StateAccess$Write: 1,
+  Ljapgolly_scalajs_react_StateAccess$SetState: 1,
+  Ljapgolly_scalajs_react_StateAccess$Base: 1,
+  Ljapgolly_scalajs_react_StateAccess$ModState: 1,
+  Ljapgolly_scalajs_react_StateAccess$WriteWithProps: 1,
+  Ljapgolly_scalajs_react_StateAccess$ModStateWithProps: 1,
+  Ljapgolly_scalajs_react_component_Js$MountedWithRoot: 1,
+  Ljapgolly_scalajs_react_component_Js$MountedSimple: 1
+});
+$c_Ljapgolly_scalajs_react_component_Js$$anon$3.prototype.$classData = $d_Ljapgolly_scalajs_react_component_Js$$anon$3;
+/** @constructor */
+function $c_Ljapgolly_scalajs_react_component_Js$$anon$4() {
+  $c_Ljapgolly_scalajs_react_component_Template$MountedMapped.call(this);
+  this.raw$2 = null;
+  this.from$2$2 = null;
+  this.ft$1$2 = null
+}
+$c_Ljapgolly_scalajs_react_component_Js$$anon$4.prototype = new $h_Ljapgolly_scalajs_react_component_Template$MountedMapped();
+$c_Ljapgolly_scalajs_react_component_Js$$anon$4.prototype.constructor = $c_Ljapgolly_scalajs_react_component_Js$$anon$4;
+/** @constructor */
+function $h_Ljapgolly_scalajs_react_component_Js$$anon$4() {
+  /*<skip>*/
+}
+$h_Ljapgolly_scalajs_react_component_Js$$anon$4.prototype = $c_Ljapgolly_scalajs_react_component_Js$$anon$4.prototype;
+$c_Ljapgolly_scalajs_react_component_Js$$anon$4.prototype.mapped__F1__Ljapgolly_scalajs_react_internal_Lens__Ljapgolly_scalajs_react_internal_Effect$Trans__Ljapgolly_scalajs_react_component_Js$MountedWithRoot = (function(mp, ls, ft) {
+  $m_Ljapgolly_scalajs_react_component_Js$();
+  var from = this.from$2$2;
+  return new $c_Ljapgolly_scalajs_react_component_Js$$anon$4().init___Ljapgolly_scalajs_react_component_Js$MountedWithRoot__F1__Ljapgolly_scalajs_react_internal_Lens__Ljapgolly_scalajs_react_internal_Effect$Trans(from, mp, ls, ft)
+});
+$c_Ljapgolly_scalajs_react_component_Js$$anon$4.prototype.mapped__F1__Ljapgolly_scalajs_react_internal_Lens__Ljapgolly_scalajs_react_internal_Effect$Trans__Ljapgolly_scalajs_react_component_Generic$MountedWithRoot = (function(mp, ls, ft) {
+  return this.mapped__F1__Ljapgolly_scalajs_react_internal_Lens__Ljapgolly_scalajs_react_internal_Effect$Trans__Ljapgolly_scalajs_react_component_Js$MountedWithRoot(mp, ls, ft)
+});
+$c_Ljapgolly_scalajs_react_component_Js$$anon$4.prototype.init___Ljapgolly_scalajs_react_component_Js$MountedWithRoot__F1__Ljapgolly_scalajs_react_internal_Lens__Ljapgolly_scalajs_react_internal_Effect$Trans = (function(from$2, mp$2, ls$1, ft$1) {
+  this.from$2$2 = from$2;
+  this.ft$1$2 = ft$1;
+  $c_Ljapgolly_scalajs_react_component_Template$MountedMapped.prototype.init___Ljapgolly_scalajs_react_component_Generic$MountedWithRoot__F1__Ljapgolly_scalajs_react_internal_Lens__Ljapgolly_scalajs_react_internal_Effect$Trans.call(this, from$2, mp$2, ls$1, ft$1);
+  this.raw$2 = from$2.raw__Ljapgolly_scalajs_react_raw_React$Component();
+  return this
+});
+$c_Ljapgolly_scalajs_react_component_Js$$anon$4.prototype.raw__Ljapgolly_scalajs_react_raw_React$Component = (function() {
+  return this.raw$2
+});
+var $d_Ljapgolly_scalajs_react_component_Js$$anon$4 = new $TypeData().initClass({
+  Ljapgolly_scalajs_react_component_Js$$anon$4: 0
+}, false, "japgolly.scalajs.react.component.Js$$anon$4", {
+  Ljapgolly_scalajs_react_component_Js$$anon$4: 1,
+  Ljapgolly_scalajs_react_component_Template$MountedMapped: 1,
+  O: 1,
+  Ljapgolly_scalajs_react_component_Generic$MountedWithRoot: 1,
+  Ljapgolly_scalajs_react_component_Generic$MountedSimple: 1,
+  Ljapgolly_scalajs_react_component_Generic$MountedRaw: 1,
+  Ljapgolly_scalajs_react_StateAccess: 1,
+  Ljapgolly_scalajs_react_StateAccess$Write: 1,
+  Ljapgolly_scalajs_react_StateAccess$SetState: 1,
+  Ljapgolly_scalajs_react_StateAccess$Base: 1,
+  Ljapgolly_scalajs_react_StateAccess$ModState: 1,
+  Ljapgolly_scalajs_react_StateAccess$WriteWithProps: 1,
+  Ljapgolly_scalajs_react_StateAccess$ModStateWithProps: 1,
+  Ljapgolly_scalajs_react_component_Js$MountedWithRoot: 1,
+  Ljapgolly_scalajs_react_component_Js$MountedSimple: 1
+});
+$c_Ljapgolly_scalajs_react_component_Js$$anon$4.prototype.$classData = $d_Ljapgolly_scalajs_react_component_Js$$anon$4;
+/** @constructor */
+function $c_Ljapgolly_scalajs_react_component_Scala$$anon$1() {
+  $c_Ljapgolly_scalajs_react_component_Template$MountedWithRoot.call(this);
+  this.js$2 = null;
+  this.raw$2 = null;
+  this.x$1$2 = null
+}
+$c_Ljapgolly_scalajs_react_component_Scala$$anon$1.prototype = new $h_Ljapgolly_scalajs_react_component_Template$MountedWithRoot();
+$c_Ljapgolly_scalajs_react_component_Scala$$anon$1.prototype.constructor = $c_Ljapgolly_scalajs_react_component_Scala$$anon$1;
+/** @constructor */
+function $h_Ljapgolly_scalajs_react_component_Scala$$anon$1() {
+  /*<skip>*/
+}
+$h_Ljapgolly_scalajs_react_component_Scala$$anon$1.prototype = $c_Ljapgolly_scalajs_react_component_Scala$$anon$1.prototype;
+$c_Ljapgolly_scalajs_react_component_Scala$$anon$1.prototype.js__Ljapgolly_scalajs_react_component_Js$MountedWithRoot = (function() {
+  return this.js$2
+});
+$c_Ljapgolly_scalajs_react_component_Scala$$anon$1.prototype.mapped__F1__Ljapgolly_scalajs_react_internal_Lens__Ljapgolly_scalajs_react_internal_Effect$Trans__Ljapgolly_scalajs_react_component_Generic$MountedWithRoot = (function(mp, ls, ft) {
+  $m_Ljapgolly_scalajs_react_component_Scala$();
+  return new $c_Ljapgolly_scalajs_react_component_Scala$$anon$2().init___Ljapgolly_scalajs_react_component_Scala$MountedWithRoot__F1__Ljapgolly_scalajs_react_internal_Lens__Ljapgolly_scalajs_react_internal_Effect$Trans(this, mp, ls, ft)
+});
+$c_Ljapgolly_scalajs_react_component_Scala$$anon$1.prototype.props__O = (function() {
+  return this.x$1$2.props__O().a
+});
+$c_Ljapgolly_scalajs_react_component_Scala$$anon$1.prototype.state__O = (function() {
+  return this.x$1$2.state__O().a
+});
+$c_Ljapgolly_scalajs_react_component_Scala$$anon$1.prototype.init___Ljapgolly_scalajs_react_component_Js$MountedWithRoot = (function(x$1) {
+  this.x$1$2 = x$1;
+  $c_Ljapgolly_scalajs_react_component_Template$MountedWithRoot.prototype.init___Ljapgolly_scalajs_react_internal_Effect$Trans.call(this, $m_Ljapgolly_scalajs_react_internal_Effect$Trans$().endoId__Ljapgolly_scalajs_react_internal_Effect$Trans$Id());
+  this.js$2 = x$1;
+  this.raw$2 = x$1.raw__Ljapgolly_scalajs_react_raw_React$Component();
+  return this
+});
+$c_Ljapgolly_scalajs_react_component_Scala$$anon$1.prototype.raw__Ljapgolly_scalajs_react_raw_React$Component = (function() {
+  return this.raw$2
+});
+var $d_Ljapgolly_scalajs_react_component_Scala$$anon$1 = new $TypeData().initClass({
+  Ljapgolly_scalajs_react_component_Scala$$anon$1: 0
+}, false, "japgolly.scalajs.react.component.Scala$$anon$1", {
+  Ljapgolly_scalajs_react_component_Scala$$anon$1: 1,
+  Ljapgolly_scalajs_react_component_Template$MountedWithRoot: 1,
+  O: 1,
+  Ljapgolly_scalajs_react_component_Generic$MountedWithRoot: 1,
+  Ljapgolly_scalajs_react_component_Generic$MountedSimple: 1,
+  Ljapgolly_scalajs_react_component_Generic$MountedRaw: 1,
+  Ljapgolly_scalajs_react_StateAccess: 1,
+  Ljapgolly_scalajs_react_StateAccess$Write: 1,
+  Ljapgolly_scalajs_react_StateAccess$SetState: 1,
+  Ljapgolly_scalajs_react_StateAccess$Base: 1,
+  Ljapgolly_scalajs_react_StateAccess$ModState: 1,
+  Ljapgolly_scalajs_react_StateAccess$WriteWithProps: 1,
+  Ljapgolly_scalajs_react_StateAccess$ModStateWithProps: 1,
+  Ljapgolly_scalajs_react_component_Scala$MountedWithRoot: 1,
+  Ljapgolly_scalajs_react_component_Scala$MountedSimple: 1
+});
+$c_Ljapgolly_scalajs_react_component_Scala$$anon$1.prototype.$classData = $d_Ljapgolly_scalajs_react_component_Scala$$anon$1;
+/** @constructor */
+function $c_Ljapgolly_scalajs_react_component_Scala$$anon$2() {
+  $c_Ljapgolly_scalajs_react_component_Template$MountedMapped.call(this);
+  this.js$2 = null;
+  this.raw$2 = null;
+  this.from$1$2 = null;
+  this.ft$1$2 = null
+}
+$c_Ljapgolly_scalajs_react_component_Scala$$anon$2.prototype = new $h_Ljapgolly_scalajs_react_component_Template$MountedMapped();
+$c_Ljapgolly_scalajs_react_component_Scala$$anon$2.prototype.constructor = $c_Ljapgolly_scalajs_react_component_Scala$$anon$2;
+/** @constructor */
+function $h_Ljapgolly_scalajs_react_component_Scala$$anon$2() {
+  /*<skip>*/
+}
+$h_Ljapgolly_scalajs_react_component_Scala$$anon$2.prototype = $c_Ljapgolly_scalajs_react_component_Scala$$anon$2.prototype;
+$c_Ljapgolly_scalajs_react_component_Scala$$anon$2.prototype.js__Ljapgolly_scalajs_react_component_Js$MountedWithRoot = (function() {
+  return this.js$2
+});
+$c_Ljapgolly_scalajs_react_component_Scala$$anon$2.prototype.init___Ljapgolly_scalajs_react_component_Scala$MountedWithRoot__F1__Ljapgolly_scalajs_react_internal_Lens__Ljapgolly_scalajs_react_internal_Effect$Trans = (function(from$1, mp$1, ls$1, ft$1) {
+  this.from$1$2 = from$1;
+  this.ft$1$2 = ft$1;
+  $c_Ljapgolly_scalajs_react_component_Template$MountedMapped.prototype.init___Ljapgolly_scalajs_react_component_Generic$MountedWithRoot__F1__Ljapgolly_scalajs_react_internal_Lens__Ljapgolly_scalajs_react_internal_Effect$Trans.call(this, from$1, mp$1, ls$1, ft$1);
+  this.js$2 = from$1.js__Ljapgolly_scalajs_react_component_Js$MountedWithRoot();
+  this.raw$2 = from$1.raw__Ljapgolly_scalajs_react_raw_React$Component();
+  return this
+});
+$c_Ljapgolly_scalajs_react_component_Scala$$anon$2.prototype.mapped__F1__Ljapgolly_scalajs_react_internal_Lens__Ljapgolly_scalajs_react_internal_Effect$Trans__Ljapgolly_scalajs_react_component_Generic$MountedWithRoot = (function(mp, ls, ft) {
+  return this.mapped__F1__Ljapgolly_scalajs_react_internal_Lens__Ljapgolly_scalajs_react_internal_Effect$Trans__Ljapgolly_scalajs_react_component_Scala$MountedWithRoot(mp, ls, ft)
+});
+$c_Ljapgolly_scalajs_react_component_Scala$$anon$2.prototype.mapped__F1__Ljapgolly_scalajs_react_internal_Lens__Ljapgolly_scalajs_react_internal_Effect$Trans__Ljapgolly_scalajs_react_component_Scala$MountedWithRoot = (function(mp, ls, ft) {
+  $m_Ljapgolly_scalajs_react_component_Scala$();
+  var from = this.from$1$2;
+  return new $c_Ljapgolly_scalajs_react_component_Scala$$anon$2().init___Ljapgolly_scalajs_react_component_Scala$MountedWithRoot__F1__Ljapgolly_scalajs_react_internal_Lens__Ljapgolly_scalajs_react_internal_Effect$Trans(from, mp, ls, ft)
+});
+$c_Ljapgolly_scalajs_react_component_Scala$$anon$2.prototype.raw__Ljapgolly_scalajs_react_raw_React$Component = (function() {
+  return this.raw$2
+});
+var $d_Ljapgolly_scalajs_react_component_Scala$$anon$2 = new $TypeData().initClass({
+  Ljapgolly_scalajs_react_component_Scala$$anon$2: 0
+}, false, "japgolly.scalajs.react.component.Scala$$anon$2", {
+  Ljapgolly_scalajs_react_component_Scala$$anon$2: 1,
+  Ljapgolly_scalajs_react_component_Template$MountedMapped: 1,
+  O: 1,
+  Ljapgolly_scalajs_react_component_Generic$MountedWithRoot: 1,
+  Ljapgolly_scalajs_react_component_Generic$MountedSimple: 1,
+  Ljapgolly_scalajs_react_component_Generic$MountedRaw: 1,
+  Ljapgolly_scalajs_react_StateAccess: 1,
+  Ljapgolly_scalajs_react_StateAccess$Write: 1,
+  Ljapgolly_scalajs_react_StateAccess$SetState: 1,
+  Ljapgolly_scalajs_react_StateAccess$Base: 1,
+  Ljapgolly_scalajs_react_StateAccess$ModState: 1,
+  Ljapgolly_scalajs_react_StateAccess$WriteWithProps: 1,
+  Ljapgolly_scalajs_react_StateAccess$ModStateWithProps: 1,
+  Ljapgolly_scalajs_react_component_Scala$MountedWithRoot: 1,
+  Ljapgolly_scalajs_react_component_Scala$MountedSimple: 1
+});
+$c_Ljapgolly_scalajs_react_component_Scala$$anon$2.prototype.$classData = $d_Ljapgolly_scalajs_react_component_Scala$$anon$2;
 /** @constructor */
 function $c_sc_AbstractIndexedSeqView() {
   $c_sc_AbstractSeqView.call(this)
@@ -21074,7 +21813,6 @@ var $d_sjs_js_WrappedArray = new $TypeData().initClass({
   Ljava_io_Serializable: 1
 });
 $c_sjs_js_WrappedArray.prototype.$classData = $d_sjs_js_WrappedArray;
-$e.MyTalk = $m_LMyTalk$;
-$m_LMyTalk$().main__V();
+$m_LMyTalk$().main__AT__V($makeNativeArrayWrapper($d_T.getArrayOf(), []));
 }).call(this);
 //# sourceMappingURL=mytalk-fastopt.js.map

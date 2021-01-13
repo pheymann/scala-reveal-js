@@ -4,10 +4,9 @@ import japgolly.scalajs.react.ScalaComponent
 import japgolly.scalajs.react.vdom.html_<^._
 import org.scalajs.dom
 
-import scala.scalajs.js.JSApp
-import scala.scalajs.js.annotation.JSExport
 
-object MyTalk extends JSApp {
+object MyTalk {
+
 
   import Enumeration._
 
@@ -94,8 +93,7 @@ object MyTalk extends JSApp {
     )
     .build
 
-  @JSExport
-  override def main(): Unit = {
+  def main(args: Array[String]): Unit = {
     Talk().renderIntoDOM(dom.document.body)
   }
 }
