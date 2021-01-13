@@ -1,7 +1,5 @@
 ThisBuild / scalaVersion := "2.13.4"
 
-val reactV = "16.2.0"
-
 lazy val common = Seq(
   version      := "-",
   libraryDependencies ++= Seq(
